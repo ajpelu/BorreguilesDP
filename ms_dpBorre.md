@@ -1,11 +1,11 @@
 Phenology of flora of mediterranean high-mountains meadows (Sierra Nevada)
 ========== 
 
-**Pérez-Luque, A.J.** (1);  **Sánchez-Rojas, CP**(2); **Zamora, R.**(1,2); *Bonet, F.J.**(1,2)  
+**Pérez-Luque, A.J.** ([^1]);  **Sánchez-Rojas, CP**(2); **Zamora, R.**(1,2); *Bonet, F.J.**(1,2)  
 
 
 
-1 Laboratorio de Ecología (iEcolab), Instituto Interuniversitario de Investigación del Sistema Tierra en Andalucía (CEAMA), Universidad de Granada, Avenida del Mediterráneo s/n, 18006, Granada, Spain.
+[^1]: Laboratorio de Ecología (iEcolab), Instituto Interuniversitario de Investigación del Sistema Tierra en Andalucía (CEAMA), Universidad de Granada, Avenida del Mediterráneo s/n, 18006, Granada, Spain.
 
 2 Grupo de Ecología Terrestre, Departamento de Ecología, Universidad de Granada, Facultad de Ciencias, Campus de Fuentenueva s/n, 18071, Granada, Spain
 
