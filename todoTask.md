@@ -58,16 +58,15 @@
 
 
 # Figures 
-| Name | path | status | responsible | caption | notes | 
-| ---- | ---- | ------ | ----------- | -----–– | ----- | 
-| Fig. 1 | | ?? | ajpelu |  | es una figura sobre la localización de Sierra Nevada | 
-| Fig. 2 | ./figures/fig2.jpg | OK | ajpelu | ***TODO*** |  | 
-| Fig. 3 | ./figures/fig3.jpg | OK | ajpelu | ***TODO*** |  | 
-
+| Name   | path                 | status | responsible | caption    | notes                                             |
+|--------|----------------------|--------|-------------|------------|---------------------------------------------------|
+| Fig. 1 |                      | ??     | ajpelu      |            | Es una figura sobre localización de sierra nevada |
+| Fig. 2 | `./figures/fig2.jpg` | OK     | ajpelu      | ***TODO*** |                                                   |
+| Fig. 3 | `./figures/fig3.jpg` | OK     | ajpelu      | ***TODO*** |                                                   |
 
 
 # Tables 
-| Name | status | responsible | caption | notes | 
-| ---- | ------ | ----------- | -----–– | ----- | 
-| Table 1. | ?? | ajpelu, cristina | ***TODO***  | Revisar, Hablar con Cristina |
+| Name    | status | responsible      | caption    | notes                        |
+|---------|--------|------------------|------------|------------------------------|
+| Table 1 | ??     | ajpelu, crsitina | ***TODO*** | Revisar, hablar con Cristina |
 
