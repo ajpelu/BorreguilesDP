@@ -18,7 +18,7 @@ Received {date}; Revised {date}; Accepted {date}; Published {date}
 Combination of authors, year of data paper publication (in parentheses), Title, Journal Name, Volume, Issue number (in parentheses), and doi of the data paper.
 
 #### Resource Citation
-iEcolab, University of Granada-Andalusian Environmental Center (Andalusian Institute for Earth System Research) (2014) Phenology of flora of mediterranean high-mountains meadows (Sierra Nevada). @TODO(XXXX) data records. Contributed by University of Granada, OBSNEV, Agencia de Medio Ambiente y Agua de Andalucía, Zamora R, Sánchez-Rojas CP, @TODO(aquí los nombres de los técnicos y de apoyo que ha contribuido a tomar datos). Online at http://www.gbif.es:8080/ipt/resource.do?r=sinfonevada and http://obsnev.es/noticia.html?id=5307, version 1.0 (last updated on 2013-08-01). Resource ID: GBIF Key: http://www.gbif.org/dataset/db6cd9d7-7be5-4cd0-8b3c-fb6dd7446472
+iEcolab, University of Granada-Andalusian Environmental Center (Andalusian Institute for Earth System Research) (2014) Phenology of flora of mediterranean high-mountains meadows (Sierra Nevada). 10560 data records. Contributed by University of Granada, OBSNEV, Agencia de Medio Ambiente y Agua de Andalucía, Zamora R, Sánchez-Rojas CP, @TODO(aquí los nombres de los técnicos y de apoyo que ha contribuido a tomar datos). Online at http://www.gbif.es:8080/ipt/resource.do?r=sinfonevada and http://obsnev.es/noticia.html?id=5307, version 1.0 (last updated on 2013-08-01). Resource ID: GBIF Key: http://www.gbif.org/dataset/db6cd9d7-7be5-4cd0-8b3c-fb6dd7446472
 
 
 
@@ -36,10 +36,6 @@ Sierra Nevada Global Change Observatory (OBSNEV)
 #### Personnel:
 Regino Jesús Zamora Rodríguez (Scientific Coordinator, Principal Investigator, University of Granada); Francisco Javier Sánchez Gutiérrez (Director of the Sierra Nevada National Park and Natural Park); Ignacio Luis Henares Civantos (Conservator of Sierra Nevada National Park and Natural Park); Blanca Ramos Losada (Project Manager of Sierra Nevada Global-Change Monitoring Programme); Ignacio Maldonado Lozano (Head of the Monitoring Programme in the Environment and Water Agency of Andalusia). 
 
-***mira este ejemplo intersante: ** 
-Rafael Miranda (principal investigator, data collector, collector identifier), David Galicia (researcher, data collector, data manager), Griselda Pulido-Flores (researcher), Scott Monks (researcher), Carmen Escala (researcher), Berenice Alemán-García (data collector), Rafaela Escorcia-Ignacio (data collector), Antonio Vilches (data collector), Christian Elizbeth Bautista-Hernández (data collector), Pedro Manuel Leunda (data collector), Sergio Gaspar (data collector), Andrés López-Morales (field guide, data collector), Ana Amézcua-Martínez (curator), María Imas-Lecumberri (curator), Ángel Chaves-Illana (curator) and Arturo H. Ariño (custodian steward).*
-
-
 #### Funding:
 Sierra Nevada Global Change Observatory is funded by Andalusian Regional Government (via Environmental Protection Agency) and by the Spanish Government (via “Fundación Biodiversidad”, which is a Public Foundation).
 
@@ -53,14 +49,18 @@ This mountain range has several legal protections:  Biosphere Reserve MAB Commit
 
 Sierra Nevada Global Change Observatory (OBSNEV) (Bonet et al. 2011) is a long-term research project which is being undertaken at Sierra Nevada Biosphere Reserve (SE Spain). It is intended to compile the information necessary for identifying as early as possible the impacts of global change, in order to design management mechanisms to minimize these impacts and adapt the system to new scenarios (Aspizua et al. 2010, Bonet el al. 2010). The general objectives are to:  
 
-* Evaluate the functioning of ecosystems in the Sierra Nevada Nature Reserve, their natural processes and dynamics over a medium-term timescale.* Identify population dynamics, phenological changes, and conservation issues regarding key species that could be considered indicators of ecological processes. * Identify the impact of global change on monitored species, ecosystems, and natural resources, providing an overview of trends of change that could help foster ecosystem resilience. * Design mechanisms to assess the effectiveness and efficiency of management activities performed in the Sierra Nevada in order to implement an adaptive management framework. * Help to disseminate information of general interest concerning the values and importance of Sierra Nevada.
+* Evaluate the functioning of ecosystems in the Sierra Nevada Nature Reserve, their natural processes and dynamics over a medium-term timescale.
+* Identify population dynamics, phenological changes, and conservation issues regarding key species that could be considered indicators of ecological processes. 
+* Identify the impact of global change on monitored species, ecosystems, and natural resources, providing an overview of trends of change that could help foster ecosystem resilience. 
+* Design mechanisms to assess the effectiveness and efficiency of management activities performed in the Sierra Nevada in order to implement an adaptive management framework. 
+* Help to disseminate information of general interest concerning the values and importance of Sierra Nevada.
 
 The Sierra Nevada Global Change Observatory has four cornerstones: 
 
 1. A monitoring program with 40 methodologies that collect information on ecosystem functioning (Aspizua et al. 2012; 2014)
 2. An information system to store and manage all the information gathered ([http://obsnev.es/linaria.html](http://obsnev.es/linaria.html) - Pérez-Pérez et al. 2012; Free access upon registration)
 3. A plan to promote adaptive management of natural resources using the knowledge amassed through the monitoring programme
-4. An outreach program to disseminate all the available information to potential users (see News Portal of the project at [http://obsnew.es](http://obsnev.es)  and the wiki of the project at [http://wiki.obsnev.es](http://wiki.obsnev.es), Pérez-Luque et al. 2012)
+4. An outreach program to disseminate all the available information to potential users (see News Portal of the project at [http://obsnew.es](http://obsnev.es) and the wiki of the project at [http://wiki.obsnev.es](http://wiki.obsnev.es), Pérez-Luque et al. 2012)
 
 The Sierra Nevada Global Change Observatory is linked to other national (Zamora and Bonet 2011) and international monitoring networks: GLOCHAMORE (Global Change in Mountain Regions) (Björnsen 2005), GLOCHAMOST (Global Change in Mountain Sites) (Schaaf 2009), LTER-Spain (Long-Term Ecological Research). 
 
@@ -92,17 +92,20 @@ This dataset include records of phylum Magnoliophyta (10498 records, 99.41%) and
 ### Spatial coverage
 
 ##### General spatial coverage: 
-Sierra Nevada is an isolated high mountain range (reaching 3.482 m.a.s.l.) located in Southern Spain (37ºN, 3ºW) covering 2.100 km2. It hosts a high number of vegetal endemic species (c. 80) (Lorite et al 2007) in a total of 2.100 species of vascular plants  (25 % and 20 % of Spain and Europe flora respectively), being considered one of the most important biodiversity hotspot in the Mediterranean region (Blanca et al 1998).  It has several legal protections: Biosphere Reserve MAB Committee UNESCO; Special Protection Area and Site of Community Importance (Natura 2000 network); and National Park. This mountain area comprises 27 habitats types from the habitat directive. It contains 31 fauna species (20 birds, 5 mammals, 4 invertebrates, 2 amphibians and reptiles) and 20 plants species listed in the Annex I and II of habitats and birds directives. There are 61 municipalities with more than 90.000 inhabitants. The main economic activities are agriculture, tourism, beekeeping, mining and skiing (Bonet el al 2010).####Coordinates: 
-36°52'12''N and 37°21'36''N Latitude; 3°41'24''W and 2°33'36''E Longitude 
+Sierra Nevada is an isolated high mountain range (reaching 3.482 m.a.s.l.) located in Southern Spain (37ºN, 3ºW) covering 2.100 km2. It hosts a high number of vegetal endemic species (c. 80) (Lorite et al 2007) in a total of 2.100 species of vascular plants  (25 % and 20 % of Spain and Europe flora respectively), being considered one of the most important biodiversity hotspot in the Mediterranean region (Blanca et al 1998).  It has several legal protections: Biosphere Reserve MAB Committee UNESCO; Special Protection Area and Site of Community Importance (Natura 2000 network); and National Park. This mountain area comprises 27 habitats types from the habitat directive. It contains 31 fauna species (20 birds, 5 mammals, 4 invertebrates, 2 amphibians and reptiles) and 20 plants species listed in the Annex I and II of habitats and birds directives. There are 61 municipalities with more than 90.000 inhabitants. The main economic activities are agriculture, tourism, beekeeping, mining and skiing (Bonet el al 2010).
+
+####Coordinates: 
+36°52'12''N and 37°21'36''N Latitude; 3°41'24''W and 2°33'36''E Longitude 
 
 ####Temporal coverage
 June 1988 - Sep 2012
 
-#### Natural collectins description
+#### Natural collections description
 
 #### Parent collection identifier
 ##### Collection name 
 Phenology of flora of mediterranean high-mountains meadows (Sierra Nevada)
+
 ##### Collection identifier 
 db6cd9d7-7be5-4cd0-8b3c-fb6dd7446472 @TODO(ME LO TIENE QUE DAR KATIA EL NÚMERO)
 
