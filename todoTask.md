@@ -53,6 +53,15 @@
 ##### Collection identifier 
 * **T13** Nos lo tiene que dar Katia db6cd9d7-7be5-4cd0-8b3c-fb6dd7446472 
 
+#### Methods
+##### Study extent description: 
+
+##### Sampling description: 
+
+##### Quality control description: 
+* **T14** Preguntar a Cristina sobre las floras de referencia y demás! 
+* **T15** Preguntar a Cristina sobre el GPS (precisión y marca)
+
 
 
 
