@@ -225,6 +225,35 @@ All sampling plots were georeferenced using a hand-hel global positioning system
 
 
 ##### References
+Aspizua-Cantón R, Bonet FJ, Zamora R, Sánchez FJ, Cano-Manuel FJ, Henares I (2010) El observatorio de cambio global de Sierra Nevada: hacia la gestión adaptativa de los espacios naturales. Ecosistemas 19 (2): 56–68. http://www.revistaecosistemas.net/index.php/ecosistemas/article/view/46
+
+Aspizua-Cantón R, Barea-Azcón JM, Bonet FJ, Pérez-Luque AJ, Zamora R (Eds) (2012) Observatorio de Cambio Global Sierra Nevada: metodologías de seguimiento. Consejería de Medio Ambiente, Junta de Andalucía, 1–112.
+
+Bonet FJ, Pérez-Luque AJ, Moreno R, Zamora R (2010) Sierra Nevada Global Change Observatory. Structure and Basic Data. Environment Department (Andalusian Regional Government)–University of Granada, 1–48.
+
+Bonet FJ, Aspizua-Cantón R, Zamora R, Sánchez FJ, Cano-Manuel FJ, Henares I (2011) Sierra Nevada Observatory for monitoring global change: Towards the adaptive management of natural resources. In: Austrian MaB Comitee (Ed). Biosphere Reserves in the mountains of the world. Excellence in the clouds?. Austrian Academy of Sciences Press, Vienna: 48-52.
+
+Blanca G, Cueto M, Martínez-Lirola MJ, Molero-Mesa J (1998) Threatened vascular flora of Sierra Nevada (Southern Spain). Biological Conservation 85 (3): 269-285. doi: 10.1016/S0006-3207(97)00169-9
+
+Björnsen A (Ed) (2005) The GLOCHAMORE (Global Change and Mountain Regions) Research Strategy. Berne (Switzerland) and Vienna (Austria). Mountain Research Initiative Office and University of Vienna, 1– 48. http://unesdoc.unesco.org/images/0014/001471/147170E.pdf
+
+IPNI (2013) The International Plant Names Index. http://www.ipni.org [accessed 05.08.2014]
+
+Lorite J, Navarro FB, Valle F (2007) Estimation of threatened orophytic flora and priority of its conservation in the Baetic range (S. Spain). Plant Biosystems 141 (1): 1-14. doi: 10.1080/11263500601153560
+
+Pérez-Pérez R, Bonet FJ, Pérez-Luque AJ, Zamora R (2012) Linaria: a set of information management tools to aid environmental decision making in Sierra Nevada (Spain) LTER site. In: Long Term Ecological Research (LTER) (Ed) Proceedings of the 2013 LTER All Scientist Meeting: The Unique Role of the LTER Network in the Antropocene: Collaborative Science Across Scales. LTER, Estes Park - Colorado (EE.UU)
+
+Roskov Y, Kunze T, Paglinawan L, Abucay L, Orrell T, Nicolson D, Culham A, Bailly N, Kirk P, Bourgoin T, Baillargeon G, Hernandez F, De Wever A, Didžiulis V (Eds) (2013) Species 2000 & ITIS Catalogue of Life. Species 2000: Reading, UK. http://www.catalogueoflife.org/col [accessed 05.05.2013]
+
+Schaaf T (2009) Mountain Biosphere Reserves–A People Centred Approach that also Links Global Knowledge. Sustainable Mountain Development 55: 13–15. http://lib.icimod.org/record/26505/files/c_attachment_601_5624.pdf
+
+Zamora R, Bonet FJ (2011) Programa de Seguimiento del Cambio Global en Sierra Nevada: ciencia y tecnología para la gestión adaptativa. Boletín de la RED de seguimiento del cambio global en Parques Nacionales, 1: 18–24. http://reddeparquesnacionales.mma.es/parques/rcg/html/rcg_boletin_01.htm
+
+
+
+
+
+
 
 
 
