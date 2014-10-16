@@ -44,9 +44,7 @@ Sierra Nevada (Andalusia, SE Spain), is a mountainous region with an altitudinal
 
 This mountain range has several legal protections:  Biosphere Reserve MAB Committee UNESCO; Special Protection Area and Site of Community Importance (Natura 2000 network); and National Park. The area includes 61 municipalities with more than 90,000 inhabitants. The main economic activities are agriculture, tourism, cattle raising, beekeeping, mining, and skiing (Bonet el al. 2010).
 
-
 #### Design description:
-
 Sierra Nevada Global Change Observatory (OBSNEV) (Bonet et al. 2011) is a long-term research project which is being undertaken at Sierra Nevada Biosphere Reserve (SE Spain). It is intended to compile the information necessary for identifying as early as possible the impacts of global change, in order to design management mechanisms to minimize these impacts and adapt the system to new scenarios (Aspizua et al. 2010, Bonet el al. 2010). The general objectives are to:  
 
 * Evaluate the functioning of ecosystems in the Sierra Nevada Nature Reserve, their natural processes and dynamics over a medium-term timescale.
@@ -92,7 +90,7 @@ This dataset include records of phylum Magnoliophyta (10498 records, 99.41%) and
 ### Spatial coverage
 
 ##### General spatial coverage: 
-Sierra Nevada is an isolated high mountain range (reaching 3.482 m.a.s.l.) located in Southern Spain (37ºN, 3ºW) covering 2.100 km2. It hosts a high number of vegetal endemic species (c. 80) (Lorite et al 2007) in a total of 2.100 species of vascular plants  (25 % and 20 % of Spain and Europe flora respectively), being considered one of the most important biodiversity hotspot in the Mediterranean region (Blanca et al 1998).  It has several legal protections: Biosphere Reserve MAB Committee UNESCO; Special Protection Area and Site of Community Importance (Natura 2000 network); and National Park. This mountain area comprises 27 habitats types from the habitat directive. It contains 31 fauna species (20 birds, 5 mammals, 4 invertebrates, 2 amphibians and reptiles) and 20 plants species listed in the Annex I and II of habitats and birds directives. There are 61 municipalities with more than 90.000 inhabitants. The main economic activities are agriculture, tourism, beekeeping, mining and skiing (Bonet el al 2010).
+Sierra Nevada is an isolated high mountain range (reaching 3.482 m.a.s.l.) located in Southern Spain (37ºN, 3ºW) covering 2.100 km2. It hosts a high number of vegetal endemic species (c. 80) (Lorite et al. 2007) in a total of 2.100 species of vascular plants  (25 % and 20 % of Spain and Europe flora respectively), being considered one of the most important biodiversity hotspot in the Mediterranean region (Blanca et al. 1998).  It has several legal protections: Biosphere Reserve MAB Committee UNESCO; Special Protection Area and Site of Community Importance (Natura 2000 network); and National Park. This mountain area comprises 27 habitats types from the habitat directive. It contains 31 fauna species (20 birds, 5 mammals, 4 invertebrates, 2 amphibians and reptiles) and 20 plants species listed in the Annex I and II of habitats and birds directives. There are 61 municipalities with more than 90.000 inhabitants. The main economic activities are agriculture, tourism, beekeeping, mining and skiing (Bonet et al. 2010).
 
 ####Coordinates: 
 36°52'12''N and 37°21'36''N Latitude; 3°41'24''W and 2°33'36''E Longitude 
@@ -111,7 +109,6 @@ db6cd9d7-7be5-4cd0-8b3c-fb6dd7446472 @TODO(ME LO TIENE QUE DAR KATIA EL NÚMERO)
 
 
 #### Methods
-
 #####Study extent description: 
 The Mediterranean high-mountain meadows (know locally as “*borreguiles*”) are ecosystems conditioned by the snow dynamics and potentially sensitive to changes in water availability and temperature (CITA). In Sierra Nevada mountain range this ecosystem occupy 1125 ha and its distribution is determined by accumulation of the meltwater (CITA). Aunque solo representa un XX % de toda la superficie de Sierra Nevada, this ecosystem has a high rate of plant endemicity (Table 1) (Bonet et al. 2010).
 
@@ -121,14 +118,156 @@ We selected one of the most representative borreguiles of Sierra Nevada, located
 
 
 ##### Sampling description: 
-We sampled at three localities along an altitudinal gradient (figura): one at Prado de la Mojonera (Low Altitude; around 2200 m a.s.l.) and two at Hoya del Moro (Middle and High altitude; 2430-2550 m a.s.l. and around 2775 m a.s.l respectively). 
-
-For each locality, the sampling was performed every 15 days during the free-snow period once a year from 1988-1990 and from 2009 to 2012. For the middle altitude locality we have data from two periods: 1988-1990 and 2009-2013. For low and high altitude locations we have data from 2009-2013 period.  
+We sampled at three localities along an altitudinal gradient (figura): one at Prado de la Mojonera (Low Altitude; around 2200 m a.s.l.) and two at Hoya del Moro (Middle and High altitude; 2430-2550 m a.s.l. and around 2775 m a.s.l respectively). For each locality, the sampling was performed every 15 days during the free-snow period once a year from 1988-1990 and from 2009 to 2012. For the middle altitude locality we have data from two periods: 1988-1990 and 2009-2013. For low and high altitude locations we have data from 2009-2013 period.  
 
 In each locality permanent plots of 1 x 1 m were randomly distributed. In each plot a floristic inventory was carried out. The presence/absence and an estimation of abundance-coverage using the Braun-Blaquet cover-abundance scale (Braun-Blanquet 1964) were recorded for each taxa. We also counted the number of individuals belong to three main phenological phase (phenophase) established: vegetative phenophase, reproductive phenophase (flowering) and seed phenophase. Plots were divided into quadrats of 25 x 25 cm to facilitate counting (Figure 6). 
 
+#####Method step description:
+
+All data were sotred in a normalized database (meter esquema??) and incorporated into the Information System of Sierra Nevada Global Change Observatory (figure ??). Taxonomic and spatial validations were made on this database (see Quality control description). A custom-made SQL view of the database was performed to gather occurrence data and others variables associated to some occurence data, specifically: 
+
+* Flower number of a taxon by square meter.
+* Fruit number of a taxon by square meter.
+* Cover: the percentage of cover by taxon. The value represents a transformation of Braun-Blanquet cover-abundance scale (Van der Maarel 1979, 2007) 
+
+The occurrence and measurement data were accommodated to fulfill the Darwin Core Standard (Darwin Core Task Group, 2009; Wieczorek et al. 2012). We used Darwin Core Archive Validator tool (http://tools.gbif.org/dwca-validator/) to check whether the dataset meets Darwin Core specifications. The Integrated Publishing Toolkit (IPT v2.0.5)(Robertson et al. 2014) of the Spanish node of the Global Biodiversity Information Facility (GBIF) (http://www.gbif.es:8080/ipt) was used both to upload the Darwin Core Archive and to fill out the metadata. 
+
+The Darwin Core elements for the occurrence data included in the dataset are:
+occurrenceId, modified, basisOfRecord, institutionCode, collectionCode, catalogNumber, occurrenceRemarks, scientificName, kingdom, phylum, class, order, family, genus, specificEpithet, infraspecificEpithet, scientificNameAuthorship, continent, country, stateProvince, county, locality, minimumElevationInMeters, maximumElevationInMeters, recordedBy, identifiedBy, dateIdentified, decimalLongitude, decimalLatitude, coordinateUncertaintyinMeters.
+
+For the measurement data, the Darwin Core elements included are:
+id, measurementID, measurementType, measurementValue, measurementAccuracy, measurementUnit, measurementDeterminedDate, measurementDeterminedBy, measurementMethod. 
+
+#####Quality control description: 
+Meter un texto similar a esto:
+*We performed several procedures 
+Validation and cleaning of geographic, taxonomic and additional data associated with the dragonfly specimens was incorporated at se-veral steps of the process (Fig. 2) as an essential component of the digitisation project (see Chapman 2005a, b)*
+
+The specimens were taxonmically identify using ... lora Iberica (Castroviejo et al. 1986-2005) and severel reference floras:  Flora Europaea ();  --> PREGUNTAR A CRISTINA 
+The scientific names were checked with databases of International Plant Names Index (IPNI 2013) and Catalogue of Life/Species 2000 (Roskov et al. 2013). We also used the R package taxize (Chamberlian and Szocs 2013; Chamberlain et al. 2014) to verify the taxonomical classification. 
+
+The sampling plots were georeferenced using a Garmin eTrex Legend GPS (WGS84 Datum) with an accuracy of ±10 m. We also used colour digital ortophotographs provided by the Andalusian Cartography Institute (ICA) and GIS (ArcGIS 9.2; ESRI, Redlands, California, USA) to verify that the geographical coordinates of each sampling plots were correct (Chapman and Wieczorek 2006). 
+
+We also performed validation procedures (geopraohic coordinate format, coordinates within country/provincial boundaries, absence of ASCII anomalous characters in the dataset) with DARWIN_TEST (v1.3) software (http://www.gbif.es/darwin_test/Darwin_test.php). 
+
+#### Dataset description
+##### Object name: 
+Darwin Core Archive Phenology of flora of mediterranean high-mountains meadows (Sierra Nevada)
+
+##### Character encoding: 
+UTF-8
+##### Format name: 
+Darwin Core Archive format
+##### Format version: 
+1.0
+##### Distribution: 
+http://www.gbif.es:8080/ipt/archive.do?r=obsnev
+##### Publication date of data: 
+2014-04-29
+##### Language: 
+English
+##### Licenses of use: 
+This [DATA(BASE)-Colección de registros de seguimiento de cambios en la abundancia e incidencia de taxones en comunidades de borreguiles en Sierra Nevada] is made available under the Open Data Commons Attribution License: http://www.opendatacommons.org/licenses/by/1.0
+
+##### Metadata language: 
+English
+##### Date of metadata creation: 
+2013-03-05
+##### Hierarchy level: 
+Dataset
+
+#### Acknowledgements
+We thank to Katia Cezón, Cristina Valverde and Franciso Pando (Spanish GBIF node–CSIC) for technical support. We thank David Nesbitt for linguistic advice.
+
+This research work was conducted in the collaborative framework of the “Sierra Nevada Global Change Observatory” Project from the Environment Department of Andalusian Regional Government and the Sierra Nevada National Park. (INCLUIR ALGO DE LAS SUBVENCIONES DE LA JUNTA????) A. J. Pérez-Luque would like to thank the MICINN of the Government of Spain for the financial support (PTA 2011-6322-I)
+
+
+#### References 
+
+
+***notas QC***
+
+* Other postvalidation procedures (including geographic coordinate format,  congruence between collection and identification dates absence of ASCII anomalous characters) were checked by use of the Darwin test software (http://www.gbif.es/darwin_test/Darwin_Test_in.php). 
+* Other validation procedures, including geographic coordinates format, coordinates within country/provincial boundaries, congruence between collection and identification dates and  were checked with DARWIN_TEST (v1.3) software (http://www.gbif.es/darwin_test/Darwin_test.php). 
+
+
+
+* The information of the first period (1988-1990) was taken in notebooks (INCLUIR FIGURA). 
+
+* Biodiversity data were exported to a dataset in Darwin Core (v1.2) format. DARWIN_TEST software was used to validate and clean the geographic, taxonomic and additional data associated with the specimens. Erroneous data were corrected and data cleaning was repeated to enhance the data quality (see details in the section on quality control).
+
+* The dataset was transformed to a Darwin Core Archive format with metadata and was uploaded to the Integrated Publishing Toolkit (IPT v2.0.4) of the Spanish node of the Global Biodiversity Information Facility (GBIF) (http://www.gbif.es:8080/ipt). On the BOS Arthropod Collection website (http://www.unioviedo.es/BOS/Zoologia/artropodos), links to data pertaining to the BOS odonate specimens included in the GBIF data portal were also provided. The offline version of the dataset includes the identification history of each specimen (17846 items), the habitats in which the specimens were collected, and notes on materials derived from specimens (e.g., microscopic preparations, morphometric data, publications, etc.). This information is available on request.
+
+* In adition the geo-coordinates of each sampling plot was verified using digital cartography and GIS (ArcGIS 9.2; ESRI, Redlands, California, USA) 
+
+* Following Wieczorek (2001) and Chapman and Wieczorek (2006), validation of geographic, taxonomic and additional data was incorporated in the digitalization process at several steps (Figure 1), as well as the geo-referencing of all specimens. 
+All sampling plots were georeferenced using a hand-hel global positioning system (Garmin CS x 60; accurate to ±10 m)(Chapman and Wieczorek 2006) 
 
 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+##### References
+
+
+
+(Chamberlian and Szocs 2013; Chamberlain et al. 2014) 
+
+
+
+
+Scott Chamberlain and Eduard Szocs (2013). taxize - taxonomic search and retrieval in R. F1000Research, 2:191. URL: http://f1000research.com/articles/2-191/v2.
+Scott Chamberlain, Eduard Szocs, Carl Boettiger, Karthik Ram, Ignasi Bartomeus, and John Baumgartner (2014) taxize: Taxonomic information from around the web. R package version 0.3.0. https://github.com/ropensci/taxize
+BLANCA, G. (1996). Protección de la flora de Sierra Nevada (Granada y Almería). Conserv. Vegetal, 1: 6.
+Chapman, A.D. and J. Wieczorek (eds). 2006. Guide to Best Practices for Georeferencing. Copenhagen: Global Biodiversity Information Facility. Available online at http://www.gbif.org/orc/?doc_id=1288
+
+
+
+
+Wieczorek, J., Döring, M., De Giovanni, R., Robertson, T., Vieglais, D., 2009. Darwin Core Terms: A quick reference guide. <http://rs.tdwg.org/dwc/terms> (Accessed 16.08.13).
+
+J. Wieczorek, D. Bloom, R. Guralnick, S. Blum, M. Döring, R. Giovanni, T. Robertson, D. Vieglais
+Darwin core: an evolving community-developed biodiversity data standard
+PLoS One, 7 (1) (2012), p. e29715 http://dx.doi.org/10.1371/journal.pone.0029715
+
+Institute of Statistics and Cartography of Andalusia,taken in 2007
+
+
+Chapman AD (2005a) Principles and Methods of Data Cleaning – Primary Species and Species-Occurrence Data, version 1.0. Global Biodiversity Information Facility, Copenhagen, 75 pp.
+
+Chapman AD (2005b) Principles of Data Quality, version 1.0. Global Biodiversity Information Facility, Copenhagen, 61 pp.
+
+
+Ortega-Maqueda, I. & Pando, F. (2008). DARWIN_TEST (Versión): Una aplicación para la validación y el chequeo de los datos en formato Darwin Core 1.2 or Darwin Core 1.4, http://www.gbif.es/Darwin_test/Darwin_test.php (fecha cuando fue consultado). Unidad de Coordinación de GBIF.ES, CSIC. Ministerio de Educación y Ciencia, España
+
+Ortega-Maqueda I, Pando F (2008) DARWIN_TEST v3.2: Una aplicación para la validación y el chequeo de los datos en formato Darwin Core 1.2 or Darwin Core 1.4, Unidad de Coordinación de GBIF.ES, CSIC. Ministerio de Educación y Ciencia. Madrid, Spain, http://www.gbif.es/Darwin_test/Darwin_test.php
+
+
+
+DOI: 10.1111/j.1654-1103.2007.tb02592.x  and Van der Maarel (1979) DOI: 10.1007/BF00052021
+
+
+Wieczorek J, Bloom D, Guralnick R, Blum S, Döring M, et al. (2012) Darwin Core: An Evolving Community-Developed Biodiversity Data Standard. PLoS ONE 7(1): e29715. doi:10.1371/journal.pone.0029715
+
+
+
+Braun-Blanquet (1946) transformation of Braun-Blanquet cover-abundance scale. More info: Van der Maarel (2007) DOI: 10.1111/j.1654-1103.2007.tb02592.x  and Van der Maarel (1979) DOI: 10.1007/BF00052021
+
+Robertson T, Döring M, Guralnick R, Bloom D, Wieczorek J, et al. (2014) The GBIF Integrated Publishing Toolkit: Facilitating the Efficient Publishing of Biodiversity Data on the Internet. PLoS ONE 9(8): e102623. doi:10.1371/journal.pone.0102623
