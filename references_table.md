@@ -28,7 +28,5 @@
 | Chapman and Wieczorek 2006  | si | | | 
 | Blanca 1996                 | si | | | 
 | Wieczorek et al. 2009       | si | | | 
+| Wieczorek et al. 2009       | si | | | 
 
-
-
-DataPapers; DP_Borreguiles
