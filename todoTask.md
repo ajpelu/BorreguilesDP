@@ -29,7 +29,7 @@
 * ***mira este ejemplo intersante: ** Rafael Miranda (principal investigator, data collector, collector identifier), David Galicia (researcher, data collector, data manager), Griselda Pulido-Flores (researcher), Scott Monks (researcher), Carmen Escala (researcher), Berenice Alemán-García (data collector), Rafaela Escorcia-Ignacio (data collector), Antonio Vilches (data collector), Christian Elizbeth Bautista-Hernández (data collector), Pedro Manuel Leunda (data collector), Sergio Gaspar (data collector), Andrés López-Morales (field guide, data collector), Ana Amézcua-Martínez (curator), María Imas-Lecumberri (curator), Ángel Chaves-Illana (curator) and Arturo H. Ariño (custodian steward).*
 
 ### Design description
-* **T9** Falta una frase al final sobre los seguimientos. Algo así como: OBSNEV está recuperando metodologías que se comenzaron hace mucho tiempo .... para convertirlas en long-term 
+* ~~**T9** Falta una frase al final sobre los seguimientos. Algo así como: OBSNEV está recuperando metodologías que se comenzaron hace mucho tiempo .... para convertirlas en long-term~
  * ***Hablar con Curro*** 
 
 * **T10** ¿Hablar algo de Eubon, LifeWatch, etc; DataOne? 
@@ -55,6 +55,10 @@
 
 #### Methods
 ##### Study extent description: 
+* **T16** Figura 4. Terminar, preguntar a Cristina. Preguntar a Ernesto. 
+* **T17** Terminar primer párrafo. Resumir from Fernández Casas 
+* **T18** Cita bibliográfica libro parque nacional sn (azul) 
+* **T19** Ccompletar p
 
 ##### Sampling description: 
 
@@ -69,9 +73,10 @@
 # Figures 
 | Name   | path                 | status | responsible | caption    | notes                                             |
 |--------|----------------------|--------|-------------|------------|---------------------------------------------------|
-| Fig. 1 |                      | ??     | ajpelu      |            | Es una figura sobre localización de sierra nevada |
+| Fig. 1 | `./figures/fig1.jpg` | OK     | ajpelu      | ***TODO*** | Es una figura sobre localización de sierra nevada |
 | Fig. 2 | `./figures/fig2.jpg` | OK     | ajpelu      | ***TODO*** |                                                   |
 | Fig. 3 | `./figures/fig3.jpg` | OK     | ajpelu      | ***TODO*** |                                                   |
+| Fig. 4 |  |     | ajpelu, cristina      | ***TODO*** | preguntar a Cristina si tiene foto de detalle de borreguiles que podamos insertar. Modificar leyenda                                                  |
 
 
 # Tables 
