@@ -17,16 +17,16 @@
 | Martín Martín et al. 2010   | si | | | 
 | Braun-Blanquet 1964         | si | | | 
 | Darwin Core Task Group 2009 | si | | | 
-| Wieczorek et al. 2012       | si | | | 
-| Robertson et al. 2014       | si | | | 
-| Chapman 2005a               | si | | | 
-| Chapman 2005b               | si | | | 
+| Wieczorek et al. 2012       | si | si | si | 
+| Robertson et al. 2014       | si | si | si | 
+| Chapman 2005a               | si | si | si | 
+| Chapman 2005b               | si | si | si | 
 | IPNI 2013                   | si | si | si | 
 | Roskov et al. 2013          | si | si | si | 
-| Chamberlian and Szocs 2013  | si | | | 
-| Chamberlain et al. 2014     | si | | | 
+| Chamberlian and Szocs 2013  | si | si | si | 
+| Chamberlain et al. 2014     | si | si | si | 
 | Chapman and Wieczorek 2006  | si | | | 
-| Blanca 1996                 | si | | | 
-| Wieczorek et al. 2009       | si | | | 
-| Wieczorek et al. 2009       | si | | | 
+| Blanca 1996                 | si | si | si | 
+| Wieczorek et al. 2009       | si | si | si | 
+| Ortega-Maqueda and Pando    | si | si | si | 
 
