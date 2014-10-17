@@ -130,7 +130,7 @@ All data were sotred in a normalized database (meter esquema??) and incorporated
 * Fruit number of a taxon by square meter.
 * Cover: the percentage of cover by taxon. The value represents a transformation of Braun-Blanquet cover-abundance scale (Van der Maarel 1979, 2007) 
 
-The occurrence and measurement data were accommodated to fulfill the Darwin Core Standard (Darwin Core Task Group, 2009; Wieczorek et al. 2012). We used Darwin Core Archive Validator tool (http://tools.gbif.org/dwca-validator/) to check whether the dataset meets Darwin Core specifications. The Integrated Publishing Toolkit (IPT v2.0.5)(Robertson et al. 2014) of the Spanish node of the Global Biodiversity Information Facility (GBIF) (http://www.gbif.es:8080/ipt) was used both to upload the Darwin Core Archive and to fill out the metadata. 
+The occurrence and measurement data were accommodated to fulfill the Darwin Core Standard (Wieczorek et al. 2009; 2012). We used Darwin Core Archive Validator tool (http://tools.gbif.org/dwca-validator/) to check whether the dataset meets Darwin Core specifications. The Integrated Publishing Toolkit (IPT v2.0.5)(Robertson et al. 2014) of the Spanish node of the Global Biodiversity Information Facility (GBIF) (http://www.gbif.es:8080/ipt) was used both to upload the Darwin Core Archive and to fill out the metadata. 
 
 The Darwin Core elements for the occurrence data included in the dataset are:
 occurrenceId, modified, basisOfRecord, institutionCode, collectionCode, catalogNumber, occurrenceRemarks, scientificName, kingdom, phylum, class, order, family, genus, specificEpithet, infraspecificEpithet, scientificNameAuthorship, continent, country, stateProvince, county, locality, minimumElevationInMeters, maximumElevationInMeters, recordedBy, identifiedBy, dateIdentified, decimalLongitude, decimalLatitude, coordinateUncertaintyinMeters.
@@ -148,7 +148,7 @@ The scientific names were checked with databases of International Plant Names In
 
 The sampling plots were georeferenced using a Garmin eTrex Legend GPS (WGS84 Datum) with an accuracy of ±10 m. We also used colour digital ortophotographs provided by the Andalusian Cartography Institute (ICA) and GIS (ArcGIS 9.2; ESRI, Redlands, California, USA) to verify that the geographical coordinates of each sampling plots were correct (Chapman and Wieczorek 2006). 
 
-We also performed validation procedures (geopraohic coordinate format, coordinates within country/provincial boundaries, absence of ASCII anomalous characters in the dataset) with DARWIN_TEST (v1.3) software (http://www.gbif.es/darwin_test/Darwin_test.php). 
+We also performed validation procedures (geopraohic coordinate format, coordinates within country/provincial boundaries, absence of ASCII anomalous characters in the dataset) with DARWIN_TEST (v3.2) software (Ortega-Maqueda and Pando, 2008). 
 
 #### Dataset description
 ##### Object name: 
@@ -207,96 +207,62 @@ All sampling plots were georeferenced using a hand-hel global positioning system
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ##### References
 Aspizua-Cantón R, Bonet FJ, Zamora R, Sánchez FJ, Cano-Manuel FJ, Henares I (2010) El observatorio de cambio global de Sierra Nevada: hacia la gestión adaptativa de los espacios naturales. Ecosistemas 19 (2): 56–68. http://www.revistaecosistemas.net/index.php/ecosistemas/article/view/46
 
 Aspizua-Cantón R, Barea-Azcón JM, Bonet FJ, Pérez-Luque AJ, Zamora R (Eds) (2012) Observatorio de Cambio Global Sierra Nevada: metodologías de seguimiento. Consejería de Medio Ambiente, Junta de Andalucía, 1–112.
 
+Aspizua R, Barea-Azcón JM, Bonet FJ, Pérez-Luque AJ, Zamora RJ (2014) Sierra Nevada Global-Change Observatory. Monitoring methodologies. Consejería de Medio Ambiente, Junta de Andalucía, 112 pp
+
+Blanca G (1996) Protección de la flora de Sierra Nevada (Granada y Almería). Conservación Vegetal 1: 6
+
+Blanca G, Cueto M, Martínez-Lirola MJ, Molero-Mesa J (1998) Threatened vascular flora of Sierra Nevada (Southern Spain). Biological Conservation 85 (3): 269-285. doi: 10.1016/S0006-3207(97)00169-9
+
 Bonet FJ, Pérez-Luque AJ, Moreno R, Zamora R (2010) Sierra Nevada Global Change Observatory. Structure and Basic Data. Environment Department (Andalusian Regional Government)–University of Granada, 1–48.
 
 Bonet FJ, Aspizua-Cantón R, Zamora R, Sánchez FJ, Cano-Manuel FJ, Henares I (2011) Sierra Nevada Observatory for monitoring global change: Towards the adaptive management of natural resources. In: Austrian MaB Comitee (Ed). Biosphere Reserves in the mountains of the world. Excellence in the clouds?. Austrian Academy of Sciences Press, Vienna: 48-52.
 
-Blanca G, Cueto M, Martínez-Lirola MJ, Molero-Mesa J (1998) Threatened vascular flora of Sierra Nevada (Southern Spain). Biological Conservation 85 (3): 269-285. doi: 10.1016/S0006-3207(97)00169-9
+Braun-Blanquet J (1964) Pflanzensoziologie.  Springer Verlag, Wien, New York, 1 – 865.
 
 Björnsen A (Ed) (2005) The GLOCHAMORE (Global Change and Mountain Regions) Research Strategy. Berne (Switzerland) and Vienna (Austria). Mountain Research Initiative Office and University of Vienna, 1– 48. http://unesdoc.unesco.org/images/0014/001471/147170E.pdf
+
+Cañadas EM, Fenu G, Peñas J, Lorite J, Mattana E, Bacchetta G (2014) Hotspots within hotspots: Endemic plant richness, environmental drivers, and implications for conservation. Biological Conservation 170: 282–291
+
+Chamberlain SA, Szöcs E (2013) taxize: taxonomic search and retrieval in R. F1000Research 2: 191. doi: 10.12688/f1000research.2-191.v2. http://f1000research.com/articles/2-191/v2.
+
+Chamberlain S, Szocs E, Boettiger C, Ram K, Bartomeus I, Baumgartner J (2014) taxize: Taxonomic information from around the web. R package version 0.3.0. https://github.com/ropensci/taxize
+
+Chapman AD (2005a) Principles and Methods of Data Cleaning – Primary Species and Species-Occurrence Data, version 1.0. Global Biodiversity Information Facility, Copenhagen, 75 pp. http://www.gbif.org/orc/?doc_id=1262 
+
+Chapman AD (2005b) Principles of Data Quality, version 1.0. Global Biodiversity Information Facility, Copenhagen, 61 pp. http://www.gbif.org/orc/?doc_id=1229
+
+Chapman AD, Wieczorek J (2006) Guide to Best Practices for Georeferencing. Copenhagen: Global Biodiversity Information Facility. Available online at http://www.gbif.org/orc/?doc_id=1288
 
 IPNI (2013) The International Plant Names Index. http://www.ipni.org [accessed 05.08.2014]
 
 Lorite J, Navarro FB, Valle F (2007) Estimation of threatened orophytic flora and priority of its conservation in the Baetic range (S. Spain). Plant Biosystems 141 (1): 1-14. doi: 10.1080/11263500601153560
 
+Martín-Martín JM, Braga JC, Gómez-Pugnaire MT (2010) Itinerarios geológicos por Sierra Nevada. Consejería de Medio Ambiente. Junta de Andalucia
+
+Ortega-Maqueda I, Pando F (2008) DARWIN_TEST v3.2: Una aplicación para la validación y el chequeo de los datos en formato Darwin Core 1.2 or Darwin Core 1.4. Unidad de Coordinación de GBIF.ES, CSIC. Ministerio de Educación y Ciencia. Madrid, Spain, http://www.gbif.es/Darwin_test/Darwin_test.php
+
+Pérez-Luque AJ, Bonet FJ, Zamora R (2012) The Wiki of Sierra Nevada Global Change Observatory. Bulletin of the Ecological Society of America 93(3): 239–240. 
+
 Pérez-Pérez R, Bonet FJ, Pérez-Luque AJ, Zamora R (2012) Linaria: a set of information management tools to aid environmental decision making in Sierra Nevada (Spain) LTER site. In: Long Term Ecological Research (LTER) (Ed) Proceedings of the 2013 LTER All Scientist Meeting: The Unique Role of the LTER Network in the Antropocene: Collaborative Science Across Scales. LTER, Estes Park - Colorado (EE.UU)
+
+Robertson T, Döring M, Guralnick R, Bloom D, Wieczorek J, Braak K, Otegui J, Russell L, Desmet P (2014) The GBIF Integrated Publishing Toolkit: Facilitating the Efficient Publishing of Biodiversity Data on the Internet. PLoS ONE 9(8): e102623EP
 
 Roskov Y, Kunze T, Paglinawan L, Abucay L, Orrell T, Nicolson D, Culham A, Bailly N, Kirk P, Bourgoin T, Baillargeon G, Hernandez F, De Wever A, Didžiulis V (Eds) (2013) Species 2000 & ITIS Catalogue of Life. Species 2000: Reading, UK. http://www.catalogueoflife.org/col [accessed 05.05.2013]
 
 Schaaf T (2009) Mountain Biosphere Reserves–A People Centred Approach that also Links Global Knowledge. Sustainable Mountain Development 55: 13–15. http://lib.icimod.org/record/26505/files/c_attachment_601_5624.pdf
 
+van der Maabel E (1979) Transformation of cover-abundance values in phytosociology and its effects on community similarity. Vegetatio 39(2): 97–114. doi: 10.1007%2FBF00052021
+
+van der Maarel E (2007) Transformation of cover-abundance values for appropriate numerical treatment – Alternatives to the proposals by Podani. Journal of Vegetation Science 18(5): 767–770. doi: 10.1111/j.1654-1103.2007.tb02592.x 
+
+Wieczorek J, Döring M, De Giovanni R, Robertson T, Vieglais D (2009) Darwin Core Terms: A quick reference guide. http://rs.tdwg.org/dwc/terms/ [accessed 17 October 2014].
+
+Wieczorek J, Bloom D, Guralnick R, Blum S, Döring M, Giovanni R, Robertson T, Vieglais D (2012) Darwin Core: An Evolving Community-Developed Biodiversity Data Standard. PLoS ONE 7(1): e29715EP
+
 Zamora R, Bonet FJ (2011) Programa de Seguimiento del Cambio Global en Sierra Nevada: ciencia y tecnología para la gestión adaptativa. Boletín de la RED de seguimiento del cambio global en Parques Nacionales, 1: 18–24. http://reddeparquesnacionales.mma.es/parques/rcg/html/rcg_boletin_01.htm
 
-
-
-
-
-
-
-
-
-(Chamberlian and Szocs 2013; Chamberlain et al. 2014) 
-
-
-
-
-Scott Chamberlain and Eduard Szocs (2013). taxize - taxonomic search and retrieval in R. F1000Research, 2:191. URL: http://f1000research.com/articles/2-191/v2.
-Scott Chamberlain, Eduard Szocs, Carl Boettiger, Karthik Ram, Ignasi Bartomeus, and John Baumgartner (2014) taxize: Taxonomic information from around the web. R package version 0.3.0. https://github.com/ropensci/taxize
-BLANCA, G. (1996). Protección de la flora de Sierra Nevada (Granada y Almería). Conserv. Vegetal, 1: 6.
-Chapman, A.D. and J. Wieczorek (eds). 2006. Guide to Best Practices for Georeferencing. Copenhagen: Global Biodiversity Information Facility. Available online at http://www.gbif.org/orc/?doc_id=1288
-
-
-
-
-Wieczorek, J., Döring, M., De Giovanni, R., Robertson, T., Vieglais, D., 2009. Darwin Core Terms: A quick reference guide. <http://rs.tdwg.org/dwc/terms> (Accessed 16.08.13).
-
-J. Wieczorek, D. Bloom, R. Guralnick, S. Blum, M. Döring, R. Giovanni, T. Robertson, D. Vieglais
-Darwin core: an evolving community-developed biodiversity data standard
-PLoS One, 7 (1) (2012), p. e29715 http://dx.doi.org/10.1371/journal.pone.0029715
-
-Institute of Statistics and Cartography of Andalusia,taken in 2007
-
-
-Chapman AD (2005a) Principles and Methods of Data Cleaning – Primary Species and Species-Occurrence Data, version 1.0. Global Biodiversity Information Facility, Copenhagen, 75 pp.
-
-Chapman AD (2005b) Principles of Data Quality, version 1.0. Global Biodiversity Information Facility, Copenhagen, 61 pp.
-
-
-Ortega-Maqueda, I. & Pando, F. (2008). DARWIN_TEST (Versión): Una aplicación para la validación y el chequeo de los datos en formato Darwin Core 1.2 or Darwin Core 1.4, http://www.gbif.es/Darwin_test/Darwin_test.php (fecha cuando fue consultado). Unidad de Coordinación de GBIF.ES, CSIC. Ministerio de Educación y Ciencia, España
-
-Ortega-Maqueda I, Pando F (2008) DARWIN_TEST v3.2: Una aplicación para la validación y el chequeo de los datos en formato Darwin Core 1.2 or Darwin Core 1.4, Unidad de Coordinación de GBIF.ES, CSIC. Ministerio de Educación y Ciencia. Madrid, Spain, http://www.gbif.es/Darwin_test/Darwin_test.php
-
-
-
-DOI: 10.1111/j.1654-1103.2007.tb02592.x  and Van der Maarel (1979) DOI: 10.1007/BF00052021
-
-
-Wieczorek J, Bloom D, Guralnick R, Blum S, Döring M, et al. (2012) Darwin Core: An Evolving Community-Developed Biodiversity Data Standard. PLoS ONE 7(1): e29715. doi:10.1371/journal.pone.0029715
-
-
-
-Braun-Blanquet (1946) transformation of Braun-Blanquet cover-abundance scale. More info: Van der Maarel (2007) DOI: 10.1111/j.1654-1103.2007.tb02592.x  and Van der Maarel (1979) DOI: 10.1007/BF00052021
-
-Robertson T, Döring M, Guralnick R, Bloom D, Wieczorek J, et al. (2014) The GBIF Integrated Publishing Toolkit: Facilitating the Efficient Publishing of Biodiversity Data on the Internet. PLoS ONE 9(8): e102623. doi:10.1371/journal.pone.0102623
