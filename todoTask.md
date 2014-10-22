@@ -66,6 +66,8 @@
 * **T14** Preguntar a Cristina sobre las floras de referencia y demás! 
 * **T15** Preguntar a Cristina sobre el GPS (precisión y marca)
 
+##### Otros 
+* **T20** Fichas de taxones en libros rojos, etc etc -- referencias bibliográficas 
 
 
 
