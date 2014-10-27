@@ -34,7 +34,7 @@ Creamos varias consultas sobre la BD_obsnev (la que está en linaria) para poder
 * Para cada ocurrencia tengo que asociaciar, si la tiene, la cobertura estimada del taxon para cada parcela 
 * La base de esta consulta es la consulta anterior *GBIF2014_C1* 
 * El código `sql` se puede encontrar en `./3_scripts/sql/gbif2014_c1.sql`
-* * La consulta de creación de tabla no se puede desbloquear por lo que exportarmos la consulta como excel: `./2_diccionarios/gbif2014_c2.xlsx`
+* La consulta de creación de tabla no se puede desbloquear por lo que exportarmos la consulta como excel: `./2_diccionarios/gbif2014_c2.xlsx`
 
 ### Creación de base de datos de borreguiles para generar SQL view
 * Creamos una bd con el nombre gbif2014_borreguiles en `./1_bd/gbif2014_borreguiles.mdb` 
@@ -49,6 +49,14 @@ Creamos varias consultas sobre la BD_obsnev (la que está en linaria) para poder
 * 
 
 #### Taxones 
+* 1 Consultar las entidades taxonomicas 
+	* Llamar a la consulta AgrupaTaxones. Se trata de una consulta que lista todos los taxones existentes. 	 
+	* El código `sql` se puede encontrar en `./3_scripts/sql/gbif2014bd_agrupa_taxones.sql`
+	* Consulta de creación de tabla ***TAXONES*** 
+	* Exportamos la tabla como ***TAXONES_GBIF2014.txt*** 
+* 
+
+
 
 #### Spatial Coverage 
 
