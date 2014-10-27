@@ -1,13 +1,13 @@
 ### Creación de la vista (sql) de DWC-A de borreguiles
 
 * Base de datos
-	* Versión: BD_borreguiles_v5.9_20131025.mdb 
-	* path: `./BorreguilesDP/1_bd/BD_borreguiles_v5.9_20131025.mdb`
+	* Versión: BD_borreguiles_v5.9_20141025.mdb 
+	* path: `./BorreguilesDP/1_bd/BD_borreguiles_v5.9_20141025.mdb`
 
 
 ##### Versión de la BD 
-* Versión: BD_borreguiles_v5.9_20131025.mdb 
-* path: `./BorreguilesDP/1_bd/BD_borreguiles_v5.9_20131025.mdb`
+* Versión: BD_borreguiles_v5.9_20141025.mdb 
+* path: `./BorreguilesDP/1_bd/BD_borreguiles_v5.9_20141025.mdb`
 * La llamaremos *BD_obsnev*
 
 Para esta consulta consideramos una ocurrencia: *un taxon es observado en un plot y anotado en una fecha concreta* 
@@ -26,8 +26,15 @@ Creamos varias consultas sobre la BD_obsnev (la que está en linaria) para poder
 	* ***XXXXXX*** corresponde al *ID_VISITA*
 	* ***AAAAAAAAA*** corresponde al *ID_INVENTARIO*
 	* idGBIF: `'BORREG' & '-' & Format( [ID_PARCELA] ; "000") & '-' & Format ( [ID_VISITA] ; "000000") & '-' & Format( [ID_INVENTARIO] ; "000000000")`  
-* El código `sql se puede encontrar en `./3_scripts/sql/gbif2014_c1.sql`
+* El código `sql` se puede encontrar en `./3_scripts/sql/gbif2014_c1.sql`
 * La consulta de creación de tabla no se puede desbloquear por lo que exportarmos la consulta como excel: `./2_diccionarios/gbif2014_c1.xlsx`
+
+
+###### GBIF2014_C2 
+* Para cada ocurrencia tengo que asociaciar, si la tiene, la cobertura estimada del taxon para cada parcela 
+* La base de esta consulta es la consulta anterior *GBIF2014_C1* 
+* El código `sql` se puede encontrar en `./3_scripts/sql/gbif2014_c1.sql`
+
 
 
 
