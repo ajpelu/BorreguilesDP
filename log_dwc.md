@@ -4,4 +4,33 @@
 	* Versión: BD_borreguiles_v5.9_20131025.mdb 
 	* path: `./BorreguilesDP/1_bd/BD_borreguiles_v5.9_20131025.mdb`
 
-* 
+
+##### Versión de la BD 
+* Versión: BD_borreguiles_v5.9_20131025.mdb 
+* path: `./BorreguilesDP/1_bd/BD_borreguiles_v5.9_20131025.mdb`
+* La llamaremos *BD_obsnev*
+
+Para esta consulta consideramos una ocurrencia: *un taxon es observado en un plot y anotado en una fecha concreta* 
+
+##### Consultas a la BD_obsnev 
+Creamos varias consultas sobre la BD_obsnev (la que está en linaria) para poder generar una vista DWC-A. A estas consultas las  llamaremos: 
+
+* GBIF2014_C1 
+
+###### GBIF2014_C1 
+* Esta consulta parte de la tabla `TABL_INVENTARIO` 
+* Sobre ella creamos una consulta, con la restricción de que el campo taxón sea no nulo (`TABL_INVENTARIO.COD_TAXON>0`)
+* Creamos un indentificador para cada registro de la consulta, de forma que sea unívoco. Hemos generado un código o clave que es combinación de varios identificadores: ***BORREG-000-XXXXXX-AAAAAAAAA***
+	* ***BORREG*** es el nombre de la metodología
+	* ***000*** corresponde al *ID_PARCELA*
+	* ***XXXXXX*** corresponde al *ID_VISITA*
+	* ***AAAAAAAAA*** corresponde al *ID_INVENTARIO*
+	* idGBIF: `'BORREG' & '-' & Format( [ID_PARCELA] ; "000") & '-' & Format ( [ID_VISITA] ; "000000") & '-' & Format( [ID_INVENTARIO] ; "000000000")`  
+* El código `sql se puede encontrar en `./3_scripts/sql/gbif2014_c1.sql`
+* La consulta de creación de tabla no se puede desbloquear por lo que exportarmos la consulta como excel: `./2_diccionarios/gbif2014_c1.xlsx`
+
+
+
+
+
+
