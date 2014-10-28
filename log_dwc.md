@@ -49,11 +49,11 @@ Creamos varias consultas sobre la BD_obsnev (la que está en linaria) para poder
 * 
 
 #### Taxones 
-* 1 Consultar las entidades taxonomicas 
-	* Llamar a la consulta AgrupaTaxones. Se trata de una consulta que lista todos los taxones existentes. 	 
+* ***1*** Consultar las entidades taxonomicas 
+	* Llamar a la consulta *AgrupaTaxones*. Se trata de una consulta que lista todos los taxones existentes. 	 
 	* El código `sql` se puede encontrar en `./3_scripts/sql/gbif2014bd_agrupa_taxones.sql`
 	* Consulta de creación de tabla ***TAXONES*** 
-	* Exportamos la tabla como ***TAXONES_GBIF2014.txt*** 
+	* Exportamos la tabla como `./2_diccionarios/TAXONES_GBIF2014.txt` 
 * 
 
 
