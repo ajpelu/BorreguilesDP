@@ -1,6 +1,3 @@
-#### Goals
-
-El
 
 ``` r
 # -----------------------------------------------------------
@@ -63,7 +60,7 @@ datos$UTM_Y <- as.numeric(datos$UTM_Y)
 #--------------------------------------------------------------------
 ```
 
-Ahora convierto el dataset en un objeto espacial asign??ndole la proyecci??n adecuada. Posteriormente convierto la proyecci??n para obtener lat/long. Finalmente cambio el nombre de los campos lat y long.
+Ahora convierto el dataset en un objeto espacial asignándole la proyección adecuada. Posteriormente convierto la proyección para obtener lat/long. Finalmente cambio el nombre de los campos lat y long.
 
 ``` r
 # -----------------------------------------------------------
