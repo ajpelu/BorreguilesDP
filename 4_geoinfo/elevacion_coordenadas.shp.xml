@@ -1,0 +1,3 @@
+<?xml version="1.0"?>
+<!--<!DOCTYPE metadata SYSTEM "http://www.esri.com/metadata/esriprof80.dtd">-->
+<metadata xml:lang="es"><Esri><MetaID>{83ABD5D2-8E71-45E8-83DD-3C86C3D47D3C}</MetaID><CreaDate>20140103</CreaDate><CreaTime>12160600</CreaTime><SyncOnce>TRUE</SyncOnce><DataProperties><lineage><Process ToolSource="C:\Program Files (x86)\ArcGIS\ArcToolbox\Toolboxes\Spatial Analyst Tools.tbx\ExtractValuesToPoints" Date="20140103" Time="121606">ExtractValuesToPoints "Sheet1$coordenadas_convertidas Events" mde_snev Y:\Dropbox\MS\MS_DP_Borreguiles\2_Diccionarios\elevacion_coordenadas.shp NONE VALUE_ONLY</Process></lineage></DataProperties></Esri></metadata>
