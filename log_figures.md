@@ -10,4 +10,7 @@
 	* versión con ortofotografia
 	* versión sin ortofotografia 
 
-*** TODO *** Incluir cambios sugeridos por Cristina 
+*** TODO *** Incluir cambios sugeridos por Cristina: rios
+
+#### Figura 2 
+
