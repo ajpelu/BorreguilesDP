@@ -59,6 +59,14 @@ Creamos varias consultas sobre la BD_obsnev (la que está en linaria) para poder
 
 
 #### Spatial Coverage 
+##### UTM 
+Hemos creado un diccionario de parcelas (`./2_diccionarios/spatial_coverage/dicc_parcelas_gbif.xlsx`), procedentes de varias fuentes: 
+
+* BD_obsnev  
+* Archivos vectoriales de las parcelas (shapes de Teresa Carreto) 
+* Faltan los datos de RZ de las parcelas de la época de los 90 (??) 
+
+Posteriormente hemos convertido las coordenadas de UTM a lat/long. Para ello hemos utilizado el script `./3_scripts/r/gbif_borreguiles_001_coordenadas.R` ([enlace](https://github.com/ajpelu/BorreguilesDP/blob/master/3_scripts/r/gbif_borreguiles_001_coordenadas.md))
 
 #### Collector 
 
