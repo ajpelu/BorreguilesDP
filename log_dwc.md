@@ -86,7 +86,7 @@ Por otro lado, respecto a los campos municipio, provincia y localidad, tenemos l
  
 #### Collector 
 
-
+En la tabla `UTM_ELEV` se ha creado un campo (`Collector`) en función de la parcela para identificar a los colectores. Así las parecelas RZ el colector es Regino Zamora y en las demás he puesto a CP Sánchez Rojas. 
 
 
 
