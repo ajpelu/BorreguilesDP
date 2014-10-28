@@ -43,8 +43,8 @@ coord <- read.xlsx(file=paste(di,'/2_diccionarios/spatial_coverage/dicc_parcelas
 
 Ahora preparo los datos a convertir.
 
--   Comprobar que las coordenadas UTM est??n en n??meros enteros (sin decimales).
--   Comprobar que las coordenadas tiene formato de campo num??rico.
+-   Comprobar que las coordenadas UTM están en números enteros (sin decimales).
+-   Comprobar que las coordenadas tiene formato de campo numérico.
 -   Reordenar campos.
 
 ``` r
