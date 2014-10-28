@@ -1,1 +1,7 @@
+# files
 ./4_geoinfo/borreguilesDP.mdb
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
