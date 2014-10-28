@@ -68,6 +68,22 @@ Hemos creado un diccionario de parcelas (`./2_diccionarios/spatial_coverage/dicc
 
 Posteriormente hemos convertido las coordenadas de UTM a lat/long. Para ello hemos utilizado el script `./3_scripts/r/gbif_borreguiles_001_coordenadas.R` ([enlace](https://github.com/ajpelu/BorreguilesDP/blob/master/3_scripts/r/gbif_borreguiles_001_coordenadas.md))
 
+##### Elevation
+* Para conseguir la elevación utilizamos el tool `Extract to values points` (ArcMap)
+* Utilizamos como capa de elevación el raster `mde_snev` (medio biofisio; relieve; CMA)
+* Genero una capa vectorial de puntos (`./4_geoinfo/elevacion_coordenadas.shp` ) y la exporto en formato *.csv* (`./2_diccionarios/spatial_coverage/coordenadas_convertidas_elevacion.csv`)
+
+A continuación importo las coordenadas y la elevación a la base de datos `gbif2014_borreguiles.mdb` con el nombre de tabla `UTM_ELEV`. 
+
+Por otro lado, respecto a los campos municipio, provincia y localidad, tenemos los siguientes datos: 
+
+| Cota  | Localidad                         | Municipio     | Provincia |
+|-------|-----------------------------------|---------------|-----------|
+| Alta  | Hoya del Moro (Bco. San Juan)     | GUEJAR-SIERRA | GR        |
+| Media | Hoya del Moro (Bco. San Juan)     | GUEJAR-SIERRA | GR        |
+| Baja  | Prado la Mojonera (Bco. San Juan) | GUEJAR-SIERRA | GR        |
+
+ 
 #### Collector 
 
 
