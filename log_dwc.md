@@ -29,7 +29,7 @@ Creamos varias consultas sobre la BD_obsnev (la que está en linaria) para poder
 ##### GBIF2014_C2 
 * Para cada ocurrencia tengo que asociaciar, si la tiene, la cobertura estimada del taxon para cada parcela 
 * La base de esta consulta es la consulta anterior *GBIF2014_C1* 
-* El código `sql` se puede encontrar en `./3_scripts/sql/gbif2014_c1.sql`
+* El código `sql` se puede encontrar en `./3_scripts/sql/gbif2014_c2.sql`
 * La consulta de creación de tabla no se puede desbloquear por lo que exportarmos la consulta como excel: `./2_diccionarios/gbif2014_c2.xlsx`
 * Se genera una tabla con 11004 registros (04/11/2014)
 
