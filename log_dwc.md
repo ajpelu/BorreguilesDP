@@ -1,12 +1,7 @@
 ## Creación de la vista (sql) de DWC-A de borreguiles
 
-* Base de datos
-	* Versión: BD_borreguiles_v5.9_20141025.mdb 
-	* path: `./BorreguilesDP/1_bd/BD_borreguiles_v5.9_20141025.mdb`
-
-
 ### Versión de la BD 
-* Versión: BD_borreguiles_v5.9_20141025.mdb 
+* Versión: BD_borreguiles_v5.9_20141102.mdb 
 * path: `./BorreguilesDP/1_bd/BD_borreguiles_v5.9_20141102.mdb`
 * La llamaremos *BD_obsnev*
 
@@ -28,6 +23,7 @@ Creamos varias consultas sobre la BD_obsnev (la que está en linaria) para poder
 	* idGBIF: `'BORREG' & '-' & Format( [ID_PARCELA] ; "000") & '-' & Format ( [ID_VISITA] ; "000000") & '-' & Format( [ID_INVENTARIO] ; "000000000")`  
 * El código `sql` se puede encontrar en `./3_scripts/sql/gbif2014_c1.sql`
 * La consulta de creación de tabla no se puede desbloquear por lo que exportarmos la consulta como excel: `./2_diccionarios/gbif2014_c1.xlsx`
+* Se genera una tabla con 11004 registros (04/11/2014)
 
 
 ##### GBIF2014_C2 
@@ -35,6 +31,7 @@ Creamos varias consultas sobre la BD_obsnev (la que está en linaria) para poder
 * La base de esta consulta es la consulta anterior *GBIF2014_C1* 
 * El código `sql` se puede encontrar en `./3_scripts/sql/gbif2014_c1.sql`
 * La consulta de creación de tabla no se puede desbloquear por lo que exportarmos la consulta como excel: `./2_diccionarios/gbif2014_c2.xlsx`
+* Se genera una tabla con 11004 registros (04/11/2014)
 
 ### Creación de base de datos de borreguiles para generar SQL view
 * Creamos una bd con el nombre gbif2014_borreguiles en `./1_bd/gbif2014_borreguiles.mdb` 
