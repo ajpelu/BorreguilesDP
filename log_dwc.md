@@ -53,7 +53,11 @@ Creamos varias consultas sobre la BD_obsnev (la que está en linaria) para poder
 	* Exportamos la tabla como `./2_diccionarios/TAXONES_GBIF2014.txt` 
 * 
 
-
+##### Obtener el numero de registros por entidad taxonomica y año 
+* Se trata de analizar los taxones por year. Esto nos sirve para ver que taxones se han visto mas y aquellos que son raros. 
+* Hemos creado un script en `./3_scripts/r/gbif_borreguiles_004_observ_taxon_year.R` ([enlace](https://github.com/ajpelu/BorreguilesDP/blob/master/3_scripts/r/gbif_borreguiles_004_observ_taxon_year.md))
+* La lista de taxones (95 taxones, 04/11/2014) está en: `./2_diccionarios/taxones_year.csv` 
+ 
 
 #### Spatial Coverage 
 ##### UTM 
