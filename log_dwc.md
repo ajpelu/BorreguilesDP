@@ -7,7 +7,7 @@
 
 ### Versión de la BD 
 * Versión: BD_borreguiles_v5.9_20141025.mdb 
-* path: `./BorreguilesDP/1_bd/BD_borreguiles_v5.9_20141025.mdb`
+* path: `./BorreguilesDP/1_bd/BD_borreguiles_v5.9_20141102.mdb`
 * La llamaremos *BD_obsnev*
 
 Para esta consulta consideramos una ocurrencia: *un taxon es observado en un plot y anotado en una fecha concreta* 
