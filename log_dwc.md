@@ -46,19 +46,26 @@ Creamos varias consultas sobre la BD_obsnev (la que está en linaria) para poder
 * 
 
 #### Taxones 
-* ***1*** Consultar las entidades taxonomicas 
+* ***1)*** Consultar las entidades taxonomicas 
 	* Llamar a la consulta *AgrupaTaxones*. Se trata de una consulta que lista todos los taxones existentes. 	 
 	* El código `sql` se puede encontrar en `./3_scripts/sql/gbif2014bd_agrupa_taxones.sql`
 	* Consulta de creación de tabla ***TAXONES*** (95 entidades taxonomicas, 04/11/2014)
 	* Exportamos la tabla como `./2_diccionarios/TAXONES_GBIF2014.txt` 
-* 
+
+A continuacion ejecutamos el script `./3_scripts/r/gbif_borreguiles_002_taxonomia.R` ([enlace](https://github.com/ajpelu/BorreguilesDP/blob/master/3_scripts/r/gbif_borreguiles_002_taxonomia.md)). Este script realiza los siguientes pasos: 
+
+* Lee los archivos 
+	* de los taxones `./2_diccionarios/TAXONES_GBIF2014.txt`  
+	* de la base de datos de [Species2000](http://www.gbif.es/recursos1.php) en esta [url](http://iecolab.es/datasets/Species2000_IPNI_ANTHOS_Plant_Names_LSID_GBIF_2012.txt) `http://iecolab.es/datasets/Species2000_IPNI_ANTHOS_Plant_Names_LSID_GBIF_2012.txt` 
+* A continuacion desagregamos los nombres cientificos de los taxones  en genus, species e infraspecies. 
+* Creamos dataframes de generos, especies e infraespecies. 
 
 ##### Obtener el numero de registros por entidad taxonomica y año 
 * Se trata de analizar los taxones por year. Esto nos sirve para ver que taxones se han visto mas y aquellos que son raros. 
 * Hemos creado un script en `./3_scripts/r/gbif_borreguiles_004_observ_taxon_year.R` ([enlace](https://github.com/ajpelu/BorreguilesDP/blob/master/3_scripts/r/gbif_borreguiles_004_observ_taxon_year.md))
 * La lista de taxones (95 taxones, 04/11/2014) está en: `./2_diccionarios/taxones_year.csv` 
  
-jajajaja
+https://ide.ugr.es/owncloud/public.php?service=files&t=b6fef0b03c01b8eaa78e657c48422f8d
 
 #### Spatial Coverage 
 ##### UTM 
