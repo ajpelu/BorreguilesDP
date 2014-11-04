@@ -1,8 +1,8 @@
 ## Creación de la vista (sql) de DWC-A de borreguiles
 
 ### Versión de la BD 
-* Versión: BD_borreguiles_v5.9_20141102.mdb 
-* path: `./BorreguilesDP/1_bd/BD_borreguiles_v5.9_20141102.mdb`
+* Versión: BD_borreguiles_v5.9_20141103.mdb 
+* path: `./BorreguilesDP/1_bd/BD_borreguiles_v5.9_20141103.mdb`
 * La llamaremos *BD_obsnev*
 
 Para esta consulta consideramos una ocurrencia: *un taxon es observado en un plot y anotado en una fecha concreta* 
@@ -31,7 +31,7 @@ Creamos varias consultas sobre la BD_obsnev (la que está en linaria) para poder
 * La base de esta consulta es la consulta anterior *GBIF2014_C1* 
 * El código `sql` se puede encontrar en `./3_scripts/sql/gbif2014_c2.sql`
 * La consulta de creación de tabla no se puede desbloquear por lo que exportarmos la consulta como excel: `./2_diccionarios/gbif2014_c2.xlsx`
-* Se genera una tabla con 11004 registros (04/11/2014)
+* Se genera una tabla con 11005 registros (04/11/2014)
 
 ### Creación de base de datos de borreguiles para generar SQL view
 * Creamos una bd con el nombre gbif2014_borreguiles en `./1_bd/gbif2014_borreguiles.mdb` 
@@ -58,14 +58,17 @@ A continuacion ejecutamos el script `./3_scripts/r/gbif_borreguiles_002_taxonomi
 	* de los taxones `./2_diccionarios/TAXONES_GBIF2014.txt`  
 	* de la base de datos de [Species2000](http://www.gbif.es/recursos1.php) en esta [url](http://iecolab.es/datasets/Species2000_IPNI_ANTHOS_Plant_Names_LSID_GBIF_2012.txt) `http://iecolab.es/datasets/Species2000_IPNI_ANTHOS_Plant_Names_LSID_GBIF_2012.txt` 
 * A continuacion desagregamos los nombres cientificos de los taxones  en genus, species e infraspecies. 
-* Creamos dataframes de generos, especies e infraespecies. 
+* Creamos dataframes de generos, especies e infraespecies. Para cada dataframe consultamos la base de datos Species2000 y obtenemos los nombres completos de los taxones. También hacemos uso de los paquetes `taxize` ([Chamberlian and Szocs 2013](http://cran.r-project.org/web/packages/taxize/index.html)) y Taxonstand ([Cayuela and Oksanen 2014](http://cran.r-project.org/web/packages/Taxonstand/index.html))
 
+Un esquema de la validación: 
+![Sin titulo](/8_figures/schema_taxonomia.png)
+ 
 ##### Obtener el numero de registros por entidad taxonomica y año 
 * Se trata de analizar los taxones por year. Esto nos sirve para ver que taxones se han visto mas y aquellos que son raros. 
 * Hemos creado un script en `./3_scripts/r/gbif_borreguiles_004_observ_taxon_year.R` ([enlace](https://github.com/ajpelu/BorreguilesDP/blob/master/3_scripts/r/gbif_borreguiles_004_observ_taxon_year.md))
 * La lista de taxones (95 taxones, 04/11/2014) está en: `./2_diccionarios/taxones_year.csv` 
  
-https://ide.ugr.es/owncloud/public.php?service=files&t=b6fef0b03c01b8eaa78e657c48422f8d
+
 
 #### Spatial Coverage 
 ##### UTM 
