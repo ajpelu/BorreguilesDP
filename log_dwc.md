@@ -58,7 +58,7 @@ Creamos varias consultas sobre la BD_obsnev (la que está en linaria) para poder
 * Hemos creado un script en `./3_scripts/r/gbif_borreguiles_004_observ_taxon_year.R` ([enlace](https://github.com/ajpelu/BorreguilesDP/blob/master/3_scripts/r/gbif_borreguiles_004_observ_taxon_year.md))
 * La lista de taxones (95 taxones, 04/11/2014) está en: `./2_diccionarios/taxones_year.csv` 
  
-jaja 
+jajajaja
 
 #### Spatial Coverage 
 ##### UTM 
