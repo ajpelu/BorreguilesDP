@@ -1,95 +1,1 @@
-Agrostis;12060,00
-Agrostis canina subsp. granatensis;12061,00
-Agrostis nevadensis;12074,00
-Anthericum baeticum;12412,00
-Arenaria serpyllifolia;6459,00
-Arenaria tetraquetra;6461,00
-Boraginaceae;1860,00
-Botrychium lunaria;103346,00
-Bromus;12160,00
-Campanula herminii;10176,00
-Carex;11634,00
-Carex capillaris;106346,00
-Carex caryophyllea;11641,00
-Carex echinata;104418,00
-Carex lepidocarpa;11673,00
-Carex leporina;11674,00
-Carex nevadensis;11680,00
-Carex nigra;11681,00
-Cerastium;6518,00
-Cerastium alpinum subsp. aquaticum;6520,00
-Cerastium cerastoides;6532,00
-Cirsium acaule subsp. gregarium;11032,00
-Dactylis glomerata subsp. juncinella;11879,00
-Draba lutescens;7443,00
-Eleocharis quinqueflora;11597,00
-Epilobium;8586,00
-Erophila verna;7446,00
-Eryngium;8910,00
-Eryngium glaciale;8919,00
-Euphrasia willkommii;104449,00
-Festuca;11740,00
-Festuca frigida;11764,00
-Festuca iberica;11772,00
-Gagea;12455,00
-Galium;10252,00
-Galium nevadense;10277,00
-Gentiana;9233,00
-Gentiana alpina;9234,00
-Gentiana boryi;9235,00
-Gentiana pneumonanthe subsp. depressa;104837,00
-Gentiana sierrae;9240,00
-Gentianella tenella;104838,00
-Herniaria boissieri;29541,00
-Juncus;11510,00
-Juncus articulatus;11518,00
-Juncus bufonius;11519,00
-Juncus effusus;11525,00
-Juniperus communis;5741,00
-Linaria aeruginea subsp. nevadensis;9943,00
-Lotus corniculatus subsp. glacialis;106378,00
-Luzula;11555,00
-Luzula campestris;11557,00
-Luzula spicata;11561,00
-Meum athamanticum;27774,00
-Montia fontana;6323,00
-Myosotis minutiflora;9454,00
-Nardus stricta;29746,00
-Parnassia palustris;29748,00
-Paronychia polygonifolia;6349,00
-Phleum brachystachyum subsp. abbreviatum;104846,00
-Pinguicula nevadensis;10164,00
-Plantago nivalis;9819,00
-Poa;11710,00
-Poa bulbosa;11713,00
-Poa supina;11723,00
-Poaceae;1911,00
-Potentilla nevadensis;7679,00
-Radiola linoides;8776,00
-Ranunculus;5820,00
-Ranunculus acetosellifolius;5821,00
-Ranunculus angustifolius var. uniflorus;5825,00
-Ranunculus demissus;5838,00
-Rumex;6773,00
-Sagina saginoides;6567,00
-Scorzoneroides;113237,00
-Scorzoneroides microcephala;10889,00
-Scorzoneroides nevadensis;10884,00
-Sedum;29514,00
-Sedum amplexicaule;29515,00
-Sedum brevifolium;17845,00
-Silene rupestris;6650,00
-Spergularia rubra;6406,00
-Stellaria alsine;6506,00
-Thlaspi nevadense;7486,00
-Trifolium;8015,00
-Trifolium pratense;8048,00
-Trifolium repens;8049,00
-Vaccinium uliginosum;27778,00
-Veronica;10070,00
-Veronica arvensis;10074,00
-Veronica nevadensis;106603,00
-Viola;7170,00
-Viola crassiuscula;7181,00
-Viola palustris;7189,00
-Viola parvula;7190,00
+TAXON	COD_TAXONAgrostis	12060Agrostis canina subsp. granatensis	12061Agrostis nevadensis	12074Anthericum baeticum	12412Arenaria serpyllifolia	6459Arenaria tetraquetra	6461Boraginaceae	1860Botrychium lunaria	103346Bromus	12160Campanula herminii	10176Carex	11634Carex capillaris	106346Carex caryophyllea	11641Carex echinata	104418Carex lepidocarpa	11673Carex leporina	11674Carex nevadensis	11680Carex nigra	11681Cerastium	6518Cerastium alpinum subsp. aquaticum	6520Cerastium cerastoides	6532Cirsium acaule subsp. gregarium	11032Dactylis glomerata subsp. juncinella	11879Draba lutescens	7443Eleocharis quinqueflora	11597Epilobium	8586Erophila verna	7446Eryngium	8910Eryngium glaciale	8919Euphrasia willkommii	104449Festuca	11740Festuca frigida	11764Festuca iberica	11772Gagea	12455Galium	10252Galium nevadense	10277Gentiana	9233Gentiana alpina	9234Gentiana boryi	9235Gentiana pneumonanthe subsp. depressa	104837Gentiana sierrae	9240Gentianella tenella	104838Herniaria boissieri	29541Juncus	11510Juncus articulatus	11518Juncus bufonius	11519Juncus effusus	11525Juniperus communis	5741Linaria aeruginea subsp. nevadensis	9943Lotus corniculatus subsp. glacialis	106378Luzula	11555Luzula campestris	11557Luzula spicata	11561Meum athamanticum	27774Montia fontana	6323Myosotis minutiflora	9454Nardus stricta	29746Parnassia palustris	29748Paronychia polygonifolia	6349Phleum brachystachyum subsp. abbreviatum	104846Pinguicula nevadensis	10164Plantago nivalis	9819Poa	11710Poa bulbosa	11713Poa supina	11723Poaceae	1911Potentilla nevadensis	7679Radiola linoides	8776Ranunculus	5820Ranunculus acetosellifolius	5821Ranunculus angustifolius var. uniflorus	5825Ranunculus demissus	5838Rumex	6773Sagina saginoides	6567Scorzoneroides	113237Scorzoneroides microcephala	10889Scorzoneroides nevadensis	10884Sedum	29514Sedum amplexicaule	29515Sedum brevifolium	17845Silene rupestris	6650Spergularia rubra	6406Stellaria alsine	6506Thlaspi nevadense	7486Trifolium	8015Trifolium pratense	8048Trifolium repens	8049Vaccinium uliginosum	27778Veronica	10070Veronica arvensis	10074Veronica nevadensis	106603Viola	7170Viola crassiuscula	7181Viola palustris	7189Viola parvula	7190
