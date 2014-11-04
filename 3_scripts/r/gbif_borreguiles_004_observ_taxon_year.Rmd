@@ -1,0 +1,81 @@
+---
+title: "Get records by year and taxon (data_paper borreguiles)"
+author: "Antonio J. Perez-Luque (@ajpelu)"
+date: "Sep 2014"
+output:
+  html_document:
+    theme: united
+    highlight: pygments
+  md_document:
+    variant: markdown_github
+---
+#### Goals 
+This scripts creates a table with the number of records by taxon and year in the Borreguiles dataset 
+
+```{r someMetadata, eval=FALSE}
+# -----------------------------------------------------------
+#############################################################################
+#### SCRIPT: gbif_borreguiles_004_observ_taxon_year.R                    ####
+#### VERSION: 2                                                          ####
+#### FECHA: 04/11/2014                                                   ####
+#### AUTOR: ajperez@ugr.es                                               ####
+#############################################################################
+# -----------------------------------------------------------
+```
+
+```{r packages, warning=FALSE, message=FALSE, eval=FALSE} 
+# -----------------------------------------------------------
+# load library
+library('lubridate')
+library('reshape2')
+
+# -----------------------------------------------------------
+```
+
+
+```{r directory}
+# -----------------------------------------------------------
+## Directorio 
+di <- '/Users/ajpelu/Dropbox/MS/MS_DP_Borreguiles/git/BorreguilesDP'
+
+# read file
+mydata <- read.table(file=paste(di, '/2_diccionarios/gbif2014_c2.txt', sep=''), header=TRUE, sep='\t')
+# Ojo revisar el campo fecha este en formato dd/mm/yyyy 
+# -----------------------------------------------------------
+```
+
+Now we need to extract the year from date field.  
+
+```{r prepareData}
+#--------------------------------------------------------------------
+# Extract year 
+mydata$date <- as.Date(mydata$FECHA, "%d/%m/%Y")
+mydata$year <- year(mydata$date)
+#--------------------------------------------------------------------
+```
+
+Then we aggregate the data of each taxon to get the counts of each taxon in each year. We get a table with three fields: taxon, year and count. 
+```{r aggregate}
+# -----------------------------------------------------------
+# Aggregate by year and taxon. Number of records by taxon and year 
+aux <- aggregate(mydata$TAXON, by=list(mydata$TAXON, mydata$year),FUN='length')
+names(aux) <- c('TAXON', 'year', 'count')
+```
+
+Now we transform the output table. We want a column (field) by each sampling year. We use the function `dcast` from `lubridate` [package](http://cran.r-project.org/web/packages/lubridate/index.html). We also replace the NAs values with ''. 
+
+```{r agrregatebyyear}
+#--------------------------------------------------------------------
+aux2 <- dcast(aux, TAXON ~ year , value.var = 'count' )
+aux2[is.na(aux2)] <- ''
+aux2  
+#--------------------------------------------------------------------
+```
+
+
+```{r exportResults}
+# -----------------------------------------------------------
+### EXPORTAR DATOS
+write.csv(aux2, file=paste(di, '/2_diccionarios/taxones_year.csv', sep=''), row.names=FALSE)
+# -----------------------------------------------------------
+```

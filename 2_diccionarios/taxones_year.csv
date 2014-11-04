@@ -1,105 +1,96 @@
 "TAXON","1988","1989","1990","2009","2010","2011","2012","2013"
-"Abies",NA,NA,3,NA,NA,NA,NA,NA
-"Agrostis",NA,NA,NA,NA,9,6,3,1
-"Agrostis canina subsp. granatensis",NA,NA,NA,34,115,18,17,24
-"Agrostis nevadensis",NA,NA,NA,NA,3,110,88,60
-"Anthericum baeticum",NA,NA,NA,1,1,1,1,1
-"Arenaria serpyllifolia",NA,NA,NA,4,7,3,NA,1
-"Arenaria tetraquetra",NA,NA,NA,2,4,6,7,7
-"Boraginaceae",NA,NA,NA,NA,NA,NA,NA,1
-"Botrychium lunaria",NA,NA,NA,6,21,10,11,15
-"Bromus",NA,NA,NA,NA,NA,NA,NA,2
-"Campanula herminii",NA,NA,NA,2,12,12,6,9
-"Carex",36,1,1,7,22,1,6,27
-"Carex capillaris",NA,NA,NA,3,20,9,14,3
-"Carex caryophyllea",NA,8,3,1,70,49,36,25
-"Carex echinata",NA,NA,NA,4,53,80,48,63
-"Carex lepidocarpa",NA,NA,NA,NA,NA,NA,1,2
-"Carex leporina",NA,NA,NA,1,NA,5,1,8
-"Carex nevadensis",15,7,8,9,120,131,92,100
-"Carex nigra",37,15,16,25,167,162,159,153
-"Cerastium",NA,NA,NA,1,9,1,NA,NA
-"Cerastium alpinum subsp. aquaticum",NA,NA,NA,4,30,16,4,11
-"Cerastium cerastoides",NA,NA,NA,NA,10,15,9,14
-"Cirsium acaule subsp. gregarium",NA,NA,NA,NA,NA,NA,1,NA
-"Dactylis glomerata subsp. juncinella",NA,NA,NA,NA,NA,NA,NA,2
-"Draba lutescens",NA,NA,NA,NA,NA,NA,1,NA
-"Eleocharis quinqueflora",24,9,3,19,114,118,95,118
-"Epilobium",NA,NA,NA,NA,1,NA,NA,NA
-"Erophila verna",NA,NA,NA,NA,NA,NA,NA,1
-"Eryngium",NA,NA,NA,1,NA,1,NA,3
-"Eryngium glaciale",NA,NA,NA,NA,5,6,6,4
-"Euphrasia willkommii",36,61,54,70,118,117,118,138
-"Festuca",NA,NA,NA,1,7,7,1,5
-"Festuca frigida",NA,NA,NA,NA,NA,3,1,NA
-"Festuca iberica",NA,NA,NA,52,165,123,78,73
-"Festuca longiauriculata",NA,NA,NA,NA,8,NA,NA,NA
-"Festuca nevadensis",NA,NA,NA,NA,1,NA,NA,NA
-"Gagea",NA,NA,NA,NA,NA,1,2,5
-"Galium",NA,NA,NA,2,7,4,5,4
-"Galium nevadense",NA,NA,NA,3,NA,NA,NA,NA
-"Gentiana",NA,NA,NA,NA,4,3,2,5
-"Gentiana alpina",NA,NA,NA,NA,7,10,9,14
-"Gentiana boryi",31,32,24,22,70,64,72,92
-"Gentiana pneumonanthe subsp. depressa",4,9,9,10,61,42,36,56
-"Gentiana sierrae",25,12,12,9,85,54,44,39
-"Gentianella tenella",NA,NA,NA,NA,1,1,NA,NA
-"Herniaria boissieri",NA,NA,NA,1,4,5,7,5
-"Juncus",NA,NA,NA,NA,4,1,NA,1
-"Juncus articulatus",NA,NA,NA,3,45,34,26,48
-"Juncus bufonius",NA,NA,NA,3,16,8,2,28
-"Juncus effusus",NA,NA,NA,1,NA,NA,NA,NA
-"Juniperus communis",NA,NA,NA,NA,NA,NA,NA,2
-"Linaria aeruginea subsp. nevadensis",NA,NA,NA,1,3,3,2,1
-"Lotus",NA,NA,NA,NA,NA,NA,NA,4
-"Lotus corniculatus subsp. glacialis",38,16,15,67,146,109,96,110
-"Lotus glareosus",NA,NA,NA,NA,NA,NA,NA,3
-"Luzula",8,11,7,4,NA,NA,5,3
-"Luzula campestris",NA,NA,NA,2,54,27,9,20
-"Luzula campestris subsp. nevadensis",NA,NA,NA,NA,3,NA,1,NA
-"Luzula spicata",NA,NA,NA,1,9,2,5,6
-"Meum athamanticum",NA,NA,NA,1,1,1,2,NA
-"Montia fontana",NA,NA,NA,NA,6,NA,1,3
-"Myosotis minutiflora",NA,NA,NA,NA,NA,1,NA,7
-"Nardus stricta",44,41,29,92,241,189,169,225
-"Parnassia palustris",10,17,13,21,47,39,34,28
-"Paronychia",NA,NA,NA,NA,2,2,NA,NA
-"Paronychia polygonifolia",NA,NA,NA,2,8,10,7,18
-"Phleum brachystachyum subsp. abbreviatum",NA,NA,NA,9,21,17,12,7
-"Pilosella",NA,NA,NA,NA,NA,NA,NA,1
-"Pinguicula nevadensis",32,22,26,11,42,45,41,44
-"Plantago nivalis",8,3,3,12,92,72,59,72
-"Poa",NA,NA,NA,NA,4,2,2,4
-"Poa supina",NA,NA,NA,NA,NA,1,NA,NA
-"Poaceae",21,NA,NA,1,NA,NA,NA,NA
-"Potentilla nevadensis",NA,NA,NA,1,2,NA,NA,NA
-"Radiola linoides",NA,NA,NA,NA,NA,3,3,5
-"Ranunculus",NA,NA,NA,1,1,7,5,NA
-"Ranunculus acetosellifolius",3,NA,1,1,10,12,4,7
-"Ranunculus angustifolius var. uniflorus",15,13,8,5,61,56,51,78
-"Ranunculus demissus",11,3,3,12,23,10,11,48
-"Rumex",NA,NA,NA,NA,NA,NA,NA,2
-"Sagina saginoides",NA,NA,NA,6,59,34,5,27
-"Scorzoneroides",40,25,37,88,160,66,72,97
-"Scorzoneroides microcephala",NA,NA,NA,3,31,66,46,58
-"Scorzoneroides nevadensis",NA,NA,NA,6,42,43,33,77
-"Sedum",NA,NA,NA,NA,1,NA,9,5
-"Sedum amplexicaule",NA,NA,NA,NA,NA,NA,NA,1
-"Sedum brevifolium",NA,NA,NA,NA,NA,NA,1,NA
-"Silene rupestris",NA,NA,NA,1,11,7,4,3
-"Spergularia",NA,NA,NA,NA,3,NA,NA,NA
-"Spergularia rubra",NA,NA,NA,2,5,NA,NA,7
-"Stellaria alsine",NA,NA,NA,NA,1,1,NA,1
-"Thlaspi nevadense",NA,NA,NA,NA,NA,NA,NA,1
-"Trifolium",2,NA,NA,NA,NA,NA,1,2
-"Trifolium pratense",13,20,13,26,82,51,26,47
-"Trifolium repens",8,9,4,30,82,53,49,68
-"Vaccinium uliginosum",8,2,3,1,13,24,22,30
-"Veronica",NA,NA,NA,2,1,3,NA,1
-"Veronica arvensis",NA,NA,NA,NA,NA,1,NA,6
-"Veronica nevadensis",NA,NA,NA,NA,NA,1,NA,7
-"Veronica turbicola",NA,NA,NA,3,23,18,5,1
-"Viola",NA,NA,NA,NA,3,NA,NA,NA
-"Viola crassiuscula",NA,NA,NA,NA,1,NA,NA,1
-"Viola palustris",34,17,19,8,23,22,31,25
-"Viola parvula",NA,NA,NA,NA,NA,NA,NA,5
+"Agrostis","","","","","9","6","3","1"
+"Agrostis canina subsp. granatensis","","","","34","115","18","17","24"
+"Agrostis nevadensis","","","","","3","110","88","60"
+"Anthericum baeticum","","","","1","1","1","1","1"
+"Arenaria serpyllifolia","","","","4","7","3","","1"
+"Arenaria tetraquetra","","","","2","4","6","7","7"
+"Boraginaceae","","","","","","","","1"
+"Botrychium lunaria","","","","6","21","10","11","15"
+"Bromus","","","","","","","","2"
+"Campanula herminii","","","","2","12","12","6","9"
+"Carex","36","1","1","7","22","1","6","27"
+"Carex capillaris","","","","3","20","9","14","3"
+"Carex caryophyllea","","8","3","1","70","49","36","25"
+"Carex echinata","","","","4","53","80","48","63"
+"Carex lepidocarpa","","","","","","","1","2"
+"Carex leporina","","","","1","","5","1","8"
+"Carex nevadensis","15","7","8","9","120","131","92","100"
+"Carex nigra","37","15","16","25","167","162","159","153"
+"Cerastium","","","","1","5","1","",""
+"Cerastium alpinum subsp. aquaticum","","","","4","32","16","4","11"
+"Cerastium cerastoides","","","","","12","15","9","14"
+"Cirsium acaule subsp. gregarium","","","","","","","1",""
+"Dactylis glomerata subsp. juncinella","","","","","","","","2"
+"Draba lutescens","","","","","","","1",""
+"Eleocharis quinqueflora","24","9","3","19","114","118","95","118"
+"Epilobium","","","","","1","","",""
+"Erophila verna","","","","","","","","1"
+"Eryngium","","","","1","","1","","3"
+"Eryngium glaciale","","","","","5","6","6","4"
+"Euphrasia willkommii","36","61","54","70","118","117","118","138"
+"Festuca","","","","1","16","7","1","5"
+"Festuca frigida","","","","","","3","1",""
+"Festuca iberica","","","","52","165","123","78","73"
+"Gagea","","","","","","1","2","5"
+"Galium","","","","2","7","5","5","4"
+"Galium nevadense","","","","3","","","",""
+"Gentiana","","","","","4","3","2","5"
+"Gentiana alpina","","","","","7","10","9","14"
+"Gentiana boryi","31","32","24","22","70","64","72","92"
+"Gentiana pneumonanthe subsp. depressa","4","9","9","10","61","42","36","56"
+"Gentiana sierrae","25","12","12","9","85","54","44","39"
+"Gentianella tenella","","","","","1","1","",""
+"Herniaria boissieri","","","","1","4","5","7","5"
+"Juncus","","","","","4","1","","1"
+"Juncus articulatus","","","","3","45","34","26","48"
+"Juncus bufonius","","","","3","16","8","2","28"
+"Juncus effusus","","","","1","","","",""
+"Juniperus communis","","","","","","","","2"
+"Linaria aeruginea subsp. nevadensis","","","","1","3","3","2","1"
+"Lotus corniculatus subsp. glacialis","38","16","15","67","146","109","96","117"
+"Luzula","8","11","7","4","","","1","1"
+"Luzula campestris","","","","2","58","27","15","24"
+"Luzula spicata","","","","1","8","2","4","4"
+"Meum athamanticum","","","","1","1","1","2",""
+"Montia fontana","","","","","6","","1","3"
+"Myosotis minutiflora","","","","","","1","","7"
+"Nardus stricta","44","41","29","92","241","189","169","225"
+"Parnassia palustris","10","17","13","21","47","39","34","28"
+"Paronychia polygonifolia","","","","2","10","12","7","18"
+"Phleum brachystachyum subsp. abbreviatum","","","","9","21","17","12","7"
+"Pinguicula nevadensis","32","22","26","11","42","45","41","44"
+"Plantago nivalis","8","3","3","12","92","72","59","72"
+"Poa","","","","","4","2","2","4"
+"Poa bulbosa","","","","","1","","",""
+"Poa supina","","","","","","1","",""
+"Poaceae","21","","","1","","","",""
+"Potentilla nevadensis","","","","1","2","","",""
+"Radiola linoides","","","","","","3","3","5"
+"Ranunculus","","","","1","1","7","5",""
+"Ranunculus acetosellifolius","3","","1","1","10","12","4","7"
+"Ranunculus angustifolius var. uniflorus","15","13","8","5","61","56","51","78"
+"Ranunculus demissus","11","3","3","12","23","10","11","48"
+"Rumex","","","","","","","","2"
+"Sagina saginoides","","","","6","59","34","5","27"
+"Scorzoneroides","40","25","37","88","160","66","72","97"
+"Scorzoneroides microcephala","","","","3","31","66","46","58"
+"Scorzoneroides nevadensis","","","","6","42","43","33","77"
+"Sedum","","","","","1","","9","5"
+"Sedum amplexicaule","","","","","","","","1"
+"Sedum brevifolium","","","","","","","1",""
+"Silene rupestris","","","","1","11","7","4","3"
+"Spergularia rubra","","","","2","8","","","7"
+"Stellaria alsine","","","","","1","1","","1"
+"Thlaspi nevadense","","","","","","","","1"
+"Trifolium","2","","","","","","1","2"
+"Trifolium pratense","13","20","13","26","82","51","26","47"
+"Trifolium repens","8","9","4","30","82","53","49","68"
+"Vaccinium uliginosum","8","2","3","1","13","24","22","30"
+"Veronica","","","","2","1","3","","1"
+"Veronica arvensis","","","","","","1","","6"
+"Veronica nevadensis","","","","3","23","19","5","8"
+"Viola","","","","","3","","",""
+"Viola crassiuscula","","","","","1","","","1"
+"Viola palustris","34","17","19","8","23","22","31","25"
+"Viola parvula","","","","","","","","5"
