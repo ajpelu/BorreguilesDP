@@ -52,7 +52,7 @@ if (window.hljs && document.readyState && document.readyState === "complete") {
 
 
 
-<p>title: “Taxonomia (data_paper borreguiles)” author: “Antonio J. Perez-Luque (<span class="citation">@ajpelu</span>)” date: “Sep 2014” output: md_document: variant: markdown_github —</p>
+<p>title: “Taxonomia (data_paper borreguiles)” author: “Antonio J. Perez-Luque (<span class="citation">@ajpelu</span>)” date: “Sep 2014” output: html_document: theme: united highlight: pygments md_document: variant: markdown_github —</p>
 <pre class="r"><code>## Directorio 
 di &lt;- '/Users/ajpelu/Dropbox/MS/MS_DP_Borreguiles/git/BorreguilesDP'</code></pre>
 <pre class="r"><code>########### LECTURA DATOS ###############
@@ -861,8 +861,10 @@ noestaSP</code></pre>
 ## [5] &quot;Scorzoneroides nevadensis&quot;</code></pre>
 <pre class="r"><code>### QUE OCURRE CON ESTOS TAXONES
 # No aparecen ni en el txt ni en la mdb de SPECIES2000, pero si en ipni, en TPL
-require(Taxonstand)
-cne &lt;- TPL(genus='Carex', species='nevadensis', infra=FALSE, corr=TRUE)</code></pre>
+require(Taxonstand)</code></pre>
+<pre><code>## Loading required package: Taxonstand</code></pre>
+<pre><code>## Warning: package 'Taxonstand' was built under R version 3.1.1</code></pre>
+<pre class="r"><code>cne &lt;- TPL(genus='Carex', species='nevadensis', infra=FALSE, corr=TRUE)</code></pre>
 <pre><code>## [1] &quot;0 substitutions of standard annotations in specific epithet&quot;</code></pre>
 <pre class="r"><code>cni &lt;- TPL(genus='Carex', species='nigra', infra=FALSE, corr=TRUE)</code></pre>
 <pre><code>## [1] &quot;0 substitutions of standard annotations in specific epithet&quot;</code></pre>

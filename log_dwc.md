@@ -61,7 +61,7 @@ A continuacion ejecutamos el script `./3_scripts/r/gbif_borreguiles_002_taxonomi
 * Creamos dataframes de generos, especies e infraespecies. Para cada dataframe consultamos la base de datos Species2000 y obtenemos los nombres completos de los taxones. También hacemos uso de los paquetes `taxize` ([Chamberlian and Szocs 2013](http://cran.r-project.org/web/packages/taxize/index.html)) y Taxonstand ([Cayuela and Oksanen 2014](http://cran.r-project.org/web/packages/Taxonstand/index.html))
 
 Un esquema de la validación: 
-![Sin titulo](/8_figures/schema_taxonomia.png)
+![Sin titulo](./8_figures/schemas/schema_taxonomia.png)
  
 ##### Obtener el numero de registros por entidad taxonomica y año 
 * Se trata de analizar los taxones por year. Esto nos sirve para ver que taxones se han visto mas y aquellos que son raros. 
