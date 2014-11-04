@@ -41,7 +41,7 @@ for (i in 1:nrow(taxones)){
 ########### GENEROS ############
 ## SELECCIONAR AQUELLOS REGISTROS QUE SON SOLO GENEROS ##
 taxonesG <- subset(taxones, is.na(taxones$species))
-# me salen 27 registros
+# me salen 22 registros
 
 # Unir taxonesG con species2000
 generos <- merge(taxonesG, species2000, by.x='genus', by.y='genus')
@@ -52,14 +52,14 @@ generos.unique <- generos[!duplicated(generos$genus),]
 generos.unique <- generos.unique[c('genus','TAXON','COD_TAXON','kingdom','phylum','class','order','family')]
 
 # Tenemos que a??adir el campo de autoria de genero. Hemos buscado en IPNI
-gen.autores <- data.frame(genus=c("Abies", "Agrostis", "Bromus", "Carex", "Cerastium", "Epilobium", 
+gen.autores <- data.frame(genus=c("Agrostis", "Bromus", "Carex", "Cerastium", "Epilobium", 
                         "Eryngium", "Festuca", "Gagea", "Galium", "Gentiana", "Juncus", 
-                        "Lotus", "Luzula", "Paronychia", "Poa", "Ranunculus", "Rumex", 
-                        "Sedum", "Spergularia", "Trifolium", "Veronica", "Viola"),
-                author=c('Mill.','L.','L.','L.','L.','L.',
+                        "Luzula", "Poa", "Ranunculus", "Rumex", 
+                        "Sedum", "Trifolium", "Veronica", "Viola"),
+                author=c('L.','L.','L.','L.','L.',
                          'L.','L.','Salisb.','L.','L.','L.',
-                         'L.','DC.','Mill.','L.','L.','L.',
-                         'L','(Pers.) J. Presl & C. Presl', 'L.','L.','L.'))
+                         'DC.','L.','L.','L.',
+                         'L', 'L.','L.','L.'))
 
 generos.unique <- merge(generos.unique, gen.autores, by='genus')
 
@@ -83,7 +83,7 @@ species.unique <- species.unique[!duplicated(species.unique$scientific_name),]
 
 # Como existen varios registros por especie, selecciono aquellos infraspecies_marker=='spec.'
 species.unique <- species.unique[species.unique$infraspecies_marker=='spec.',]
-# OJO --- TENEMOS UNA LISTA DE 106 registros, que en verdad son nombres de la misma planta, que hacemos?? --> agregar
+# OJO --- TENEMOS UNA LISTA DE 104 registros, que en verdad son nombres de la misma planta, que hacemos?? --> agregar
 species.unique <-species.unique[!duplicated(species.unique$COD_TAXON), ] 
 
 # ver que species de los taxonesBorreguiles no esta en esta lista
@@ -191,35 +191,35 @@ sp.excep <- rbind(cneC,cniC,hbC,smC,snC)
 
 # Ahora a??ado la subsp que no esta. 
 # Luzula campestris subsp. nevadensis
-Lcn <- data.frame(scientific_name='Luzula campestris subsp. nevadensis P. Monts', 
-                  kingdom='Plantae', 
-                  phylum='Magnoliophyta', 
-                  class='Liliopsida', 
-                  order='Poales', 
-                  family='Juncaceae', genus='Luzula', species='campestris', 
-                  infraspecies='nevadensis', author='P. Monts', 
-                  TAXON=noestaSub,
-                  COD_TAXON=taxones[taxones$TAXON=='Luzula campestris subsp. nevadensis',]$COD_TAXON)
-
-scorzo <- data.frame(scientific_name='Scorzoneroides Moench', 
-                  kingdom='Plantae', 
-                  phylum='Magnoliophyta', 
-                  class='Magnoliopsida', 
-                  order='Asterales', 
-                  family='Asteraceae', genus='Scorzoneroides', species=NA, 
-                  infraspecies=NA, author='Moench', 
-                  TAXON='Scorzoneroides',
-                  COD_TAXON=taxones[taxones$TAXON=='Scorzoneroides',]$COD_TAXON)
-
-pilose <- data.frame(scientific_name='Pilosella Hill', 
-                     kingdom='Plantae', 
-                     phylum='Magnoliophyta', 
-                     class='Magnoliopsida', 
-                     order='Asterales', 
-                     family='Asteraceae', genus='Pilosella', species=NA, 
-                     infraspecies=NA, author='Hill', 
-                     TAXON='Pilosella',
-                     COD_TAXON=taxones[taxones$TAXON=='Pilosella',]$COD_TAXON)
+# Lcn <- data.frame(scientific_name='Luzula campestris subsp. nevadensis P. Monts', 
+#                   kingdom='Plantae', 
+#                   phylum='Magnoliophyta', 
+#                   class='Liliopsida', 
+#                   order='Poales', 
+#                   family='Juncaceae', genus='Luzula', species='campestris', 
+#                   infraspecies='nevadensis', author='P. Monts', 
+#                   TAXON=noestaSub,
+#                   COD_TAXON=taxones[taxones$TAXON=='Luzula campestris subsp. nevadensis',]$COD_TAXON)
+# 
+# scorzo <- data.frame(scientific_name='Scorzoneroides Moench', 
+#                   kingdom='Plantae', 
+#                   phylum='Magnoliophyta', 
+#                   class='Magnoliopsida', 
+#                   order='Asterales', 
+#                   family='Asteraceae', genus='Scorzoneroides', species=NA, 
+#                   infraspecies=NA, author='Moench', 
+#                   TAXON='Scorzoneroides',
+#                   COD_TAXON=taxones[taxones$TAXON=='Scorzoneroides',]$COD_TAXON)
+# 
+# pilose <- data.frame(scientific_name='Pilosella Hill', 
+#                      kingdom='Plantae', 
+#                      phylum='Magnoliophyta', 
+#                      class='Magnoliopsida', 
+#                      order='Asterales', 
+#                      family='Asteraceae', genus='Pilosella', species=NA, 
+#                      infraspecies=NA, author='Hill', 
+#                      TAXON='Pilosella',
+#                      COD_TAXON=taxones[taxones$TAXON=='Pilosella',]$COD_TAXON)
 
 borag <- data.frame(scientific_name='Boraginaceae Juss.', 
                      kingdom='Plantae', 
@@ -243,7 +243,7 @@ poaceae <- data.frame(scientific_name='Poaceae Barnhart',
 
 
 
-excepciones <- rbind(sp.excep, Lcn, scorzo, pilose, borag, poaceae)
+excepciones <- rbind(sp.excep, borag, poaceae)
 
 
 ## Ahora uno las excepciones a los taxones
@@ -253,5 +253,5 @@ tax <- rbind(union, excepciones)
 # Ojo modificar los generos una vez exportada y quitar los NA una vez exportados 
 
 # EXPORTAR
-write.table(tax, file=paste(di,"2_DICCIONARIOS/TAXONES_GBIF2013_completos.txt", sep=""), sep=";", row.names=FALSE)
+write.table(tax, file=paste(di,"/2_diccionarios/TAXONES_GBIF2014_completos.txt", sep=""), sep=";", row.names=FALSE)
 

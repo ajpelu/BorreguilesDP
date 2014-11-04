@@ -1,10 +1,16 @@
-Analisis Taxonomia DP Borreguiles
-========================================================
+title: "Taxonomia (data_paper borreguiles)"
+author: "Antonio J. Perez-Luque (@ajpelu)"
+date: "Sep 2014"
+output:
+  html_document:
+    theme: united
+    highlight: pygments
+  md_document:
+    variant: markdown_github
 
 ```{r directorio}
 ## Directorio 
 di <- '/Users/ajpelu/Dropbox/MS/MS_DP_Borreguiles/git/BorreguilesDP'
-
 ```
 
 ```{r loadData}
@@ -67,14 +73,14 @@ generos.unique <- generos.unique[c('genus','TAXON','COD_TAXON','kingdom','phylum
 generos.unique
 
 # Tenemos que a??adir el campo de autoria de genero. Hemos buscado en IPNI
-gen.autores <- data.frame(genus=c("Abies", "Agrostis", "Bromus", "Carex", "Cerastium","Epilobium", 
+gen.autores <- data.frame(genus=c("Agrostis", "Bromus", "Carex", "Cerastium", "Epilobium", 
                         "Eryngium", "Festuca", "Gagea", "Galium", "Gentiana", "Juncus", 
-                        "Lotus", "Luzula", "Paronychia", "Poa", "Ranunculus", "Rumex", 
-                        "Sedum", "Spergularia", "Trifolium", "Veronica", "Viola"),
-                author=c('Mill.','L.','L.','L.','L.','L.',
+                        "Luzula", "Poa", "Ranunculus", "Rumex", 
+                        "Sedum", "Trifolium", "Veronica", "Viola"),
+                author=c('L.','L.','L.','L.','L.',
                          'L.','L.','Salisb.','L.','L.','L.',
-                         'L.','DC.','Mill.','L.','L.','L.',
-                         'L','(Pers.) J. Presl & C. Presl', 'L.','L.','L.'))
+                         'DC.','L.','L.','L.',
+                         'L', 'L.','L.','L.'))
 
 generos.unique <- merge(generos.unique, gen.autores, by='genus')
 generos.unique 
@@ -224,37 +230,6 @@ snC <- data.frame(scientific_name=paste(paste(sn$Genus,sn$Species, sp=''), sn$Au
 
 sp.excep <- rbind(cneC,cniC,hbC,smC,snC)
 
-# Ahora a??ado la subsp que no esta. 
-# Luzula campestris subsp. nevadensis
-Lcn <- data.frame(scientific_name='Luzula campestris subsp. nevadensis P. Monts', 
-                  kingdom='Plantae', 
-                  phylum='Magnoliophyta', 
-                  class='Liliopsida', 
-                  order='Poales', 
-                  family='Juncaceae', genus='Luzula', species='campestris', 
-                  infraspecies='nevadensis', author='P. Monts', 
-                  TAXON=noestaSub,
-                  COD_TAXON=taxones[taxones$TAXON=='Luzula campestris subsp. nevadensis',]$COD_TAXON)
-
-scorzo <- data.frame(scientific_name='Scorzoneroides Moench', 
-                  kingdom='Plantae', 
-                  phylum='Magnoliophyta', 
-                  class='Magnoliopsida', 
-                  order='Asterales', 
-                  family='Asteraceae', genus='Scorzoneroides', species=NA, 
-                  infraspecies=NA, author='Moench', 
-                  TAXON='Scorzoneroides',
-                  COD_TAXON=taxones[taxones$TAXON=='Scorzoneroides',]$COD_TAXON)
-
-pilose <- data.frame(scientific_name='Pilosella Hill', 
-                     kingdom='Plantae', 
-                     phylum='Magnoliophyta', 
-                     class='Magnoliopsida', 
-                     order='Asterales', 
-                     family='Asteraceae', genus='Pilosella', species=NA, 
-                     infraspecies=NA, author='Hill', 
-                     TAXON='Pilosella',
-                     COD_TAXON=taxones[taxones$TAXON=='Pilosella',]$COD_TAXON)
 
 borag <- data.frame(scientific_name='Boraginaceae Juss.', 
                      kingdom='Plantae', 
@@ -278,7 +253,7 @@ poaceae <- data.frame(scientific_name='Poaceae Barnhart',
 
 
 
-excepciones <- rbind(sp.excep, Lcn, scorzo, pilose, borag, poaceae)
+excepciones <- rbind(sp.excep, borag, poaceae)
 
 
 ## Ahora uno las excepciones a los taxones
@@ -292,5 +267,5 @@ nrow(tax)
 # Ojo modificar los generos una vez exportada y quitar los NA una vez exportados 
 
 # EXPORTAR
-write.table(tax, file=paste(di,"2_DICCIONARIOS/TAXONES_GBIF2013_completos.txt", sep=""), sep=";", row.names=FALSE)
+write.table(tax, file=paste(di,"/2_diccionarios/TAXONES_GBIF2014_completos.txt", sep=""), sep=";", row.names=FALSE)
 ```
