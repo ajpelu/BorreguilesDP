@@ -10,14 +10,15 @@ di <- '/Users/ajpelu/Dropbox/MS/MS_DP_Borreguiles/git/BorreguilesDP'
 ```{r loadData}
 ########### LECTURA DATOS ###############
 ## Leer datos de todos los taxones
-taxones <- read.table(file=paste(di,'2_Diccionarios/TAXONES_GBIF2014.txt', sep=''),head=TRUE,sep=';')
+taxones <- read.table(file=paste(di,'/2_Diccionarios/TAXONES_GBIF2014.txt', sep=''),head=TRUE,sep='\t')
 
 ## Leo los datos accesorios (Species2000)
-# Vienen de Bases de datos de de nombres de plantas en Espa?a con LSIDs
+# Vienen de Bases de datos de de nombres de plantas en Spain con LSIDs
 # http://www.gbif.es/recursos1.php
-# windows
-# species2000 <- read.table(file='C:/Users/alpelu/Dropbox/GBIF/BD/ACCESORIOS/Species2000_IPNI_ANTHOS_Plant_Names_LSID_GBIF_2012.txt', head=TRUE,sep=';')
-species2000 <- read.table(file=paste(di,'2_Diccionarios/Species2000_IPNI_ANTHOS_Plant_Names_LSID_GBIF_2012.txt',sep=''), head=TRUE,sep=';')
+
+urlfile <- url('http://iecolab.es/datasets/Species2000_IPNI_ANTHOS_Plant_Names_LSID_GBIF_2012.txt')
+species2000 <- read.table(urlfile, head=TRUE, sep=';')
+########################################
 ########################################
 ```
 

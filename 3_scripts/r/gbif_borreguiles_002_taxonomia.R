@@ -16,7 +16,9 @@ taxones <- read.table(file=paste(di,'/2_Diccionarios/TAXONES_GBIF2014.txt', sep=
 # Vienen de Bases de datos de de nombres de plantas en Spain con LSIDs
 # http://www.gbif.es/recursos1.php
 
-species2000 <- read.table(file=paste(di,'2_Diccionarios/Species2000_IPNI_ANTHOS_Plant_Names_LSID_GBIF_2012.txt',sep=''), head=TRUE,sep=';')
+
+urlfile <- url('http://iecolab.es/datasets/Species2000_IPNI_ANTHOS_Plant_Names_LSID_GBIF_2012.txt')
+species2000 <- read.table(urlfile, head=TRUE, sep=';')
 ########################################
 
 
@@ -33,7 +35,7 @@ for (i in 1:nrow(taxones)){
   taxones[i,5] <- strsplit(as.character(taxones$TAXON)," ")[[i]][4]}
 
 # Reemplazar NA por espacios en blanco
-# taxones[is.na(taxones)]   <- " " 
+# taxones[is.na(taxones)]   <- "" 
 #########################################################
 
 ########### GENEROS ############
