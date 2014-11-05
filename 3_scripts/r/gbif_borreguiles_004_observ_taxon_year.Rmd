@@ -23,7 +23,7 @@ This scripts creates a table with the number of records by taxon and year in the
 # -----------------------------------------------------------
 ```
 
-```{r packages, warning=FALSE, message=FALSE, eval=FALSE} 
+```{r packages, warning=FALSE, message=FALSE} 
 # -----------------------------------------------------------
 # load library
 library('lubridate')
