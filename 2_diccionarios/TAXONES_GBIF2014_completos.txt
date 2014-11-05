@@ -1,96 +1,96 @@
 "scientific_name";"kingdom";"phylum";"class";"order";"family";"genus";"species";"infraspecies";"author";"TAXON";"COD_TAXON"
-"Agrostis L.";"Plantae";"Magnoliophyta";"Liliopsida";"Poales";"Poaceae";"Agrostis";NA;NA;"L.";"Agrostis";12060
+"Agrostis L.";"Plantae";"Magnoliophyta";"Liliopsida";"Poales";"Poaceae";"Agrostis";"";"";"L.";"Agrostis";12060
 "Agrostis canina L. subsp. granatensis Romero García, Blanca & C.Morales";"Plantae";"Magnoliophyta";"Liliopsida";"Poales";"Poaceae";"Agrostis";"canina";"granatensis";"Romero García, Blanca & C.Morales";"Agrostis canina subsp. granatensis";12061
-"Agrostis nevadensis Boiss.";"Plantae";"Magnoliophyta";"Liliopsida";"Poales";"Poaceae";"Agrostis";"nevadensis";NA;"Boiss.";"Agrostis nevadensis";12074
-"Anthericum baeticum Steud.";"Plantae";"Magnoliophyta";"Liliopsida";"Asparagales";"Asparagaceae";"Anthericum";"baeticum";NA;"Steud.";"Anthericum baeticum";12412
-"Arenaria serpyllifolia Guss.";"Plantae";"Magnoliophyta";"Magnoliopsida";"Caryophyllales";"Caryophyllaceae";"Arenaria";"serpyllifolia";NA;"Guss.";"Arenaria serpyllifolia";6459
-"Arenaria tetraquetra L.";"Plantae";"Magnoliophyta";"Magnoliopsida";"Caryophyllales";"Caryophyllaceae";"Arenaria";"tetraquetra";NA;"L.";"Arenaria tetraquetra";6461
-"Botrychium lunaria (L.) Sw.";"Plantae";"Pteridophyta";"Psilotopsida";"Ophioglossales";"Ophioglossaceae";"Botrychium";"lunaria";NA;"(L.) Sw.";"Botrychium lunaria";103346
-"Bromus L.";"Plantae";"Magnoliophyta";"Liliopsida";"Poales";"Poaceae";"Bromus";NA;NA;"L.";"Bromus";12160
-"Campanula herminii Hoffmanns. & Link";"Plantae";"Magnoliophyta";"Magnoliopsida";"Asterales";"Campanulaceae";"Campanula";"herminii";NA;"Hoffmanns. & Link";"Campanula herminii";10176
-"Carex L.";"Plantae";"Magnoliophyta";"Liliopsida";"Poales";"Cyperaceae";"Carex";NA;NA;"L.";"Carex";11634
-"Carex capillaris L.";"Plantae";"Magnoliophyta";"Liliopsida";"Poales";"Cyperaceae";"Carex";"capillaris";NA;"L.";"Carex capillaris";106346
-"Carex caryophyllea Latour.";"Plantae";"Magnoliophyta";"Liliopsida";"Poales";"Cyperaceae";"Carex";"caryophyllea";NA;"Latour.";"Carex caryophyllea";11641
-"Carex echinata Murray";"Plantae";"Magnoliophyta";"Liliopsida";"Poales";"Cyperaceae";"Carex";"echinata";NA;"Murray";"Carex echinata";104418
-"Carex lepidocarpa Tausch";"Plantae";"Magnoliophyta";"Liliopsida";"Poales";"Cyperaceae";"Carex";"lepidocarpa";NA;"Tausch";"Carex lepidocarpa";11673
-"Carex leporina Pall. ex Kunth";"Plantae";"Magnoliophyta";"Liliopsida";"Poales";"Cyperaceae";"Carex";"leporina";NA;"Pall. ex Kunth";"Carex leporina";11674
-"Cerastium L.";"Plantae";"Magnoliophyta";"Magnoliopsida";"Caryophyllales";"Caryophyllaceae";"Cerastium";NA;NA;"L.";"Cerastium";6518
+"Agrostis nevadensis Boiss.";"Plantae";"Magnoliophyta";"Liliopsida";"Poales";"Poaceae";"Agrostis";"nevadensis";"";"Boiss.";"Agrostis nevadensis";12074
+"Anthericum baeticum Steud.";"Plantae";"Magnoliophyta";"Liliopsida";"Asparagales";"Asparagaceae";"Anthericum";"baeticum";"";"Steud.";"Anthericum baeticum";12412
+"Arenaria serpyllifolia Guss.";"Plantae";"Magnoliophyta";"Magnoliopsida";"Caryophyllales";"Caryophyllaceae";"Arenaria";"serpyllifolia";"";"Guss.";"Arenaria serpyllifolia";6459
+"Arenaria tetraquetra L.";"Plantae";"Magnoliophyta";"Magnoliopsida";"Caryophyllales";"Caryophyllaceae";"Arenaria";"tetraquetra";"";"L.";"Arenaria tetraquetra";6461
+"Botrychium lunaria (L.) Sw.";"Plantae";"Pteridophyta";"Psilotopsida";"Ophioglossales";"Ophioglossaceae";"Botrychium";"lunaria";"";"(L.) Sw.";"Botrychium lunaria";103346
+"Bromus L.";"Plantae";"Magnoliophyta";"Liliopsida";"Poales";"Poaceae";"Bromus";"";"";"L.";"Bromus";12160
+"Campanula herminii Hoffmanns. & Link";"Plantae";"Magnoliophyta";"Magnoliopsida";"Asterales";"Campanulaceae";"Campanula";"herminii";"";"Hoffmanns. & Link";"Campanula herminii";10176
+"Carex L.";"Plantae";"Magnoliophyta";"Liliopsida";"Poales";"Cyperaceae";"Carex";"";"";"L.";"Carex";11634
+"Carex capillaris L.";"Plantae";"Magnoliophyta";"Liliopsida";"Poales";"Cyperaceae";"Carex";"capillaris";"";"L.";"Carex capillaris";106346
+"Carex caryophyllea Latour.";"Plantae";"Magnoliophyta";"Liliopsida";"Poales";"Cyperaceae";"Carex";"caryophyllea";"";"Latour.";"Carex caryophyllea";11641
+"Carex echinata Murray";"Plantae";"Magnoliophyta";"Liliopsida";"Poales";"Cyperaceae";"Carex";"echinata";"";"Murray";"Carex echinata";104418
+"Carex lepidocarpa Tausch";"Plantae";"Magnoliophyta";"Liliopsida";"Poales";"Cyperaceae";"Carex";"lepidocarpa";"";"Tausch";"Carex lepidocarpa";11673
+"Carex leporina Pall. ex Kunth";"Plantae";"Magnoliophyta";"Liliopsida";"Poales";"Cyperaceae";"Carex";"leporina";"";"Pall. ex Kunth";"Carex leporina";11674
+"Cerastium L.";"Plantae";"Magnoliophyta";"Magnoliopsida";"Caryophyllales";"Caryophyllaceae";"Cerastium";"";"";"L.";"Cerastium";6518
 "Cerastium alpinum L. subsp. aquaticum (Boiss.) Mart.Parras & Molero Mesa";"Plantae";"Magnoliophyta";"Magnoliopsida";"Caryophyllales";"Caryophyllaceae";"Cerastium";"alpinum";"aquaticum";"(Boiss.) Mart.Parras & Molero Mesa";"Cerastium alpinum subsp. aquaticum";6520
-"Cerastium cerastoides (L.) Britton";"Plantae";"Magnoliophyta";"Magnoliopsida";"Caryophyllales";"Caryophyllaceae";"Cerastium";"cerastoides";NA;"(L.) Britton";"Cerastium cerastoides";6532
+"Cerastium cerastoides (L.) Britton";"Plantae";"Magnoliophyta";"Magnoliopsida";"Caryophyllales";"Caryophyllaceae";"Cerastium";"cerastoides";"";"(L.) Britton";"Cerastium cerastoides";6532
 "Cirsium acaule (L.) F.H.Wigg. subsp. gregarium (Boiss. ex DC.) Werner";"Plantae";"Magnoliophyta";"Magnoliopsida";"Asterales";"Asteraceae";"Cirsium";"acaule";"gregarium";"(Boiss. ex DC.) Werner";"Cirsium acaule subsp. gregarium";11032
 "Dactylis glomerata L. var. juncinella (Bory) Boiss.";"Plantae";"Magnoliophyta";"Liliopsida";"Poales";"Poaceae";"Dactylis";"glomerata";"juncinella";"(Bory) Boiss.";"Dactylis glomerata subsp. juncinella";11879
-"Draba lutescens Coss.";"Plantae";"Magnoliophyta";"Magnoliopsida";"Brassicales";"Brassicaceae";"Draba";"lutescens";NA;"Coss.";"Draba lutescens";7443
-"Eleocharis quinqueflora (Hartmann) O.Schwarz";"Plantae";"Magnoliophyta";"Liliopsida";"Poales";"Cyperaceae";"Eleocharis";"quinqueflora";NA;"(Hartmann) O.Schwarz";"Eleocharis quinqueflora";11597
-"Epilobium L.";"Plantae";"Magnoliophyta";"Magnoliopsida";"Myrtales";"Onagraceae";"Epilobium";NA;NA;"L.";"Epilobium";8586
-"Erophila verna (L.) Chevall.";"Plantae";"Magnoliophyta";"Magnoliopsida";"Brassicales";"Brassicaceae";"Erophila";"verna";NA;"(L.) Chevall.";"Erophila verna";7446
-"Eryngium L.";"Plantae";"Magnoliophyta";"Magnoliopsida";"Apiales";"Apiaceae";"Eryngium";NA;NA;"L.";"Eryngium";8910
-"Eryngium glaciale Boiss.";"Plantae";"Magnoliophyta";"Magnoliopsida";"Apiales";"Apiaceae";"Eryngium";"glaciale";NA;"Boiss.";"Eryngium glaciale";8919
-"Euphrasia willkommii Freyn";"Plantae";"Magnoliophyta";"Magnoliopsida";"Lamiales";"Scrophulariaceae";"Euphrasia";"willkommii";NA;"Freyn";"Euphrasia willkommii";104449
-"Festuca L.";"Plantae";"Magnoliophyta";"Liliopsida";"Poales";"Poaceae";"Festuca";NA;NA;"L.";"Festuca";11740
-"Festuca frigida Hack.";"Plantae";"Magnoliophyta";"Liliopsida";"Poales";"Poaceae";"Festuca";"frigida";NA;"Hack.";"Festuca frigida";11764
-"Festuca iberica (Hack.) Patzke";"Plantae";"Magnoliophyta";"Liliopsida";"Poales";"Poaceae";"Festuca";"iberica";NA;"(Hack.) Patzke";"Festuca iberica";11772
-"Gagea Salisb.";"Plantae";"Magnoliophyta";"Liliopsida";"Liliales";"Liliaceae";"Gagea";NA;NA;"Salisb.";"Gagea";12455
-"Galium L.";"Plantae";"Magnoliophyta";"Magnoliopsida";"Gentianales";"Rubiaceae";"Galium";NA;NA;"L.";"Galium";10252
-"Galium nevadense Boiss. & Reut.";"Plantae";"Magnoliophyta";"Magnoliopsida";"Gentianales";"Rubiaceae";"Galium";"nevadense";NA;"Boiss. & Reut.";"Galium nevadense";10277
-"Gentiana L.";"Plantae";"Magnoliophyta";"Magnoliopsida";"Gentianales";"Gentianaceae";"Gentiana";NA;NA;"L.";"Gentiana";9233
-"Gentiana alpina Adams ex Hoffm.";"Plantae";"Magnoliophyta";"Magnoliopsida";"Gentianales";"Gentianaceae";"Gentiana";"alpina";NA;"Adams ex Hoffm.";"Gentiana alpina";9234
-"Gentiana boryi Boiss.";"Plantae";"Magnoliophyta";"Magnoliopsida";"Gentianales";"Gentianaceae";"Gentiana";"boryi";NA;"Boiss.";"Gentiana boryi";9235
+"Draba lutescens Coss.";"Plantae";"Magnoliophyta";"Magnoliopsida";"Brassicales";"Brassicaceae";"Draba";"lutescens";"";"Coss.";"Draba lutescens";7443
+"Eleocharis quinqueflora (Hartmann) O.Schwarz";"Plantae";"Magnoliophyta";"Liliopsida";"Poales";"Cyperaceae";"Eleocharis";"quinqueflora";"";"(Hartmann) O.Schwarz";"Eleocharis quinqueflora";11597
+"Epilobium L.";"Plantae";"Magnoliophyta";"Magnoliopsida";"Myrtales";"Onagraceae";"Epilobium";"";"";"L.";"Epilobium";8586
+"Erophila verna (L.) Chevall.";"Plantae";"Magnoliophyta";"Magnoliopsida";"Brassicales";"Brassicaceae";"Erophila";"verna";"";"(L.) Chevall.";"Erophila verna";7446
+"Eryngium L.";"Plantae";"Magnoliophyta";"Magnoliopsida";"Apiales";"Apiaceae";"Eryngium";"";"";"L.";"Eryngium";8910
+"Eryngium glaciale Boiss.";"Plantae";"Magnoliophyta";"Magnoliopsida";"Apiales";"Apiaceae";"Eryngium";"glaciale";"";"Boiss.";"Eryngium glaciale";8919
+"Euphrasia willkommii Freyn";"Plantae";"Magnoliophyta";"Magnoliopsida";"Lamiales";"Scrophulariaceae";"Euphrasia";"willkommii";"";"Freyn";"Euphrasia willkommii";104449
+"Festuca L.";"Plantae";"Magnoliophyta";"Liliopsida";"Poales";"Poaceae";"Festuca";"";"";"L.";"Festuca";11740
+"Festuca frigida Hack.";"Plantae";"Magnoliophyta";"Liliopsida";"Poales";"Poaceae";"Festuca";"frigida";"";"Hack.";"Festuca frigida";11764
+"Festuca iberica (Hack.) Patzke";"Plantae";"Magnoliophyta";"Liliopsida";"Poales";"Poaceae";"Festuca";"iberica";"";"(Hack.) Patzke";"Festuca iberica";11772
+"Gagea Salisb.";"Plantae";"Magnoliophyta";"Liliopsida";"Liliales";"Liliaceae";"Gagea";"";"";"Salisb.";"Gagea";12455
+"Galium L.";"Plantae";"Magnoliophyta";"Magnoliopsida";"Gentianales";"Rubiaceae";"Galium";"";"";"L.";"Galium";10252
+"Galium nevadense Boiss. & Reut.";"Plantae";"Magnoliophyta";"Magnoliopsida";"Gentianales";"Rubiaceae";"Galium";"nevadense";"";"Boiss. & Reut.";"Galium nevadense";10277
+"Gentiana L.";"Plantae";"Magnoliophyta";"Magnoliopsida";"Gentianales";"Gentianaceae";"Gentiana";"";"";"L.";"Gentiana";9233
+"Gentiana alpina Adams ex Hoffm.";"Plantae";"Magnoliophyta";"Magnoliopsida";"Gentianales";"Gentianaceae";"Gentiana";"alpina";"";"Adams ex Hoffm.";"Gentiana alpina";9234
+"Gentiana boryi Boiss.";"Plantae";"Magnoliophyta";"Magnoliopsida";"Gentianales";"Gentianaceae";"Gentiana";"boryi";"";"Boiss.";"Gentiana boryi";9235
 "Gentiana pneumonanthe L. subsp. depressa (Boiss.) Rivas Mart., A.Asensi, Molero Mesa & F.Valle";"Plantae";"Magnoliophyta";"Magnoliopsida";"Gentianales";"Gentianaceae";"Gentiana";"pneumonanthe";"depressa";"(Boiss.) Rivas Mart., A.Asensi, Molero Mesa & F.Valle";"Gentiana pneumonanthe subsp. depressa";104837
-"Gentiana sierrae Briq.";"Plantae";"Magnoliophyta";"Magnoliopsida";"Gentianales";"Gentianaceae";"Gentiana";"sierrae";NA;"Briq.";"Gentiana sierrae";9240
-"Gentianella tenella (Rottb.) Börner";"Plantae";"Magnoliophyta";"Magnoliopsida";"Gentianales";"Gentianaceae";"Gentianella";"tenella";NA;"(Rottb.) Börner";"Gentianella tenella";104838
-"Juncus L.";"Plantae";"Magnoliophyta";"Liliopsida";"Poales";"Juncaceae";"Juncus";NA;NA;"L.";"Juncus";11510
-"Juncus articulatus L.";"Plantae";"Magnoliophyta";"Liliopsida";"Poales";"Juncaceae";"Juncus";"articulatus";NA;"L.";"Juncus articulatus";11518
-"Juncus bufonius L.";"Plantae";"Magnoliophyta";"Liliopsida";"Poales";"Juncaceae";"Juncus";"bufonius";NA;"L.";"Juncus bufonius";11519
-"Juncus effusus Pollich";"Plantae";"Magnoliophyta";"Liliopsida";"Poales";"Juncaceae";"Juncus";"effusus";NA;"Pollich";"Juncus effusus";11525
-"Juniperus communis Thunb.";"Plantae";"Pinophyta";"Pinopsida";"Cupressales";"Cupressaceae";"Juniperus";"communis";NA;"Thunb.";"Juniperus communis";5741
+"Gentiana sierrae Briq.";"Plantae";"Magnoliophyta";"Magnoliopsida";"Gentianales";"Gentianaceae";"Gentiana";"sierrae";"";"Briq.";"Gentiana sierrae";9240
+"Gentianella tenella (Rottb.) Börner";"Plantae";"Magnoliophyta";"Magnoliopsida";"Gentianales";"Gentianaceae";"Gentianella";"tenella";"";"(Rottb.) Börner";"Gentianella tenella";104838
+"Juncus L.";"Plantae";"Magnoliophyta";"Liliopsida";"Poales";"Juncaceae";"Juncus";"";"";"L.";"Juncus";11510
+"Juncus articulatus L.";"Plantae";"Magnoliophyta";"Liliopsida";"Poales";"Juncaceae";"Juncus";"articulatus";"";"L.";"Juncus articulatus";11518
+"Juncus bufonius L.";"Plantae";"Magnoliophyta";"Liliopsida";"Poales";"Juncaceae";"Juncus";"bufonius";"";"L.";"Juncus bufonius";11519
+"Juncus effusus Pollich";"Plantae";"Magnoliophyta";"Liliopsida";"Poales";"Juncaceae";"Juncus";"effusus";"";"Pollich";"Juncus effusus";11525
+"Juniperus communis Thunb.";"Plantae";"Pinophyta";"Pinopsida";"Cupressales";"Cupressaceae";"Juniperus";"communis";"";"Thunb.";"Juniperus communis";5741
 "Linaria aeruginea (Gouan) Cav. subsp. nevadensis (Boiss.) D.A.Sutton";"Plantae";"Magnoliophyta";"Magnoliopsida";"Lamiales";"Scrophulariaceae";"Linaria";"aeruginea";"nevadensis";"(Boiss.) D.A.Sutton";"Linaria aeruginea subsp. nevadensis";9943
 "Lotus corniculatus L. subsp. glacialis (Boiss.) Valdés";"Plantae";"Magnoliophyta";"Magnoliopsida";"Fabales";"Fabaceae";"Lotus";"corniculatus";"glacialis";"(Boiss.) Valdés";"Lotus corniculatus subsp. glacialis";106378
-"Luzula DC.";"Plantae";"Magnoliophyta";"Liliopsida";"Poales";"Juncaceae";"Luzula";NA;NA;"DC.";"Luzula";11555
-"Luzula campestris Sol.";"Plantae";"Magnoliophyta";"Liliopsida";"Poales";"Juncaceae";"Luzula";"campestris";NA;"Sol.";"Luzula campestris";11557
-"Luzula spicata Puccin.";"Plantae";"Magnoliophyta";"Liliopsida";"Poales";"Juncaceae";"Luzula";"spicata";NA;"Puccin.";"Luzula spicata";11561
-"Meum athamanticum Garsault";"Plantae";"Magnoliophyta";"Magnoliopsida";"Apiales";"Apiaceae";"Meum";"athamanticum";NA;"Garsault";"Meum athamanticum";27774
-"Montia fontana L.";"Plantae";"Magnoliophyta";"Magnoliopsida";"Caryophyllales";"Portulacaceae";"Montia";"fontana";NA;"L.";"Montia fontana";6323
-"Myosotis minutiflora Boiss. & Reut.";"Plantae";"Magnoliophyta";"Magnoliopsida";"Boraginales";"Boraginaceae";"Myosotis";"minutiflora";NA;"Boiss. & Reut.";"Myosotis minutiflora";9454
-"Nardus stricta L.";"Plantae";"Magnoliophyta";"Liliopsida";"Poales";"Poaceae";"Nardus";"stricta";NA;"L.";"Nardus stricta";29746
-"Parnassia palustris L.";"Plantae";"Magnoliophyta";"Magnoliopsida";"Celastrales";"Celastraceae";"Parnassia";"palustris";NA;"L.";"Parnassia palustris";29748
-"Paronychia polygonifolia DC.";"Plantae";"Magnoliophyta";"Magnoliopsida";"Caryophyllales";"Caryophyllaceae";"Paronychia";"polygonifolia";NA;"DC.";"Paronychia polygonifolia";6349
+"Luzula DC.";"Plantae";"Magnoliophyta";"Liliopsida";"Poales";"Juncaceae";"Luzula";"";"";"DC.";"Luzula";11555
+"Luzula campestris Sol.";"Plantae";"Magnoliophyta";"Liliopsida";"Poales";"Juncaceae";"Luzula";"campestris";"";"Sol.";"Luzula campestris";11557
+"Luzula spicata Puccin.";"Plantae";"Magnoliophyta";"Liliopsida";"Poales";"Juncaceae";"Luzula";"spicata";"";"Puccin.";"Luzula spicata";11561
+"Meum athamanticum Garsault";"Plantae";"Magnoliophyta";"Magnoliopsida";"Apiales";"Apiaceae";"Meum";"athamanticum";"";"Garsault";"Meum athamanticum";27774
+"Montia fontana L.";"Plantae";"Magnoliophyta";"Magnoliopsida";"Caryophyllales";"Portulacaceae";"Montia";"fontana";"";"L.";"Montia fontana";6323
+"Myosotis minutiflora Boiss. & Reut.";"Plantae";"Magnoliophyta";"Magnoliopsida";"Boraginales";"Boraginaceae";"Myosotis";"minutiflora";"";"Boiss. & Reut.";"Myosotis minutiflora";9454
+"Nardus stricta L.";"Plantae";"Magnoliophyta";"Liliopsida";"Poales";"Poaceae";"Nardus";"stricta";"";"L.";"Nardus stricta";29746
+"Parnassia palustris L.";"Plantae";"Magnoliophyta";"Magnoliopsida";"Celastrales";"Celastraceae";"Parnassia";"palustris";"";"L.";"Parnassia palustris";29748
+"Paronychia polygonifolia DC.";"Plantae";"Magnoliophyta";"Magnoliopsida";"Caryophyllales";"Caryophyllaceae";"Paronychia";"polygonifolia";"";"DC.";"Paronychia polygonifolia";6349
 "Phleum brachystachyum (Salis) Gamisans, Romero García & C.Morales subsp. abbreviatum (Boiss.) Gamisans, Romero García & C.Morales";"Plantae";"Magnoliophyta";"Liliopsida";"Poales";"Poaceae";"Phleum";"brachystachyum";"abbreviatum";"(Boiss.) Gamisans, Romero García & C.Morales";"Phleum brachystachyum subsp. abbreviatum";104846
-"Pinguicula nevadensis H.Lindb.";"Plantae";"Magnoliophyta";"Magnoliopsida";"Lamiales";"Lentibulariaceae";"Pinguicula";"nevadensis";NA;"H.Lindb.";"Pinguicula nevadensis";10164
-"Plantago nivalis Jord.";"Plantae";"Magnoliophyta";"Magnoliopsida";"Lamiales";"Plantaginaceae";"Plantago";"nivalis";NA;"Jord.";"Plantago nivalis";9819
-"Poa L.";"Plantae";"Magnoliophyta";"Liliopsida";"Poales";"Poaceae";"Poa";NA;NA;"L.";"Poa";11710
-"Poa bulbosa L.";"Plantae";"Magnoliophyta";"Liliopsida";"Poales";"Poaceae";"Poa";"bulbosa";NA;"L.";"Poa bulbosa";11713
-"Poa supina Schrad.";"Plantae";"Magnoliophyta";"Liliopsida";"Poales";"Poaceae";"Poa";"supina";NA;"Schrad.";"Poa supina";11723
-"Potentilla nevadensis Boiss.";"Plantae";"Magnoliophyta";"Magnoliopsida";"Rosales";"Rosaceae";"Potentilla";"nevadensis";NA;"Boiss.";"Potentilla nevadensis";7679
-"Radiola linoides Roth";"Plantae";"Magnoliophyta";"Magnoliopsida";"Malpighiales";"Linaceae";"Radiola";"linoides";NA;"Roth";"Radiola linoides";8776
-"Ranunculus L.";"Plantae";"Magnoliophyta";"Magnoliopsida";"Ranunculales";"Ranunculaceae";"Ranunculus";NA;NA;"L.";"Ranunculus";5820
-"Ranunculus acetosellifolius Boiss.";"Plantae";"Magnoliophyta";"Magnoliopsida";"Ranunculales";"Ranunculaceae";"Ranunculus";"acetosellifolius";NA;"Boiss.";"Ranunculus acetosellifolius";5821
+"Pinguicula nevadensis H.Lindb.";"Plantae";"Magnoliophyta";"Magnoliopsida";"Lamiales";"Lentibulariaceae";"Pinguicula";"nevadensis";"";"H.Lindb.";"Pinguicula nevadensis";10164
+"Plantago nivalis Jord.";"Plantae";"Magnoliophyta";"Magnoliopsida";"Lamiales";"Plantaginaceae";"Plantago";"nivalis";"";"Jord.";"Plantago nivalis";9819
+"Poa L.";"Plantae";"Magnoliophyta";"Liliopsida";"Poales";"Poaceae";"Poa";"";"";"L.";"Poa";11710
+"Poa bulbosa L.";"Plantae";"Magnoliophyta";"Liliopsida";"Poales";"Poaceae";"Poa";"bulbosa";"";"L.";"Poa bulbosa";11713
+"Poa supina Schrad.";"Plantae";"Magnoliophyta";"Liliopsida";"Poales";"Poaceae";"Poa";"supina";"";"Schrad.";"Poa supina";11723
+"Potentilla nevadensis Boiss.";"Plantae";"Magnoliophyta";"Magnoliopsida";"Rosales";"Rosaceae";"Potentilla";"nevadensis";"";"Boiss.";"Potentilla nevadensis";7679
+"Radiola linoides Roth";"Plantae";"Magnoliophyta";"Magnoliopsida";"Malpighiales";"Linaceae";"Radiola";"linoides";"";"Roth";"Radiola linoides";8776
+"Ranunculus L.";"Plantae";"Magnoliophyta";"Magnoliopsida";"Ranunculales";"Ranunculaceae";"Ranunculus";"";"";"L.";"Ranunculus";5820
+"Ranunculus acetosellifolius Boiss.";"Plantae";"Magnoliophyta";"Magnoliopsida";"Ranunculales";"Ranunculaceae";"Ranunculus";"acetosellifolius";"";"Boiss.";"Ranunculus acetosellifolius";5821
 "Ranunculus angustifolius DC. subsp. uniflorus (Boiss.) Molero Mesa & Pérez Raya";"Plantae";"Magnoliophyta";"Magnoliopsida";"Ranunculales";"Ranunculaceae";"Ranunculus";"angustifolius";"uniflorus";"(Boiss.) Molero Mesa & Pérez Raya";"Ranunculus angustifolius var. uniflorus";5825
-"Ranunculus demissus Orphan. ex Nyman";"Plantae";"Magnoliophyta";"Magnoliopsida";"Ranunculales";"Ranunculaceae";"Ranunculus";"demissus";NA;"Orphan. ex Nyman";"Ranunculus demissus";5838
-"Rumex L.";"Plantae";"Magnoliophyta";"Magnoliopsida";"Caryophyllales";"Polygonaceae";"Rumex";NA;NA;"L.";"Rumex";6773
-"Sagina saginoides (L.) Britton";"Plantae";"Magnoliophyta";"Magnoliopsida";"Caryophyllales";"Caryophyllaceae";"Sagina";"saginoides";NA;"(L.) Britton";"Sagina saginoides";6567
-"Sedum L";"Plantae";"Magnoliophyta";"Magnoliopsida";"Saxifragales";"Crassulaceae";"Sedum";NA;NA;"L";"Sedum";29514
-"Sedum amplexicaule DC.";"Plantae";"Magnoliophyta";"Magnoliopsida";"Saxifragales";"Crassulaceae";"Sedum";"amplexicaule";NA;"DC.";"Sedum amplexicaule";29515
-"Sedum brevifolium DC.";"Plantae";"Magnoliophyta";"Magnoliopsida";"Saxifragales";"Crassulaceae";"Sedum";"brevifolium";NA;"DC.";"Sedum brevifolium";17845
-"Silene rupestris Sibth. & Sm.";"Plantae";"Magnoliophyta";"Magnoliopsida";"Caryophyllales";"Caryophyllaceae";"Silene";"rupestris";NA;"Sibth. & Sm.";"Silene rupestris";6650
-"Spergularia rubra (L.) J.Presl & C.Presl";"Plantae";"Magnoliophyta";"Magnoliopsida";"Caryophyllales";"Caryophyllaceae";"Spergularia";"rubra";NA;"(L.) J.Presl & C.Presl";"Spergularia rubra";6406
-"Stellaria alsine Grimm";"Plantae";"Magnoliophyta";"Magnoliopsida";"Caryophyllales";"Caryophyllaceae";"Stellaria";"alsine";NA;"Grimm";"Stellaria alsine";6506
-"Thlaspi nevadense Boiss. & Reut.";"Plantae";"Magnoliophyta";"Magnoliopsida";"Brassicales";"Brassicaceae";"Thlaspi";"nevadense";NA;"Boiss. & Reut.";"Thlaspi nevadense";7486
-"Trifolium L.";"Plantae";"Magnoliophyta";"Magnoliopsida";"Fabales";"Fabaceae";"Trifolium";NA;NA;"L.";"Trifolium";8015
-"Trifolium pratense L.";"Plantae";"Magnoliophyta";"Magnoliopsida";"Fabales";"Fabaceae";"Trifolium";"pratense";NA;"L.";"Trifolium pratense";8048
-"Trifolium repens L.";"Plantae";"Magnoliophyta";"Magnoliopsida";"Fabales";"Fabaceae";"Trifolium";"repens";NA;"L.";"Trifolium repens";8049
-"Vaccinium uliginosum L.";"Plantae";"Magnoliophyta";"Magnoliopsida";"Ericales";"Ericaceae";"Vaccinium";"uliginosum";NA;"L.";"Vaccinium uliginosum";27778
-"Veronica L.";"Plantae";"Magnoliophyta";"Magnoliopsida";"Lamiales";"Scrophulariaceae";"Veronica";NA;NA;"L.";"Veronica";10070
-"Veronica arvensis Thunb.";"Plantae";"Magnoliophyta";"Magnoliopsida";"Lamiales";"Scrophulariaceae";"Veronica";"arvensis";NA;"Thunb.";"Veronica arvensis";10074
-"Veronica nevadensis H.Lindb.";"Plantae";"Magnoliophyta";"Magnoliopsida";"Lamiales";"Scrophulariaceae";"Veronica";"nevadensis";NA;"H.Lindb.";"Veronica nevadensis";106603
-"Viola L.";"Plantae";"Magnoliophyta";"Magnoliopsida";"Malpighiales";"Violaceae";"Viola";NA;NA;"L.";"Viola";7170
-"Viola crassiuscula Bory";"Plantae";"Magnoliophyta";"Magnoliopsida";"Malpighiales";"Violaceae";"Viola";"crassiuscula";NA;"Bory";"Viola crassiuscula";7181
-"Viola palustris L.";"Plantae";"Magnoliophyta";"Magnoliopsida";"Malpighiales";"Violaceae";"Viola";"palustris";NA;"L.";"Viola palustris";7189
-"Viola parvula Tineo";"Plantae";"Magnoliophyta";"Magnoliopsida";"Malpighiales";"Violaceae";"Viola";"parvula";NA;"Tineo";"Viola parvula";7190
-"Carex nevadensis Boiss. & Reut.";"Plantae";"Magnoliophyta";"Liliopsida";"Poales";"Cyperaceae";"Carex";"nevadensis";NA;"Boiss. & Reut.";"Carex nevadensis";11680
-"Carex nigra (L.) Reichard";"Plantae";"Magnoliophyta";"Liliopsida";"Poales";"Cyperaceae";"Carex";"nigra";NA;"(L.) Reichard";"Carex nigra";11681
-"Herniaria boissieri J.Gay";"Plantae";"Magnoliophyta";"Magnoliopsida";"Caryophyllales";"Caryophyllaceae";"Herniaria";"boissieri";NA;"J.Gay";"Herniaria boissieri";29541
-"Scorzoneroides microcephala (DC.) Holub";"Plantae";"Magnoliophyta";"Magnoliopsida";"Asterales";"Asteraceae";"Scorzoneroides";"microcephala";NA;"(DC.) Holub";"Scorzoneroides microcephala";10889
-"Scorzoneroides nevadensis (Lange) Greuter";"Plantae";"Magnoliophyta";"Magnoliopsida";"Asterales";"Asteraceae";"Scorzoneroides";"nevadensis";NA;"(Lange) Greuter";"Scorzoneroides nevadensis";10884
-"Boraginaceae Juss.";"Plantae";"Magnoliophyta";"Magnoliopsida";"Boraginales";"Boraginaceae";NA;NA;NA;"Juss.";"Boraginaceae";1860
-"Poaceae Barnhart";"Plantae";"Magnoliophyta";"Liliopsida";"Poales";"Poaceae";NA;NA;NA;"Barnhart";"Poaceae";1911
-"Scorzoneroides";"Plantae";"Magnoliophyta";"Magnoliopsida";"Asterales";"Asteraceae";"Scorzoneroides";NA;NA;"Moench";"Scorzoneroides";113237
+"Ranunculus demissus Orphan. ex Nyman";"Plantae";"Magnoliophyta";"Magnoliopsida";"Ranunculales";"Ranunculaceae";"Ranunculus";"demissus";"";"Orphan. ex Nyman";"Ranunculus demissus";5838
+"Rumex L.";"Plantae";"Magnoliophyta";"Magnoliopsida";"Caryophyllales";"Polygonaceae";"Rumex";"";"";"L.";"Rumex";6773
+"Sagina saginoides (L.) Britton";"Plantae";"Magnoliophyta";"Magnoliopsida";"Caryophyllales";"Caryophyllaceae";"Sagina";"saginoides";"";"(L.) Britton";"Sagina saginoides";6567
+"Sedum L";"Plantae";"Magnoliophyta";"Magnoliopsida";"Saxifragales";"Crassulaceae";"Sedum";"";"";"L";"Sedum";29514
+"Sedum amplexicaule DC.";"Plantae";"Magnoliophyta";"Magnoliopsida";"Saxifragales";"Crassulaceae";"Sedum";"amplexicaule";"";"DC.";"Sedum amplexicaule";29515
+"Sedum brevifolium DC.";"Plantae";"Magnoliophyta";"Magnoliopsida";"Saxifragales";"Crassulaceae";"Sedum";"brevifolium";"";"DC.";"Sedum brevifolium";17845
+"Silene rupestris Sibth. & Sm.";"Plantae";"Magnoliophyta";"Magnoliopsida";"Caryophyllales";"Caryophyllaceae";"Silene";"rupestris";"";"Sibth. & Sm.";"Silene rupestris";6650
+"Spergularia rubra (L.) J.Presl & C.Presl";"Plantae";"Magnoliophyta";"Magnoliopsida";"Caryophyllales";"Caryophyllaceae";"Spergularia";"rubra";"";"(L.) J.Presl & C.Presl";"Spergularia rubra";6406
+"Stellaria alsine Grimm";"Plantae";"Magnoliophyta";"Magnoliopsida";"Caryophyllales";"Caryophyllaceae";"Stellaria";"alsine";"";"Grimm";"Stellaria alsine";6506
+"Thlaspi nevadense Boiss. & Reut.";"Plantae";"Magnoliophyta";"Magnoliopsida";"Brassicales";"Brassicaceae";"Thlaspi";"nevadense";"";"Boiss. & Reut.";"Thlaspi nevadense";7486
+"Trifolium L.";"Plantae";"Magnoliophyta";"Magnoliopsida";"Fabales";"Fabaceae";"Trifolium";"";"";"L.";"Trifolium";8015
+"Trifolium pratense L.";"Plantae";"Magnoliophyta";"Magnoliopsida";"Fabales";"Fabaceae";"Trifolium";"pratense";"";"L.";"Trifolium pratense";8048
+"Trifolium repens L.";"Plantae";"Magnoliophyta";"Magnoliopsida";"Fabales";"Fabaceae";"Trifolium";"repens";"";"L.";"Trifolium repens";8049
+"Vaccinium uliginosum L.";"Plantae";"Magnoliophyta";"Magnoliopsida";"Ericales";"Ericaceae";"Vaccinium";"uliginosum";"";"L.";"Vaccinium uliginosum";27778
+"Veronica L.";"Plantae";"Magnoliophyta";"Magnoliopsida";"Lamiales";"Scrophulariaceae";"Veronica";"";"";"L.";"Veronica";10070
+"Veronica arvensis Thunb.";"Plantae";"Magnoliophyta";"Magnoliopsida";"Lamiales";"Scrophulariaceae";"Veronica";"arvensis";"";"Thunb.";"Veronica arvensis";10074
+"Veronica nevadensis H.Lindb.";"Plantae";"Magnoliophyta";"Magnoliopsida";"Lamiales";"Scrophulariaceae";"Veronica";"nevadensis";"";"H.Lindb.";"Veronica nevadensis";106603
+"Viola L.";"Plantae";"Magnoliophyta";"Magnoliopsida";"Malpighiales";"Violaceae";"Viola";"";"";"L.";"Viola";7170
+"Viola crassiuscula Bory";"Plantae";"Magnoliophyta";"Magnoliopsida";"Malpighiales";"Violaceae";"Viola";"crassiuscula";"";"Bory";"Viola crassiuscula";7181
+"Viola palustris L.";"Plantae";"Magnoliophyta";"Magnoliopsida";"Malpighiales";"Violaceae";"Viola";"palustris";"";"L.";"Viola palustris";7189
+"Viola parvula Tineo";"Plantae";"Magnoliophyta";"Magnoliopsida";"Malpighiales";"Violaceae";"Viola";"parvula";"";"Tineo";"Viola parvula";7190
+"Carex nevadensis Boiss. & Reut.";"Plantae";"Magnoliophyta";"Liliopsida";"Poales";"Cyperaceae";"Carex";"nevadensis";"";"Boiss. & Reut.";"Carex nevadensis";11680
+"Carex nigra (L.) Reichard";"Plantae";"Magnoliophyta";"Liliopsida";"Poales";"Cyperaceae";"Carex";"nigra";"";"(L.) Reichard";"Carex nigra";11681
+"Herniaria boissieri J.Gay";"Plantae";"Magnoliophyta";"Magnoliopsida";"Caryophyllales";"Caryophyllaceae";"Herniaria";"boissieri";"";"J.Gay";"Herniaria boissieri";29541
+"Scorzoneroides microcephala (DC.) Holub";"Plantae";"Magnoliophyta";"Magnoliopsida";"Asterales";"Asteraceae";"Scorzoneroides";"microcephala";"";"(DC.) Holub";"Scorzoneroides microcephala";10889
+"Scorzoneroides nevadensis (Lange) Greuter";"Plantae";"Magnoliophyta";"Magnoliopsida";"Asterales";"Asteraceae";"Scorzoneroides";"nevadensis";"";"(Lange) Greuter";"Scorzoneroides nevadensis";10884
+"Boraginaceae Juss.";"Plantae";"Magnoliophyta";"Magnoliopsida";"Boraginales";"Boraginaceae";"";"";"";"Juss.";"Boraginaceae";1860
+"Poaceae Barnhart";"Plantae";"Magnoliophyta";"Liliopsida";"Poales";"Poaceae";"";"";"";"Barnhart";"Poaceae";1911
+"Scorzoneroides";"Plantae";"Magnoliophyta";"Magnoliopsida";"Asterales";"Asteraceae";"Scorzoneroides";"";"";"Moench";"Scorzoneroides";113237
