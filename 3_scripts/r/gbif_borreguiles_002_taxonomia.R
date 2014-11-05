@@ -242,8 +242,19 @@ poaceae <- data.frame(scientific_name='Poaceae Barnhart',
                     COD_TAXON=taxones[taxones$TAXON=='Poaceae',]$COD_TAXON)
 
 
+scorzo <- data.frame(scientific_name='Scorzoneroides', 
+                  kingdom='Plantae', 
+                  phylum='Magnoliophyta', 
+                  class='Magnoliopsida', 
+                  order='Asterales', 
+                  family='Asteraceae', genus='Scorzoneroides', species=NA, 
+                  infraspecies=NA, author='Moench', 
+                  TAXON='Scorzoneroides',
+                  COD_TAXON=taxones[taxones$TAXON=='Scorzoneroides',]$COD_TAXON)
 
-excepciones <- rbind(sp.excep, borag, poaceae)
+
+
+excepciones <- rbind(sp.excep, borag, poaceae, scorzo)
 
 
 ## Ahora uno las excepciones a los taxones

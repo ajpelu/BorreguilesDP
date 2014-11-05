@@ -284,9 +284,18 @@ poaceae &lt;-<span class="st"> </span><span class="kw">data.frame</span>(<span c
                     <span class="dt">TAXON=</span><span class="st">'Poaceae'</span>,
                     <span class="dt">COD_TAXON=</span>taxones[taxones$TAXON==<span class="st">'Poaceae'</span>,]$COD_TAXON)
 
+scorzo &lt;-<span class="st"> </span><span class="kw">data.frame</span>(<span class="dt">scientific_name=</span><span class="st">'Scorzoneroides'</span>, 
+                  <span class="dt">kingdom=</span><span class="st">'Plantae'</span>, 
+                  <span class="dt">phylum=</span><span class="st">'Magnoliophyta'</span>, 
+                  <span class="dt">class=</span><span class="st">'Magnoliopsida'</span>, 
+                  <span class="dt">order=</span><span class="st">'Asterales'</span>, 
+                  <span class="dt">family=</span><span class="st">'Asteraceae'</span>, <span class="dt">genus=</span><span class="st">'Scorzoneroides'</span>, <span class="dt">species=</span><span class="ot">NA</span>, 
+                  <span class="dt">infraspecies=</span><span class="ot">NA</span>, <span class="dt">author=</span><span class="st">'Moench'</span>, 
+                  <span class="dt">TAXON=</span><span class="st">'Scorzoneroides'</span>,
+                  <span class="dt">COD_TAXON=</span>taxones[taxones$TAXON==<span class="st">'Scorzoneroides'</span>,]$COD_TAXON)
 
 
-excepciones &lt;-<span class="st"> </span><span class="kw">rbind</span>(sp.excep, borag, poaceae)
+excepciones &lt;-<span class="st"> </span><span class="kw">rbind</span>(sp.excep, borag, poaceae, scorzo)
 
 
 ## Ahora uno las excepciones a los taxones
