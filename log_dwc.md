@@ -64,6 +64,7 @@ Un esquema de la validación:
 ![Sin titulo](./8_figures/schemas/schema_taxonomia.png)
 
 * De este script se obtiene una tabla con los nombres de los taxones y todos sus atributos taxonomicos (phylum, class, etc.) que se exporta como `./2_diccionarios/TAXONES_GBIF2014_completos.txt`
+* Esta tabla `./2_diccionarios/TAXONES_GBIF2014_completos.txt` la importamos a la base de datos `gbif2014_borreguiles` y la renombramos como `TAXONOMIA` 
  
 ##### Obtener el numero de registros por entidad taxonomica y año 
 * Se trata de analizar los taxones por year. Esto nos sirve para ver que taxones se han visto mas y aquellos que son raros. 
