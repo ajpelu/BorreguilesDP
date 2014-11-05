@@ -1,21 +1,9 @@
----
-title: "Taxonomia (data_paper borreguiles)"
-author: "Antonio J. Perez-Luque (@ajpelu)"
-date: "Sep 2014"
-output:
-  html_document:
-    theme: united
-    highlight: pygments
-  md_document:
-    variant: markdown_github
----
-
-```{r directorio}
+``` r
 ## Directorio 
 di <- '/Users/ajpelu/Dropbox/MS/MS_DP_Borreguiles/git/BorreguilesDP'
 ```
 
-```{r loadData, eval=FALSE}
+``` r
 ########### LECTURA DATOS ###############
 ## Leer datos de todos los taxones
 taxones <- read.table(file=paste(di,'/2_Diccionarios/TAXONES_GBIF2014.txt', sep=''),head=TRUE,sep='\t')
@@ -30,12 +18,9 @@ species2000 <- read.table(urlfile, head=TRUE, sep=';')
 ########################################
 ```
 
-Vamos a preparar los datos: 
-- Vamos a desagregar datos de taxones en tres variables: 
-  - Genus
-  - Species
-  - Infraespecies (empty with NA)
-```{r prepareData, eval=FALSE}
+Vamos a preparar los datos: - Vamos a desagregar datos de taxones en tres variables: - Genus - Species - Infraespecies (empty with NA)
+
+``` r
 ########### PREPARAR DATOS ############
 ## desgregar datos de TAXONES EN tres variables
 ## Crear variable de genus, species, infraespecies vac?as con NA
@@ -53,10 +38,9 @@ for (i in 1:nrow(taxones)){
 #########################################################
 ```
 
+1.  Generos
 
-1. Generos
-
-```{r genus, eval=FALSE}
+``` r
 ########### GENEROS ############
 ## SELECCIONAR AQUELLOS REGISTROS QUE SON SOLO GENEROS ##
 taxonesG <- subset(taxones, is.na(taxones$species))
@@ -64,7 +48,7 @@ taxonesG
 nrow(taxonesG)
 ```
 
-```{r genusS200, eval=FALSE}
+``` r
 # Unir taxonesG con species2000
 generos <- merge(taxonesG, species2000, by.x='genus', by.y='genus')
 # Quedarme solo con un registro por genus
@@ -88,15 +72,17 @@ generos.unique <- merge(generos.unique, gen.autores, by='genus')
 generos.unique 
 ```
 
-??Qu?? generos de los taxonesBorreguiles no est?? en la lista? 
-```{r genusNoesta, eval=FALSE}
+??Qu?? generos de los taxonesBorreguiles no est?? en la lista?
+
+``` r
 # ver que genero de los taxonesBorreguiles no esta en esta lista
 noesta <- setdiff(taxonesG$genus, generos.unique$genus)
 noesta
 ```
 
-2. Especies
-```{r sp, eval=FALSE}
+1.  Especies
+
+``` r
 ##########################################################
 ## SELECCIONAR AQUELLOS REGISTROS QUE SON SOLO ESPECIES ##
 taxonesSp <- subset(taxones, !is.na(taxones$species) & is.na(taxones$infraspecies))
@@ -135,8 +121,9 @@ sn <- TPL(genus='Scorzoneroides',species='nevadensis', infra=FALSE, corr=TRUE)
 species.unique <- species.unique[c('genus','species','TAXON','COD_TAXON','scientific_name','author','kingdom','phylum','class','order','family')]
 ```
 
-3. Subspecies 
-```{r subsp, eval=FALSE}
+1.  Subspecies
+
+``` r
 ##########################################################
 ## SELECCIONAR AQUELLOS REGISTROS QUE SON SubESPECIES   ##
 taxonesSub <- subset(taxones,  !is.na(taxones$infraspecies))
@@ -158,7 +145,8 @@ subsp.unique <- subsp.unique[c('genus','species','infraspecies','TAXON','COD_TAX
 ```
 
 Unimos los taxones formateados
-```{r unir, eval=FALSE}
+
+``` r
 # UNIR TABLA SUBSP Y SP 
 # OJO FALTAN LAS EXCEPCIONES 
 taxSpSubsp <- merge(species.unique,subsp.unique, all=T)
@@ -178,7 +166,8 @@ nrow(union)
 ```
 
 Ahora a??adimos excepciones
-```{r excepciones, eval=FALSE}
+
+``` r
 # A??adir excepciones (las de especies)
 cneC <- data.frame(scientific_name=paste(paste(cne$Genus,cne$Species, sp=''), cne$Authority, sep=''), 
                    kingdom='Plantae', 
@@ -263,7 +252,8 @@ tax <- rbind(union, excepciones)
 ```
 
 Ya tenemos la tabla de taxones
-```{r exportar, eval=FALSE}
+
+``` r
 nrow(tax)
 
 # Ojo modificar los generos una vez exportada y quitar los NA una vez exportados 
