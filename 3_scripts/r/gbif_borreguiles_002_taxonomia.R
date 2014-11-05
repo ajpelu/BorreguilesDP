@@ -262,6 +262,7 @@ tax <- rbind(union, excepciones)
 
 
 # Ojo modificar los generos una vez exportada y quitar los NA una vez exportados 
+tax[is.na(tax)] <- ''
 
 # EXPORTAR
 write.table(tax, file=paste(di,"/2_diccionarios/TAXONES_GBIF2014_completos.txt", sep=""), sep=";", row.names=FALSE)
