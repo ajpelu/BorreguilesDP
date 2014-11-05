@@ -93,3 +93,4 @@
 "Scorzoneroides nevadensis (Lange) Greuter";"Plantae";"Magnoliophyta";"Magnoliopsida";"Asterales";"Asteraceae";"Scorzoneroides";"nevadensis";NA;"(Lange) Greuter";"Scorzoneroides nevadensis";10884
 "Boraginaceae Juss.";"Plantae";"Magnoliophyta";"Magnoliopsida";"Boraginales";"Boraginaceae";NA;NA;NA;"Juss.";"Boraginaceae";1860
 "Poaceae Barnhart";"Plantae";"Magnoliophyta";"Liliopsida";"Poales";"Poaceae";NA;NA;NA;"Barnhart";"Poaceae";1911
+"Scorzoneroides";"Plantae";"Magnoliophyta";"Magnoliopsida";"Asterales";"Asteraceae";"Scorzoneroides";NA;NA;"Moench";"Scorzoneroides";113237
