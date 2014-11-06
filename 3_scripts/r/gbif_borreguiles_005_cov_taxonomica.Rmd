@@ -22,16 +22,6 @@ This script describes and analyzes the taxonomic coverage in the Borreguiles dat
 # -----------------------------------------------------------
 ```
 
-```{r packages, warning=FALSE, message=FALSE} 
-# -----------------------------------------------------------
-# load library
-library('lubridate')
-library('reshape2')
-
-# -----------------------------------------------------------
-```
-
-
 ```{r directory}
 # -----------------------------------------------------------
 ## Directorio 

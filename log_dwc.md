@@ -273,7 +273,7 @@ A cada consulta se le llamará `covtax_xxxxxx`, siendo `xxxxxx` la entidad taxon
 
 
 > Taxones 
-Número de registros por taxon 
+> Número de registros por taxon 
 
 ```sql
 SELECT 
@@ -289,7 +289,7 @@ GROUP BY
 Se ha exportado como `./2_diccionarios/cov_taxonomica/covtax_taxon.txt`.
 
 > Genus
-Número de registros por genero
+> Número de registros por genero
 
 ```sql
 SELECT 
@@ -309,7 +309,7 @@ GROUP BY
 Se ha exportado como `./2_diccionarios/cov_taxonomica/covtax_genus.txt`.
 
 > Family
-Número de registros por familia
+> Número de registros por familia
 
 ```sql
 SELECT 
@@ -327,7 +327,7 @@ GROUP BY
 Se ha exportado como `./2_diccionarios/cov_taxonomica/covtax_familia.txt`.
 
 > Order 
-Número de registros por orden 
+> Número de registros por orden 
 
 ```sql 
 SELECT 
@@ -342,7 +342,7 @@ Se ha exportado como `./2_diccionarios/cov_taxonomica/covtax_order.txt`.
 
 
 > Class 
-Número de registros por clase 
+> Número de registros por clase 
 
 
 ```sql 
@@ -360,7 +360,7 @@ Se ha exportado como `./2_diccionarios/cov_taxonomica/covtax_class.txt`.
 
 
 > Phylum
-Número de registros por phylum 
+> Número de registros por phylum 
 
 ```sql
 SELECT 
