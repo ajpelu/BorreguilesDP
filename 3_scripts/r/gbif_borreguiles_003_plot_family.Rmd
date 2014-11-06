@@ -66,7 +66,7 @@ f <- ggplot(fam, aes(x=reorder(Family, per), y=per)) +
   geom_bar(stat = "identity", fill='#43a2ca') + 
   geom_text(aes(x=reorder(Family, per), y=per, label=n),vjust=0.5,hjust=-0.5) + 
   coord_flip() +
-  theme_bw() + 
+  theme_bw() + ylim(0,25)+
   theme(panel.border = element_blank(),
         axis.ticks = element_blank(), axis.text.y = element_text(angle=0, vjust=0.5, size=13)) + 
   ylab('% records') + xlab('Family') 
