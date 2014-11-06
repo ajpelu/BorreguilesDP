@@ -256,6 +256,11 @@ UNION ALL
   WHERE (((GBIF2014_C2.COBERTURA) Is Not Null)));
 ```
 
+## Exportar consultas para integrarlas en IPT 
+Las dos tablas `Ocurrences` y `MeasurementOrFact` se exportan para poder integrarlas en el IPT. El formato es txt: 
+* Ocurrences: `./2_diccionarios/ipt/ocurrences.txt`
+* MeasurementOrFact: `./2_diccionarios/ipt/MeasurementOrFact.txt`
+
 
 ## Consultas taxonomicas 
 Se trata de diferentes consultas para analizar la cobertura taxonomica de nuestro dataset 
