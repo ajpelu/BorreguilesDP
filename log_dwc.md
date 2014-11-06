@@ -113,9 +113,17 @@ Se crea en la base de datos gbif2014_borreguiles una tabla diccionario para las 
 
 | Id | nombre        | precision | unidad                        | metodo                                                                                                                                                                                                    | COD_VARIABLES       |
 |----|---------------|-----------|-------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------|
-| 1  | flower number | 1         | flower number by square meter |                                                                                                                                                                                                           | NUM_ESTRCT_FLORALES |
-| 2  | fruit number  | 1         | fruit number by square meter  |                                                                                                                                                                                                           | NUM_FRUTOS          |
+| 1  | flowering abundance | 1         | number of flowering individuals by square meter |  count of flowering individuals                                                                                                                                                                                                        | NUM_ESTRCT_FLORALES |
+| 2  | fruit abundance  | 1         | number of individuals in fruiting period by square meter  |  count of individuals in fruiting period                                                                                                                                                                                                         | NUM_FRUTOS          |
 | 3  | cover         | 0.1     | percentage                    | Braun-Blanquet (1946) transformation of Braun-Blanquet cover-abundance scale. More info: Van der Maarel (2007) DOI: 10.1111/j.1654-1103.2007.tb02592.x  and Van der Maarel (1979) DOI: 10.1007/BF00052021 | COBERTURA           |
 
 
+## Creación de las consultas SQL para generar el formato Dwc 
+### Ocurrences 
+Para generar esta consulta tenemos que establecer relaciones entre las diferentes tablas que integran la base de datos `gbif2014_borreguiles`. En el siguiente esquema se muestran las relaciones establecidas 
+
+Un esquema de la validación: 
+![Sin titulo](./8_figures/schemas/schema_relationship_ocurrences.png)
+
+ 
 
