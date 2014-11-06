@@ -286,6 +286,7 @@ GROUP BY
   Ocurrences.ScientificName, 
   Ocurrences.Family;
 ```
+Se ha exportado como `./2_diccionarios/cov_taxonomica/covtax_taxon.txt`.
 
 > Genus
 Número de registros por genero
@@ -305,6 +306,25 @@ GROUP BY
   Ocurrences.Orde, 
   Ocurrences.Family;
 ```
+Se ha exportado como `./2_diccionarios/cov_taxonomica/covtax_genus.txt`.
+
+> Family
+Número de registros por familia
+
+```sql
+SELECT 
+  Ocurrences.Family, 
+  Count(Ocurrences.DateLastModified) AS CuentaDeDateLastModified, 
+  Ocurrences.Orde, 
+  Ocurrences.Class
+FROM 
+  Ocurrences
+GROUP BY 
+  Ocurrences.Family, 
+  Ocurrences.Orde, 
+  Ocurrences.Class;
+```
+Se ha exportado como `./2_diccionarios/cov_taxonomica/covtax_familia.txt`.
 
 > Order 
 Número de registros por orden 
@@ -318,6 +338,8 @@ FROM
 GROUP BY 
   Ocurrences.Orde;
 ```
+Se ha exportado como `./2_diccionarios/cov_taxonomica/covtax_order.txt`.
+
 
 > Class 
 Número de registros por clase 
@@ -325,13 +347,17 @@ Número de registros por clase
 
 ```sql 
 SELECT 
-  Ocurrences.Orde, 
+  Ocurrences.Class, 
   Count(Ocurrences.DateLastModified) AS CuentaDeDateLastModified
 FROM 
   Ocurrences
 GROUP BY 
-  Ocurrences.Orde;
+  Ocurrences.Class;
 ```
+
+Se ha exportado como `./2_diccionarios/cov_taxonomica/covtax_class.txt`.
+
+
 
 > Phylum
 Número de registros por phylum 
@@ -345,6 +371,8 @@ FROM
 GROUP BY 
   Ocurrences.Phylum;
 ```
+
+Se ha exportado como `./2_diccionarios/cov_taxonomica/covtax_phylum.txt`.
 
 
 
