@@ -185,7 +185,15 @@ FROM
 ```
 
 ### MeasurementOrFact
-Para conseguir la tabla de MeasurementOrFact ejecutamos una consulta (El código `sql` se puede encontrar en `./3_scripts/sql/genera_MeasurementOrFact.sql` que llamaremos `GeneraMeasurementOrFact` y que creará la tabla `MeasurementOrFact`. A continuación mostramos el código: 
+Para conseguir la tabla de MeasurementOrFact ejecutamos una consulta (El código `sql` se puede encontrar en `./3_scripts/sql/genera_MeasurementOrFact.sql` que llamaremos `GeneraMeasurementOrFact` y que creará la tabla `MeasurementOrFact`. 
+
+Esta consulta relaciona un registro de la tabla de occurrencias con varios registros en función de las variables asociadas a cada ocurrencia. Si para una ocurrencia existen dos variables (ej.: cobertura y nº de flores) entonces la en la tabla `MeasurementOrFact` existirán dos registros que tendrán dos campos claves: 
+
+* `id`: se corresponde con el identificador de la ocurrencia (campo `idGBIF`) 
+* `measurementID`: es la combinación ***idGBIF-DICC_VARIABLES.Id**
+	* siendo `DICC_VARIABLES.Id` el identificador de la variable en la tabla `DICC_VARIABLES` 
+
+A continuación mostramos el código: 
 
 ```sql 
 SELECT   
@@ -247,6 +255,97 @@ UNION ALL
   FROM UTM_ELEV INNER JOIN GBIF2014_C2 ON UTM_ELEV.ID_PARCELA = GBIF2014_C2.ID_PARCELA
   WHERE (((GBIF2014_C2.COBERTURA) Is Not Null)));
 ```
+
+
+## Consultas taxonomicas 
+Se trata de diferentes consultas para analizar la cobertura taxonomica de nuestro dataset 
+
+A cada consulta se le llamará `covtax_xxxxxx`, siendo `xxxxxx` la entidad taxonomica. Asimismo las consultas sql para cada consulta están en el directorio `./3_scripts/sql/` con el nombre de la consulta precedido del epiteto `sql`. En la siguiente tabla se muestra la correspondencia entre la consulta y su codigo sql. 
+
+| consulta      | codigo sql        | path                                    |
+|---------------|-------------------|-----------------------------------------|
+| covtax_taxon  | sql_covtax_taxon  | `./3_scripts/sql/sql_covtax_taxon.sql`  |
+| covtax_genus  | sql_covtax_genus  | `./3_scripts/sql/sql_covtax_genus.sql`  |
+| covtax_family | sql_covtax_family | `./3_scripts/sql/sql_covtax_family.sql` |
+| covtax_order  | sql_covtax_order  | `./3_scripts/sql/sql_covtax_order.sql`  |
+| covtax_class  | sql_covtax_class  | `./3_scripts/sql/sql_covtax_class.sql`  |
+| covtax_phylum | sql_covtax_phylum | `./3_scripts/sql/sql_covtax_phylum.sql` |
+
+
+> Taxones 
+Número de registros por taxon 
+
+```sql
+SELECT 
+  Ocurrences.ScientificName, 
+  Count(Ocurrences.DateLastModified) AS CuentaDeDateLastModified, 
+  Ocurrences.Family
+FROM 
+  Ocurrences
+GROUP BY 
+  Ocurrences.ScientificName, 
+  Ocurrences.Family;
+```
+
+> Genus
+Número de registros por genero
+
+```sql
+SELECT 
+  Ocurrences.Genus, 
+  Count(Ocurrences.DateLastModified) AS CuentaDeDateLastModified, 
+  Ocurrences.Class, 
+  Ocurrences.Orde, 
+  Ocurrences.Family
+FROM 
+  Ocurrences
+GROUP BY 
+  Ocurrences.Genus, 
+  Ocurrences.Class, 
+  Ocurrences.Orde, 
+  Ocurrences.Family;
+```
+
+> Order 
+Número de registros por orden 
+
+```sql 
+SELECT 
+  Ocurrences.Orde, 
+  Count(Ocurrences.DateLastModified) AS CuentaDeDateLastModified
+FROM 
+  Ocurrences
+GROUP BY 
+  Ocurrences.Orde;
+```
+
+> Class 
+Número de registros por clase 
+
+
+```sql 
+SELECT 
+  Ocurrences.Orde, 
+  Count(Ocurrences.DateLastModified) AS CuentaDeDateLastModified
+FROM 
+  Ocurrences
+GROUP BY 
+  Ocurrences.Orde;
+```
+
+> Phylum
+Número de registros por phylum 
+
+```sql
+SELECT 
+  Ocurrences.Phylum, 
+  Count(Ocurrences.DateLastModified) AS CuentaDeDateLastModified
+FROM 
+  Ocurrences
+GROUP BY 
+  Ocurrences.Phylum;
+```
+
 
 
 
