@@ -1,0 +1,151 @@
+---
+title: "Taxonomic Coverage (data_paper borreguiles)"
+author: "Antonio J. Perez-Luque (@ajpelu)"
+date: "Nov 2014"
+output:
+  html_document:
+    theme: united
+    highlight: pygments
+  md_document:
+    variant: markdown_github
+---
+This script describes and analyzes the taxonomic coverage in the Borreguiles dataset. 
+
+```{r someMetadata, eval=FALSE}
+# -----------------------------------------------------------
+#############################################################################
+#### SCRIPT: gbif_borreguiles_005_cov_taxonomica.R                       ####
+#### VERSION: 2                                                          ####
+#### FECHA: 04/11/2014                                                   ####
+#### AUTOR: ajperez@ugr.es                                               ####
+#############################################################################
+# -----------------------------------------------------------
+```
+
+```{r packages, warning=FALSE, message=FALSE} 
+# -----------------------------------------------------------
+# load library
+library('lubridate')
+library('reshape2')
+
+# -----------------------------------------------------------
+```
+
+
+```{r directory}
+# -----------------------------------------------------------
+## Directorio 
+di <- '/Users/ajpelu/Dropbox/MS/MS_DP_Borreguiles/git/BorreguilesDP'
+
+# read file
+phylum  <- read.table(file=paste(di, '/2_diccionarios/cov_taxonomica/covtax_phylum.txt', sep=''), header=TRUE, sep=';')
+class <- read.table(file=paste(di, '/2_diccionarios/cov_taxonomica/covtax_class.txt', sep=''), header=TRUE, sep=';')
+ord <- read.table(file=paste(di, '/2_diccionarios/cov_taxonomica/covtax_order.txt', sep=''), header=TRUE, sep=';')
+fam <- read.table(file=paste(di, '/2_diccionarios/cov_taxonomica/covtax_family.txt', sep=''), header=TRUE, sep=';')
+gen <- read.table(file=paste(di, '/2_diccionarios/cov_taxonomica/covtax_genus.txt', sep=''), header=TRUE, sep=';')
+tax <- read.table(file=paste(di, '/2_diccionarios/cov_taxonomica/covtax_taxon.txt', sep=''), header=TRUE, sep=';')
+# -----------------------------------------------------------
+```
+
+Phylum
+--- 
+
+```{r phylum}
+#--------------------------------------------------------------------
+# rename 
+names(phylum) <- c("Phylum","n")
+# compute total
+phylum$tot <- sum(phylum$n)
+# conpute percentage
+phylum$per <- round((phylum$n / phylum$tot)*100, 2)
+
+phylum 
+#--------------------------------------------------------------------
+```
+
+Class 
+```{r class}
+#--------------------------------------------------------------------
+# rename 
+names(class) <- c("Class","n")
+# compute total
+class$tot <- sum(class$n)
+# conpute percentage
+class$per <- round((class$n / class$tot)*100, 2)
+
+class
+#--------------------------------------------------------------------
+```
+
+Orders 
+```{r orders}
+#--------------------------------------------------------------------
+# rename 
+names(ord) <- c("Order","n")
+# compute total
+ord$tot <- sum(ord$n)
+# conpute percentage
+ord$per <- round((ord$n / ord$tot)*100, 2)
+
+# Sort by percentage 
+ord1 <- ord[order(-ord$per),]
+ord1
+#--------------------------------------------------------------------
+```
+
+Families
+```{r family}
+#--------------------------------------------------------------------
+# rename 
+names(fam) <- c("Family","n","Order","Class")
+# compute total
+fam$tot <- sum(fam$n)
+# conpute percentage
+fam$per <- round((fam$n / fam$tot)*100, 2)
+
+# Sort by percentage 
+fam1 <- fam[order(-fam$per),]
+fam1
+
+# class Magnoliopsia
+fam1[fam1$Class == 'Magnoliopsida',]
+
+# class Liliopsida
+fam1[fam1$Class == 'Liliopsida',]
+#--------------------------------------------------------------------
+```
+
+# Genus 
+```{r genus}
+#--------------------------------------------------------------------
+# rename 
+names(gen) <- c("Genus","n","Class","Order","Family")
+
+# compute total
+gen$tot <- sum(gen$n)
+# conpute percentage
+gen$per <- round((gen$n / gen$tot)*100, 2)
+
+# Sort by percentage 
+gen1 <- gen[order(-gen$per),]
+gen1
+#--------------------------------------------------------------------
+```
+
+# Taxa
+```{r taxa}
+#--------------------------------------------------------------------
+# rename 
+names(tax) <- c("taxa","n","Family")
+
+# compute total
+tax$tot <- sum(tax$n)
+# conpute percentage
+tax$per <- round((tax$n / tax$tot)*100, 2)
+
+# Sort by percentage 
+tax1 <- tax[order(-tax$per),]
+tax1
+#--------------------------------------------------------------------
+```
+
