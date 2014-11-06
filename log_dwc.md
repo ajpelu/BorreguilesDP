@@ -64,8 +64,7 @@ Un esquema de la validación:
 ![Sin titulo](./8_figures/schemas/schema_taxonomia.png)
 
 * De este script se obtiene una tabla con los nombres de los taxones y todos sus atributos taxonomicos (phylum, class, etc.) que se exporta como `./2_diccionarios/TAXONES_GBIF2014_completos.txt`
-* Esta tabla `./2_diccionarios/TAXONES_GBIF2014_completos.txt` la importamos a la base de datos `gbif2014_borreguiles` y la renombramos como `TAXONOMIA` 
- 
+* Esta tabla `./2_diccionarios/TAXONES_GBIF2014_completos.txt` la importamos a la base de datos `gbif2014_borreguiles` y la renombramos como `TAXONOMIA`. Ojo con los valores 'NA' (hay que reemplazarlos
 ##### Obtener el numero de registros por entidad taxonomica y año 
 * Se trata de analizar los taxones por year. Esto nos sirve para ver que taxones se han visto mas y aquellos que son raros. 
 * Hemos creado un script en `./3_scripts/r/gbif_borreguiles_004_observ_taxon_year.R` ([enlace](https://github.com/ajpelu/BorreguilesDP/blob/master/3_scripts/r/gbif_borreguiles_004_observ_taxon_year.md))
@@ -100,9 +99,23 @@ Por otro lado, respecto a los campos municipio, provincia y localidad, tenemos l
 
  
 #### Collector 
-
 En la tabla `UTM_ELEV` se ha creado un campo (`Collector`) en función de la parcela para identificar a los colectores. Así las parecelas RZ el colector es Regino Zamora y en las demás he puesto a CP Sánchez Rojas. 
 
+#### Variables 
+Se crea en la base de datos gbif2014_borreguiles una tabla diccionario para las variables floración, fructificación, etc. La tabla (`DICC_VARIABLES`) tiene la siguiente estructura: 
+
+* `Id`: idenfiticador
+* `nombre`: nombre que le damos a la variable
+* `precision`: campo a incluir con la precisión de la variable (ver campos *Measurement or Fact* de *DarwinCore*)
+* `unidad`: unidad de la variable. 
+* `metodo`: método utilizado para obtener la variable 
+* `COD_VARIABLES`: códibo de la variable procedente de la base de datos original de borreguiles (`BD_obsnev`)
+
+| Id | nombre        | precision | unidad                        | metodo                                                                                                                                                                                                    | COD_VARIABLES       |
+|----|---------------|-----------|-------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------|
+| 1  | flower number | 1         | flower number by square meter |                                                                                                                                                                                                           | NUM_ESTRCT_FLORALES |
+| 2  | fruit number  | 1         | fruit number by square meter  |                                                                                                                                                                                                           | NUM_FRUTOS          |
+| 3  | cover         | 0.1     | percentage                    | Braun-Blanquet (1946) transformation of Braun-Blanquet cover-abundance scale. More info: Van der Maarel (2007) DOI: 10.1111/j.1654-1103.2007.tb02592.x  and Van der Maarel (1979) DOI: 10.1007/BF00052021 | COBERTURA           |
 
 
 
