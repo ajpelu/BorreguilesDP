@@ -14,7 +14,11 @@
 
 #### Figura 2 
 
-#### Figura 3 
+
+#### Figura 3 - Familias 
+* Se ha hecho la figura 3 de cobertura taxonomica de familias con los datos actualizados de las consultas. 
+* Ver la figura en `./8_figures/taxonomicCoverage/`
+* El script  para generarlo es [este](https://github.com/ajpelu/BorreguilesDP/blob/master/3_scripts/r/gbif_borreguiles_003_plot_family.md) `./3_scripts/r/gbif_borreguiles_003_plot_family.R` 
 
 #### Figura 4dd
 dd
