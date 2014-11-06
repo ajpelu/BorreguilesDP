@@ -122,8 +122,68 @@ Se crea en la base de datos gbif2014_borreguiles una tabla diccionario para las 
 ### Ocurrences 
 Para generar esta consulta tenemos que establecer relaciones entre las diferentes tablas que integran la base de datos `gbif2014_borreguiles`. En el siguiente esquema se muestran las relaciones establecidas 
 
-Un esquema de la validación: 
 ![Sin titulo](./8_figures/schemas/schema_relationship_ocurrences.png)
+
+Para conseguir la tabla de Ocurrences ejecutamos una consulta (El código `sql` se puede encontrar en `./3_scripts/sql/genera_Occurences.sql` que la llamaremos `GeneraOcurrences` y que creará la tabla `Ocurrences`. A continuación mostramos el código: 
+
+```sql 
+SELECT 
+  Year(Now()) & '-' & Format(Month(Now()),'00') & '-' & Format(Day(Now()),'00') & 'T' & DateAdd("h",-1,Time()) & 'Z' AS DateLastModified, 
+  'OBSNEV' AS InstitutionCode, 
+  'BORREGUILES' AS CollectionCode, 
+  GBIF2014_C2.idGBIF AS CatalogNumber, 
+  TAXONOMIA.scientific_name AS ScientificName, 
+  'humanObservation' AS BasisOfRecord, 
+  TAXONOMIA.kingdom AS Kingdom, 
+  TAXONOMIA.phylum AS Phylum, 
+  TAXONOMIA.class AS Class, 
+  TAXONOMIA.order AS Orde, 
+  TAXONOMIA.family AS Family, 
+  TAXONOMIA.genus AS Genus, 
+  TAXONOMIA.species AS Species, 
+  TAXONOMIA.infraspecies AS Subspecies, 
+  TAXONOMIA.author AS ScientificNameAuthor, 
+  '' AS IdentifiedBy, 
+  '' AS YearIdentified, 
+  '' AS MonthIdentified, 
+  '' AS DayIdentified, 
+  '' AS TypeStatus, 
+  '' AS CollectorNumber, 
+  '' AS FieldNumber, 
+  UTM_ELEV.Collector AS Collector, 
+  Year(GBIF2014_C1.FECHA) AS YearCollected, 
+  Format(Month(GBIF2014_C1.FECHA),"00") AS MonthCollected, 
+  Format(Day(GBIF2014_C1.FECHA),"00") AS DayCollected, 
+  '' AS JulianDay, 
+  '' AS TimeOfDay, 
+  'Europe' AS ContinentOcean, 
+  'ESP' AS Country, 
+  'GR' AS StateProvince, 
+  'GUEJAR-SIERRA' AS County, 
+  GBIF_DICC_COTAS.Locality AS Locality, 
+  UTM_ELEV.LONG AS Longitude, 
+  UTM_ELEV.LAT AS Latitude, 
+  '1' AS CoordinatePrecision, 
+  '' AS BoundingBox, 
+  UTM_ELEV.ELEVACION AS MinimumElevation, 
+  UTM_ELEV.ELEVACION AS MaximumElevation, 
+  '' AS MinimumDepth, 
+  '' AS MaximumDepth, 
+  '' AS Sex, 
+  '' AS PreparationType, 
+  '' AS IndividualCount, 
+  '' AS PreviousCatalogNumber, 
+  '' AS RelationshipType, 
+  '' AS RelatedCatalogItem, 
+  '' AS Notes
+FROM 
+  UTM_ELEV 
+  INNER JOIN (TAXONOMIA 
+  	INNER JOIN (GBIF_DICC_COTAS INNER JOIN GBIF2014_C2 ON GBIF_DICC_COTAS.COTA = GBIF2014_C2.COTA) 
+  	ON TAXONOMIA.COD_TAXON = GBIF2014_C2.COD_TAXON) 
+  ON UTM_ELEV.ID_PARCELA = GBIF2014_C2.ID_PARCELA;
+```
+
 
  
 
