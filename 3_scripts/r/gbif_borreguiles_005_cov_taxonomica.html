@@ -79,12 +79,6 @@ code > span.er { color: #ff0000; font-weight: bold; }
 #############################################################################
 <span class="co"># -----------------------------------------------------------</span></code></pre>
 <pre class="sourceCode r"><code class="sourceCode r"><span class="co"># -----------------------------------------------------------</span>
-<span class="co"># load library</span>
-<span class="kw">library</span>(<span class="st">'lubridate'</span>)
-<span class="kw">library</span>(<span class="st">'reshape2'</span>)
-
-<span class="co"># -----------------------------------------------------------</span></code></pre>
-<pre class="sourceCode r"><code class="sourceCode r"><span class="co"># -----------------------------------------------------------</span>
 ## Directorio 
 di &lt;-<span class="st"> '/Users/ajpelu/Dropbox/MS/MS_DP_Borreguiles/git/BorreguilesDP'</span>
 
@@ -112,7 +106,9 @@ phylum </code></pre>
 ## 2     Pinophyta     2 11005  0.02
 ## 3  Pteridophyta    63 11005  0.57</code></pre>
 <pre class="sourceCode r"><code class="sourceCode r"><span class="co">#--------------------------------------------------------------------</span></code></pre>
-<p>Class</p>
+</div>
+<div id="class" class="section level2">
+<h2>Class</h2>
 <pre class="sourceCode r"><code class="sourceCode r"><span class="co">#--------------------------------------------------------------------</span>
 <span class="co"># rename </span>
 <span class="kw">names</span>(class) &lt;-<span class="st"> </span><span class="kw">c</span>(<span class="st">&quot;Class&quot;</span>,<span class="st">&quot;n&quot;</span>)
@@ -128,7 +124,9 @@ class</code></pre>
 ## 3     Pinopsida    2 11005  0.02
 ## 4  Psilotopsida   63 11005  0.57</code></pre>
 <pre class="sourceCode r"><code class="sourceCode r"><span class="co">#--------------------------------------------------------------------</span></code></pre>
-<p>Orders</p>
+</div>
+<div id="orders" class="section level2">
+<h2>Orders</h2>
 <pre class="sourceCode r"><code class="sourceCode r"><span class="co">#--------------------------------------------------------------------</span>
 <span class="co"># rename </span>
 <span class="kw">names</span>(ord) &lt;-<span class="st"> </span><span class="kw">c</span>(<span class="st">&quot;Order&quot;</span>,<span class="st">&quot;n&quot;</span>)
@@ -162,7 +160,9 @@ ord1</code></pre>
 ## 8     Cupressales    2 11005  0.02
 ## 15       Myrtales    1 11005  0.01</code></pre>
 <pre class="sourceCode r"><code class="sourceCode r"><span class="co">#--------------------------------------------------------------------</span></code></pre>
-<p>Families</p>
+</div>
+<div id="families" class="section level2">
+<h2>Families</h2>
 <pre class="sourceCode r"><code class="sourceCode r"><span class="co">#--------------------------------------------------------------------</span>
 <span class="co"># rename </span>
 <span class="kw">names</span>(fam) &lt;-<span class="st"> </span><span class="kw">c</span>(<span class="st">&quot;Family&quot;</span>,<span class="st">&quot;n&quot;</span>,<span class="st">&quot;Order&quot;</span>,<span class="st">&quot;Class&quot;</span>)
@@ -239,8 +239,8 @@ fam1[fam1$Class ==<span class="st"> 'Liliopsida'</span>,]</code></pre>
 ## 2  Asparagaceae    5 Asparagales Liliopsida 11005  0.05</code></pre>
 <pre class="sourceCode r"><code class="sourceCode r"><span class="co">#--------------------------------------------------------------------</span></code></pre>
 </div>
-<div id="genus" class="section level1">
-<h1>Genus</h1>
+<div id="genus" class="section level2">
+<h2>Genus</h2>
 <pre class="sourceCode r"><code class="sourceCode r"><span class="co">#--------------------------------------------------------------------</span>
 <span class="co"># rename </span>
 <span class="kw">names</span>(gen) &lt;-<span class="st"> </span><span class="kw">c</span>(<span class="st">&quot;Genus&quot;</span>,<span class="st">&quot;n&quot;</span>,<span class="st">&quot;Class&quot;</span>,<span class="st">&quot;Order&quot;</span>,<span class="st">&quot;Family&quot;</span>)
@@ -365,8 +365,8 @@ gen1</code></pre>
 ## 50  0.01</code></pre>
 <pre class="sourceCode r"><code class="sourceCode r"><span class="co">#--------------------------------------------------------------------</span></code></pre>
 </div>
-<div id="taxa" class="section level1">
-<h1>Taxa</h1>
+<div id="taxa" class="section level2">
+<h2>Taxa</h2>
 <pre class="sourceCode r"><code class="sourceCode r"><span class="co">#--------------------------------------------------------------------</span>
 <span class="co"># rename </span>
 <span class="kw">names</span>(tax) &lt;-<span class="st"> </span><span class="kw">c</span>(<span class="st">&quot;taxa&quot;</span>,<span class="st">&quot;n&quot;</span>,<span class="st">&quot;Family&quot;</span>)
