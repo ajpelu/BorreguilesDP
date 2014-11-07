@@ -6,11 +6,34 @@
 	* Curvas de nivel 
 	* municipios Andalucia 
 	* parcelas de muestreo 
-* Tenemos dos versiones del mapa `./4_geoinfo/shapes_borreguiles_conRZ_oct2013.shp`:
-	* versión con ortofotografia
-	* versión sin ortofotografia 
+	* hidrografia 
+* El mapa se ha generado con ArcGIS, el archivo está en `./4_geoinfo/mapas/mapaLocationBorreg.mxd`. El mapa está compuesto por tres paneles. Los shapes cuando no se indique, están en la geodatabase comentada. 
 
-*** TODO *** Incluir cambios sugeridos por Cristina: rios
+###### Panel (a) SNLocation_Europe
+Contiene las siguientes capas:
+
+ * boundaryNaturalPark. Proviende de (`./Cartoteca/Medio_socioeco/Espacios_Protegidos/RENPA_old/granada/PNSIERRA_NEVADA/limitesnevada10000.shp`) 
+ * raster Hillshade. Proviene de `./CartoTeca/Medio_biofisico/Relieve/mde_Europa/hillshade1x1.tif` 
+
+###### Detail map SN (b) SNView_Satelite:
+Contiene las siguientes capas:
+ 
+ * boundaryNaturalPark. Proviende de `./Cartoteca/Medio_socioeco/Espacios_Protegidos/RENPA_old/granada/PNSIERRA_NEVADA/limitesnevada10000.shp` 
+ * boundaryNationalPark: Proviende de `./Cartoteca/Medio_socioeco/Espacios_Protegidos/RENPA_old/granada/PNACSIERRA_NEVADA/limitespnacsnevada10000.shp` 
+ * filtro_NaturalPark. Ver en la geodatabase `borreguilesDP.mdb` 
+ * municipiosAndalucia.  Proviene de  `./Cartoteca/Medio_socioeco/Limi_Admi/Andalucia/municipiosandalucia.shp` 
+ * Vista Landsat: `./Dropbox/Satelite_Parque_Nacional/mosaico-landsat-tm-03.sid´
+ 
+###### DetailMapPlot (c)
+Contiene las siguientes capas:
+ 
+ * parcelasBorreguiles. Es el dataset `ParcelasBorreguiles`, dentro de Parcelas, que está en la geodatabase, pero viene  de `./4_geoinfo/shapes_borreguiles_conRZ_oct2013.shp` 
+ * sombra10geo. Proviene de `./CartoTeca/Medio_biofisico/Relieve/mde_10m_cma\sombra10geo` 
+ * filtro_NationalPark. Ver en la geodatabase 
+ * Hidrografia. Proviene de `./CartoTeca/Medio_biofisico/hidro/hidrografia_granada_10000.shp` 
+ * Ortofotos. Provienen de `./CartoTeca/ORTOFOTOS/ortoMIGRAME/` 
+
+El mapa se exporta en tres formatos (`jpg`, `png` y `pdf`) con el nombre `./4_geoinfo/mapas/map_dpBorregu_2014.*`
 
 #### Figura 2 
 
