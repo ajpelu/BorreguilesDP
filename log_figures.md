@@ -22,7 +22,7 @@ Contiene las siguientes capas:
  * boundaryNationalPark: Proviende de `./Cartoteca/Medio_socioeco/Espacios_Protegidos/RENPA_old/granada/PNACSIERRA_NEVADA/limitespnacsnevada10000.shp` 
  * filtro_NaturalPark. Ver en la geodatabase `borreguilesDP.mdb` 
  * municipiosAndalucia.  Proviene de  `./Cartoteca/Medio_socioeco/Limi_Admi/Andalucia/municipiosandalucia.shp` 
- * Vista Landsat: `./Dropbox/Satelite_Parque_Nacional/mosaico-landsat-tm-03.sid´
+ * Vista Landsat: `./Dropbox/Satelite_Parque_Nacional/mosaico-landsat-tm-03.sid
  
 ###### DetailMapPlot (c)
 Contiene las siguientes capas:
@@ -35,8 +35,10 @@ Contiene las siguientes capas:
 
 El mapa se exporta en tres formatos (`jpg`, `png` y `pdf`) con el nombre `./4_geoinfo/mapas/map_dpBorregu_2014.*`
 
-#### Figura 2 
-
+#### Figura 2 - Order 
+* Se trata de una figura que muestra el % de registros por phyllum y luego para cada clase, se muestra el % de registros que hay para cada orden. 
+* La figura se genera con [este](https://github.com/ajpelu/BorreguilesDP/blob/master/3_scripts/r/gbif_borreguiles_006_plot_phylum_class.md) script `./3_scripts/r/ gbif_borreguiles_006_plot_phylum_class.R`
+* Posteriormente hay que hacer unas pequeñas modificaciones en photoshop. Se añaden los nombres de los phylum y algunas flechas. Ver el resultado en `./8_figures/taxonomicCoverage/orderCov_modified.png`
 
 #### Figura 3 - Familias 
 * Se ha hecho la figura 3 de cobertura taxonomica de familias con los datos actualizados de las consultas. 
