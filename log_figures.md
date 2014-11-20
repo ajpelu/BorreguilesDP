@@ -45,5 +45,11 @@ El mapa se exporta en tres formatos (`jpg`, `png` y `pdf`) con el nombre `./4_ge
 * Ver la figura en `./8_figures/taxonomicCoverage/`
 * El script  para generarlo es [este](https://github.com/ajpelu/BorreguilesDP/blob/master/3_scripts/r/gbif_borreguiles_003_plot_family.md) `./3_scripts/r/gbif_borreguiles_003_plot_family.R` 
 
-#### Figura 4dd
-dd
+#### Figura 4
+* Se trata de una figura combinada donde incluimos un esquema de las cotas, y varias fotos con datos del muestreo. 
+* Figura y fotos utilizadas en `./8_figures/muestreo/`
+* Las fotos b es de CP Sanchez y las  c,d son de AJ Pérez 
+
+#### Figura 5
+* Vista general del borreguil de San Juan con esquemas o perfiles de los borreguiles. 
+* Figura y fotos utilizadas en `./8_figures/perfil_borreguiles/`
