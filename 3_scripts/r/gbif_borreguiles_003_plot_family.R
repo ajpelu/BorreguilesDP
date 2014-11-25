@@ -31,6 +31,9 @@ names(fam) <- c("Family","n","Order","Class")
 fam$tot <- sum(fam$n)
 # conpute percentage
 fam$per <- round((fam$n / fam$tot)*100, 2)
+
+## Ojo modificacion cupresacea
+fam <- subset(fam, Family!='Cupressaceae')
 #--------------------------------------------------------------------
 
 
