@@ -1,4 +1,5 @@
 SELECT 
+  'OBSNEV' & ':' & 'BORREGUILES' & ':' & GBIF2014_C2.idGBIF AS id,
   Year(Now()) & '-' & Format(Month(Now()),'00') & '-' & Format(Day(Now()),'00') & 'T' & DateAdd("h",-1,Time()) & 'Z' AS DateLastModified, 
   'OBSNEV' AS InstitutionCode, 
   'BORREGUILES' AS CollectionCode, 
@@ -22,9 +23,9 @@ SELECT
   '' AS CollectorNumber, 
   '' AS FieldNumber, 
   UTM_ELEV.Collector AS Collector, 
-  Year(GBIF2014_C1.FECHA) AS YearCollected, 
-  Format(Month(GBIF2014_C1.FECHA),"00") AS MonthCollected, 
-  Format(Day(GBIF2014_C1.FECHA),"00") AS DayCollected, 
+  Year(GBIF2014_C2.FECHA) AS YearCollected, 
+  Format(Month(GBIF2014_C2.FECHA),"00") AS MonthCollected, 
+  Format(Day(GBIF2014_C2.FECHA),"00") AS DayCollected, 
   '' AS JulianDay, 
   '' AS TimeOfDay, 
   'Europe' AS ContinentOcean, 
