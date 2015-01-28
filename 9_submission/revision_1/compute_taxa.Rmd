@@ -32,7 +32,7 @@ di <- '/Users/ajpelu/Dropbox/MS/MS_DP_Borreguiles/git/BorreguilesDP/9_submission
 ord <- read.table(file=paste(di, '/order.txt', sep=''), header=T, sep='\t')
 
 ord$per <- round((ord$CuentaDeorder/sum(ord$CuentaDeorder))*100,3)
-
+ord
 ```
 
 
@@ -42,5 +42,5 @@ di <- '/Users/ajpelu/Dropbox/MS/MS_DP_Borreguiles/git/BorreguilesDP/9_submission
 fam <- read.table(file=paste(di, '/family.txt', sep=''), header=T, sep='\t')
 
 fam$per <- round((fam$CuentaDefamily/sum(fam$CuentaDefamily))*100,3)
-
+fam 
 ```
