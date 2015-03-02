@@ -1,10 +1,12 @@
 BorreguilesDP
 =============
-blbla
+This repository contains information about the Data Paper *Dataset of Phenology of Mediterranean high-mountain meadows flora (Sierra Nevada, Spain)*. All the materials included here have been used to generate this publication. To cite this datapaper: 
 
-Este repositorio contiene la información (scripts, tablas, figuras, etc) que se han utilizado para generar el datapaper de Borreguiles. (ACTUALIZAR)
+Pérez-Luque, AJ; Sánchez-Rojas, CP; Zamora, R; Pérez-Pérez, R; Bonet, F (2015). Dataset of Phenology of Mediterranean high-mountain meadows flora (Sierra Nevada, Spain). *Phytokeys*, 46: 89-107, doi: [10.3897/phytokeys.46.9116](http://dx.doi.org/10.3897/phytokeys.46.9116). 
 
-
+The repository is in Sapnish.
+For more info please contact to 
+Pérez-Luque, AJ: ajperez@ugr.es or @ajpelu (twitter)
 
 
 ### Generación de la consulta Dwc y su integración en el IPT
@@ -15,3 +17,5 @@ El análisis de la cobertura taxonómica se puede ver en este [script](https://g
 
 ### Figures 
 Para ver como se han hecho las figuras podemos ver anotaciones sobre cada una de ellas en el archivo `log_figures.md` disponible en este [enlace](https://github.com/ajpelu/BorreguilesDP/blob/master/log_figures.md) 
+
+
